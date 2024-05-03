@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import {Contact} from './components/Contact';
 
 export default function Cta(){
     const contact = ["mailto:eric72001@hotmail.com", "tel:(71) 98188-6126", "https://github.com/ericaugusto-git", "https://www.linkedin.com/in/eric-augusto-775245a9/"];
@@ -16,24 +17,7 @@ export default function Cta(){
     }
     return <section>
         <div className="grid mt-24 grid-cols-2">
-            <form className="flex flex-col gap-7 pr-40">
-        <h5 className="text-5xl">
-        Let’s build an awesome
-        project together
-        </h5>
-                <fieldset className="flex gap-[26px]">
-                    <span className="text-nowrap">const email = </span>
-                    <input className="bg-white/5 border-none outline-none w-full rounded-sm"/>
-                </fieldset>
-                <fieldset className="flex gap-2">
-                    <span className="text-nowrap">const message =</span>
-                    <textarea className="bg-white/5 border-none outline-none textarea resize-none w-full rounded-sm" rows={5}></textarea>
-                </fieldset>
-                <button className="bg-[#0B0B0B] flex relative self-end p-1 pr-8 group rounded-sm mt-[-20px]">
-                    <span className="uppercase italic font-light">send</span>
-                    <Image className="absolute top-[2px] right-[2px] group-hover:top-0 group-hover:right-0 transition-all rotate-[140deg]" src="images/arrow.svg" height={20} width={20} alt="send arrow"/>
-                </button>
-            </form>
+            <Contact></Contact>
             <div className="flex flex-col gap-5">
                 {contact.map((info) => (
                 <div key={info} className="p-2 border-solid border-white border-[1px] rounded-md flex justify-between">

@@ -1,6 +1,6 @@
 export default function Footer(){
     return <footer className="text-comment-grey">
-        <span t>
+        <span>
         {'//'} Built using Next.js, Tailwind, and Figma.
         </span>
         <br/>
