@@ -19,7 +19,7 @@
 @layer base{
   code {
     @apply font-code;
-    @apply text-function;
+    @apply text-comment-grey;
   }
 }
 

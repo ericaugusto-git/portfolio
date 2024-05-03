@@ -1,12 +1,12 @@
 "use client"
 
-import Image from "next/image";
-import { useEffect, useState } from "react";
-import  Header  from './components/Header/Header'
-import  Hero  from './components/Hero/Hero'
+import Cta from "./components/Cta/Cta";
+import Experience from "./components/Experience/Experience";
+import Footer from "./components/Footer/Footer";
+import Header from './components/Header/Header';
+import Hero from './components/Hero/Hero';
 import Projects from "./components/Projects/Projects";
 import Stack from "./components/Stack/Stack";
-import Experience from "./components/Experience/Experience";
 
 export default function Home() {
   // const [buzzword, setBuzzword] = useState("innovative");
@@ -33,7 +33,9 @@ export default function Home() {
             <Projects/>
             <Stack/>
             <Experience/>
+            <Cta/>
           </main>
+          <Footer/>
       </div>
     </>
   );
