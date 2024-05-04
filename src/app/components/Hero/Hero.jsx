@@ -21,7 +21,7 @@ const Header = () => {
 
   return (
     <>
-      <code className="font-bold">
+      <code className="font-bold" title="not the actual code lol">
         <span>
           buzzwords = [&quot;innovative&quot;, &quot;creative&quot;,
           &quot;awesome&quot;];
