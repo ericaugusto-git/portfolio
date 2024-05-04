@@ -15,9 +15,9 @@ export default function Cta(){
             setCopiedLink(null);
         }, 3000);
     }
-    return <section>
+    return <section id="contact">
         <div className="grid mt-24 grid-cols-2">
-            <Contact></Contact>
+            <Contact/>
             <div className="flex flex-col gap-5">
                 {contact.map((info) => (
                 <div key={info} className="p-2 border-solid border-white border-[1px] rounded-md flex justify-between">

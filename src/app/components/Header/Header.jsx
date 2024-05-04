@@ -3,7 +3,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header>
+    <header className="fixed top-0 w-[calc(100%-280px)] z-10  bg-black/80">
       <nav>
         <ul className="flex justify-between text-2xl lowercase">
           <li>
