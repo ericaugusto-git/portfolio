@@ -11,7 +11,7 @@ export default function Box({img, name, description, skills, link}){
                 <label className="text-xs text-[#C9C9C9] font-light">{description}</label>
                 <div className="flex gap-4 mt-6">
                     {skills.map((skill) => {
-                        const imageUrl = skills_imgs[skill];
+                        const imageUrl = skills_imgs[skill].image;
                         if(!imageUrl){
                             console.log(skill);
                         }

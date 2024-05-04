@@ -25,19 +25,19 @@ const config: Config = {
         // Setting a default font-family
       },
       keyframes: {
-        fadeIn: {
+        'text-slide': {
           'from': {
             opacity: '0',
-            transform: 'translate3d(0, -20%, 0)',
+            transform: 'translateY(-15%)',
           },
           'to': {
             opacity: '1',
-            transform: 'translate3d(0, 0, 0)',
+            transform: 'translateY(0%)',
           },
         },
       },
       animation: {
-        fadeIn: 'fadeIn 2s ease-in-out',
+        'text-slide': 'text-slide 1s cubic-bezier(0.83, 0, 0.17, 1)',
       }
     },
   },
