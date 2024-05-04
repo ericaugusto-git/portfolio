@@ -36,22 +36,22 @@ export const Contact = () => {
 
   return (
     
-    <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-7 pr-40">
-          <h5 className="text-5xl">
+    <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-7">
+          <h5 className="text-4xl">
           Let’s build an awesome
           project together
           </h5>
-            <fieldset className="flex gap-[26px]">
+            <fieldset className="flex gap-[26px] xs:gap-2 xs:flex-col">
                 <span className="text-nowrap">const email = </span>
                 <input value={email} onChange={(e) => setEmail(e.target.value)} name="user_email" className="bg-white/5 border-none outline-none w-full rounded-sm"/>
             </fieldset>
-            <fieldset className="flex gap-2">
+            <fieldset className="flex gap-2 xs:flex-col">
                 <span className="text-nowrap">const message =</span>
                 <textarea name="message" className="bg-white/5 border-none outline-none textarea resize-none w-full rounded-sm" rows={5}></textarea>
             </fieldset>
             <button type="submit" className="bg-[#0B0B0B] flex relative self-end p-1 pr-8 group rounded-sm mt-[-20px]">
                 <span className="uppercase italic font-light">send</span>
-                <Image className="absolute top-[2px] right-[2px] group-hover:top-0 group-hover:right-0 transition-all rotate-[140deg]" src="images/arrow.svg" height={20} width={20} alt="send arrow"/>
+                <Image className="absolute top-[2px] right-[2px] betterhover:group-hover:top-0 betterhover:group-hover:right-0 transition-all rotate-[140deg]" src="images/arrow.svg" height={20} width={20} alt="send arrow"/>
             </button>
         </form>
   );

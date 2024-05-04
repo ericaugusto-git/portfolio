@@ -18,8 +18,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="min-h-full bg-[#0E0E0E] scroll-smooth">
-      <body className={firaCode.className + " h-full " + ibm.variable}>
+    <html lang="en" className="min-h-full min-w-full bg-[#0E0E0E] scroll-smooth">
+      <body className={firaCode.className + " h-full w-full " + ibm.variable}>
         {children}
         <Toaster richColors/>
         </body>

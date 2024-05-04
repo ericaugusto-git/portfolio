@@ -17,17 +17,17 @@ export default function Experience(){
         } 
        ]
     return <section className="my-[100px] flex flex-col items-center">
-        <h2 className="text-5xl font-light text-wrap w-[600px] leading-tight text-center">
-        With the experience 
+        <h2 className="text-5xl sm:text-3xl font-light text-wrap leading-tight text-center">
+        With the experience<br/>
 to back it up.
         </h2>
-        <div className="flex gap-28 mt-24">
+        <div className="flex gap-28 mt-24 xl:gap-0 lg:gap-10 xl:mt-10 lg:grid lg:grid-cols-1">
             {experiences.map((exp,i) => (
             <div key={i} className="flex flex-col items-center">
                 <h3 style={{color: exp.hex}} className={`text-7xl font-bold`}>
                     {exp.value}
                 </h3>
-                <span className="w-96 text-center">{exp.label}</span>
+                <span className="w-96 xs:w-fit text-center xs:text-sm">{exp.label}</span>
             </div>
             ))}
         </div>

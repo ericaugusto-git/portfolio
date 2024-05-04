@@ -11,9 +11,9 @@ import Stack from "./components/Stack/Stack";
 export default function Home() {
   return (
     <>
-      <div className="h-full px-[130px] py-[40px]">
+      <div className="min-h-full min-w-full px-[130px] py-[40px] xl:px-[30px]">
           <Header/>
-          <main className="my-32">
+          <main className="my-32 lg:my-10">
             <Hero/>
             <Projects/>
             <Stack/>

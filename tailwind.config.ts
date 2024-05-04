@@ -7,6 +7,28 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      'betterhover': {'raw': '(hover: hover)'},
+      '2xl': {'max': '1535px'},
+      // => @media (max-width: 1535px) { ... }
+
+      'xl': {'max': '1279px'},
+      // => @media (max-width: 1279px) { ... }
+
+      'lg': {'max': '1024px'},
+      // => @media (max-width: 1023px) { ... }
+
+      'md': {'max': '767px'},
+      // => @media (max-width: 767px) { ... }
+      'sm': {'max': '639px'},
+      'xs': {'max': '530px'},
+      'xxs': {'max': '320px'},
+      'circles': {'max': '400px'},
+      'four': {'max': '1423px'},
+      'five': {'max': '1369px'},
+
+      // => @media (max-width: 639px) { ... }
+    },
     extend: {
       colors: {
         'comment-grey': '#595959',
