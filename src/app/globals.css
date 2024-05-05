@@ -6,8 +6,8 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-    --dot-bg: #0E0E0E;
-  --dot-color: white;
+  --dot-bg: #ffffff;
+  --dot-color: rgb(0, 0, 0);
   --dot-size: 1px;
   --dot-space: 22px;
 }
@@ -28,15 +28,22 @@
 }
 @layer components {
   .dots {
-  --dot-bg: #0E0E0E;
-  --dot-color: #aeb2ba;
-  --dot-size: 1px;
-  --dot-space: 22px;
-	background:
+    --dot-color: #0E0E0E;
+    --dot-bg: #dadada;
+    --dot-bg: #0E0E0E;
+    --dot-color: #aeb2ba;
+    --dot-size: 1px;
+    --dot-space: 22px;
+    background:
 		linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
 		linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
 		var(--dot-color) !important;
   }
+  /* @media (prefers-color-scheme: dark) {
+    .dots{
+
+    }
+  } */
 }
 
 body {
