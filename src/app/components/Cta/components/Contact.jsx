@@ -13,8 +13,8 @@ export const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    console.log(form.current);
-    console.log(form.current.get)
+    
+    
     if(validate(email)){
       emailjs
         .sendForm('service_dlgsppw', 'template_7o9zlq5', form.current, {
@@ -37,17 +37,17 @@ export const Contact = () => {
   return (
     
     <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-7">
-          <h5 className="text-4xl">
+          <h2 className="text-4xl">
           Let’s build an awesome
           project together
-          </h5>
+          </h2>
             <fieldset className="flex gap-[26px] xs:gap-2 xs:flex-col">
-                <span className="text-nowrap">const email = </span>
-                <input value={email} onChange={(e) => setEmail(e.target.value)} name="user_email" className="bg-white/5 border-none outline-none w-full rounded-sm"/>
+                <label className="text-nowrap" htmlFor="email">const email = </label>
+                <input value={email} onChange={(e) => setEmail(e.target.value)} id="email"  name="user_email" className="bg-white/5 border-none outline-none w-full rounded-sm"/>
             </fieldset>
             <fieldset className="flex gap-2 xs:flex-col">
-                <span className="text-nowrap">const message =</span>
-                <textarea name="message" className="bg-white/5 border-none outline-none textarea resize-none w-full rounded-sm" rows={5}></textarea>
+                <span className="text-nowrap" htmlFor="message">const message =</span>
+                <textarea name="message" id='message' className="bg-white/5 border-none outline-none textarea resize-none w-full rounded-sm" rows={5}></textarea>
             </fieldset>
             <button type="submit" className="bg-[#0B0B0B] flex relative self-end p-1 pr-8 group rounded-sm mt-[-20px]">
                 <span className="uppercase italic font-light">send</span>

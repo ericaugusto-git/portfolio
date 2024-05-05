@@ -13,7 +13,7 @@ export default function Box({img, name, description, skills, link}){
                     {skills.map((skill) => {
                         const imageUrl = skills_imgs[skill].image;
                         if(!imageUrl){
-                            console.log(skill);
+                            
                         }
                                                 // bg-[url('/images/skills/angular.png')] 
                     return <div key={skill} style={{backgroundImage: `url(${imageUrl})`}} className={`saturate-0 w-6 h-6 bg-center bg-no-repeat bg-contain`}  alt=""></div>

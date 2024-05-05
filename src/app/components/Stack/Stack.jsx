@@ -5,13 +5,13 @@ import { useEffect, useState } from "react";
 
 export default function Stack() {
    const [stack, setStack] = useState();
-   console.log(skills_imgs);
+   
    let canHover;
     if(typeof window !== "undefined"){
         canHover = window.matchMedia('(hover: hover)').matches;
     }
    const handleStackHover = (stack) => {
-    console.log(canHover)
+    
     if(canHover){
         setStack(() => stack);
     }

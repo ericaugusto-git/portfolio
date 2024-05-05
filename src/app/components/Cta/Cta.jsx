@@ -8,7 +8,7 @@ export default function Cta(){
     const contact = ["mailto:eric72001@hotmail.com", "tel:(71) 98188-6126", "https://github.com/ericaugusto-git", "https://www.linkedin.com/in/eric-augusto-775245a9/"];
     const [copiedLink, setCopiedLink] = useState();
     const copylink = (link) => {
-        console.log(link)
+        
         navigator.clipboard.writeText(link.replace('mailto:', '').replace('tel:', ''));
         setCopiedLink(link);
         setTimeout(() => {
