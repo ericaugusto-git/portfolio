@@ -56,7 +56,7 @@ export default function Stack() {
         <div key={i} className="rounded-full size-3 border-solid border-[#464646] border-[1px]"></div>
     ))}
 </div> 
-<div className="grid grid-rows-2 gap-[5px]  grid-cols-6 lg:grid-cols-5 lg:grid-rows-3 lg:px-2">
+<div className="grid grid-rows-2 gap-[15px]  grid-cols-6 lg:grid-cols-5 lg:grid-rows-3 lg:px-2">
     <div className="col-span-2 lg:col-span-5 p-3 pt-5 rounded-sm font-light text-2xl 2xl:text-xl xs:text-sm outline outline-[#4646463a] outline-[1px]">
         <h2 className=" leading-snug lg:text-center text-nowrap xs:text-wrap">
         { t('solving')}<br/>{!stack && <span className="animate-text-slide">{t('stack')}</span>}
