@@ -1,5 +1,4 @@
 import { skills_imgs } from "@/app/constants/skills_imgs";
-import Image from "next/image";
 
 export default function Box({img, name, description, skills, link, subtitle}){
     return <a href={link} target="_blank" className="z-10 overflow-visible p-4 cursor-pointer  border-solid border-[1px] border-white rounded-[30px]  h-[500px]] flex flex-col gradient">

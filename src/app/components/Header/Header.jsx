@@ -1,10 +1,8 @@
 // components/Header.js
-import React from "react";
-import LocaleSwitcher from "../LocaleSwitcher/LocaleSwitcher";
-import Image from "next/image";
-import git from '../../../../public/images/github.svg'
-import linkedin from '../../../../public/images/linkedin.svg'
 import { useTranslations } from 'next-intl';
+import git from '../../../../public/images/github.svg';
+import linkedin from '../../../../public/images/linkedin.svg';
+import LocaleSwitcher from "../LocaleSwitcher/LocaleSwitcher";
 
 
 const Header = () => {

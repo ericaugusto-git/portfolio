@@ -5,6 +5,7 @@ import { Toaster } from "sonner";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 
+export const runtime = "edge";
 const firaCode = Fira_Code({ subsets: ["latin"] });
 const ibm = IBM_Plex_Mono({weight: ['300', '700'], subsets: ["latin"], variable: '--font-ibm'});
 
