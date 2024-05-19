@@ -39,26 +39,111 @@
 		linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
 		var(--dot-color) !important;
   }
-  /* @media (prefers-color-scheme: dark) {
-    .dots{
-
-    }
-  } */
+  .svgMask {
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: cover;
+  }
+  .selectLng::before{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    
+  }
 }
 
 body {
   color: rgb(var(--foreground-rgb));
-  /* background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb)); */
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+
+@keyframes border-animation {
+  0% {
+    border-width: 2px;
+    border-color: #3490dc;
+  }
+  50% {
+    border-width: 8px;
+    border-color: #6574cd;
+  }
+  100% {
+    border-width: 2px;
+    border-color: #3490dc;
+  }
+}
+
+.animated-border {
+  animation: border-animation 2s infinite;
+}
+
+.gradient {
+  --border-width: 1px;
+  --radius: 30px;
+  position: relative;
+  border-radius: var(--radius);
+  border: var(--border-width) solid transparent;
+}
+
+.gradient:hover::before {
+  content: " ";
+  position: absolute;
+  inset: calc(var(--border-width) * -1);
+  z-index: -1;
+  border: inherit;
+  border-radius: inherit;
+  background-image: conic-gradient(from var(--angle), #d8d8d8 80%, #00000034 88%, #00000034 92%, #d8d8d8 100%);
+  background-origin: border-box;
+  -webkit-mask:
+    linear-gradient(black, black) content-box,
+    linear-gradient(black, black);  
+  mask: linear-gradient(black, black),
+        linear-gradient(black, black);
+  -webkit-mask-clip: content-box, border-box;  
+  mask-clip: content-box, border-box;
+  -webkit-mask-composite: xor;  
+  mask-composite: exclude;
+  /* background-image: conic-gradient(from var(--angle), #381D6A 80%, #E0D1FF 88%, #E0D1FF 92%, #381D6A 100%); */
+  animation: spin 7s linear infinite;
+}
+
+.gradient::before{
+  content: " ";
+  position: absolute;
+  inset: calc(var(--border-width) * -1);
+  border: 1px solid #d8d8d8;
+  border-radius: var(--radius);
+  animation-play-state: paused;
+}
+
+
+/* .gradient{
+  border: 1px solid #d8d8d8;
+}
+.gradient:hover{
+  border: inherit;
+} */
+
+@supports not (background: paint(something)) {
+  .gradient::before {
+background-image: conic-gradient(#381D6A 80%, #E0D1FF 88%, #E0D1FF 92%, #381D6A 100%);    
+  }
+}
+
+
+@property --angle {
+  syntax: "<angle>";
+  inherits: true;
+  initial-value: 0turn;
+}
+
+@keyframes spin {
+  to {
+    --angle: 1turn;
   }
 }
 

@@ -13,11 +13,13 @@
     "@gsap/react": "^2.1.1",
     "clsx": "^2.1.1",
     "next": "14.2.2",
+    "next-intl": "^3.14.0",
     "react": "^18",
     "react-dom": "^18",
     "react-email-validator": "^1.0.2",
     "sonner": "^1.4.41",
     "split-type": "^0.3.4",
+    "tailwind-gradient-mask-image": "^1.2.0",
     "tailwind-merge": "^2.3.0"
   },
   "devDependencies": {

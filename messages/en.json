@@ -1,0 +1,42 @@
+{
+  "Header": {
+    "contact": "contact"
+  },
+    "LocaleSwitcher": {
+      "label": "Change language",
+      "locale": "{locale, select, pt_BR {PT} en {ENG} other {Unknown}}"
+    },
+    "Hero": {
+      "building": "Building ",
+      "webSolutions": " Web Solutions",
+      "yourBusiness": " for Your Business.",
+      "idea": "Let's turn ideas into code",
+      "cv": "Open CV"
+    },
+    "Projects": {
+      "title": "// Projects",
+      "description": "Take a look at what I've been cooking"
+    },
+    "Stack": {
+      "solving": "Solving real problems with",
+      "stack": "an ever-growing tech stack"
+   },
+   "Experience": {
+    "title": "With the experience\nto back it up.",
+    "yearsCoding": "years of coding experience",
+    "yearsProfessional": "years building awesome projects as a professional front-end developer",
+    "webappsDeployed": "webapps deployed"
+  },
+  "Cta": {
+    "title": "Let’s build an awesome\nproject together",
+    "message": "message",
+    "message_field": "Please fill the message field first",
+    "email_field": "Please fill the email field correctly first.",
+    "sent": "Thanks for contacting me! I well mail you back within 48hrs :)"
+  },
+  "Footer": {
+    "rights": "All rights reserved",
+    "developed": "Built with",
+    "thanks": "thanks"
+  }
+  }

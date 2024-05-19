@@ -1,28 +1,11 @@
-import type { Metadata } from "next";
-import { Fira_Code } from "next/font/google";
-import { IBM_Plex_Mono } from "next/font/google";
-import "./globals.css";
-import { Toaster } from "sonner";
+import {ReactNode} from 'react';
 
-const firaCode = Fira_Code({ subsets: ["latin"] });
-const ibm = IBM_Plex_Mono({weight: ['300', '700'], subsets: ["latin"], variable: '--font-ibm'});
-
-export const metadata: Metadata = {
-  title: "Eric Augusto",
-  description: "Hi, i'm Eric and this is my portfolio/",
+type Props = {
+  children: ReactNode;
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return (
-    <html lang="en" className="min-h-full min-w-full scroll-smooth dark">
-      <body className={firaCode.className + " h-full w-full bg-white text-white dark:bg-[#0E0E0E] " + ibm.variable}>
-        {children}
-        <Toaster richColors/>
-        </body>
-    </html>
-  );
+// Since we have a `not-found.tsx` page on the root, a layout file
+// is required, even if it's just passing children through.
+export default function RootLayout({children}: Props) {
+  return children;
 }
