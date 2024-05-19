@@ -1,36 +1,31 @@
 // components/Header.js
 import { useTranslations } from 'next-intl';
+import { useRef } from 'react';
+import { useOnClickOutside } from 'usehooks-ts';
 import git from '../../../../public/images/github.svg';
-import linkedin from '../../../../public/images/linkedin.svg'
+import linkedin from '../../../../public/images/linkedin.svg';
 import menu from '../../../../public/images/menu.svg';
 import LocaleSwitcher from "../LocaleSwitcher/LocaleSwitcher";
-import { useState, useRef, useLayoutEffect } from 'react';
-import { useOnClickOutside } from 'usehooks-ts'
 
 
 const Header = () => {
   const t = useTranslations('Header');
-  const [menuToggle, setMenuToggle] = useState(window.innerWidth > 639);
-  const refMenu = useRef(() => null)
-  const refBtn = useRef(() => null)
+  const refMenu = useRef()
+  const refBtn = useRef()
   const handleClickOutside = (event) => {
-    // Your custom logic here
-    console.log(event)
-    if(!refBtn?.current?.contains(event.target)){
-      setMenuToggle(false)
+    if(!refBtn?.current?.contains(event.target) && window.innerWidth <= 639){
+      refMenu.current.classList.add('sm:hidden');
     }
-    
-    console.log('clicked outside')
   }
-  useLayoutEffect(() => {
-    function updateSize() {
-      setMenuToggle(window.innerWidth > 639)
-    }
-    window.addEventListener('resize', updateSize);
-    updateSize();
-    return () => window.removeEventListener('resize', updateSize);
-  }, []);
 
+  const handleMenu = () => {
+    const classList = refMenu.current.classList;
+    if(classList.contains('sm:hidden')){
+      classList.remove('sm:hidden')
+    }else{
+      classList.add('sm:hidden')
+    }
+  }
 
   useOnClickOutside(refMenu, handleClickOutside)
   
@@ -45,9 +40,9 @@ const Header = () => {
             </a>
           </li>
           <li className='hidden sm:block'>
-          <button ref={refBtn} onClick={() => setMenuToggle((prev) => {console.log(prev);if(!prev) return true})} style={{maskImage: `url("${menu.src}")`}} className="block w-6 h-6 fill-white bg-white svgMask hover:bg-slate-200 cursor-pointer"></button>
+          <button ref={refBtn} onClick={handleMenu} style={{maskImage: `url("${menu.src}")`}} className="block w-6 h-6 fill-white bg-white svgMask hover:bg-slate-200 cursor-pointer"></button>
           </li>
-          <li ref={refMenu} style={{display: menuToggle ? 'block' : 'none'}} className="sm:fixed sm:top-9 sm:right-2 sm:hidden">
+          <li ref={refMenu} className="sm:fixed sm:top-9 sm:right-2 sm:hidden">
             <ul className="flex sm:flex-col sm:bg-black sm:p-4 sm:rounded-md sm:outline sm:outline-1 sm:outline-comment-grey sm:gap-4 items-center gap-2 text-sm">
               <li onClick={handleClickOutside}>
                 <a href="#contact" className="outline-none">{t('contact')}</a>
