@@ -57,13 +57,13 @@ export default function Stack() {
         <div key={i} className="rounded-full size-3 border-solid border-[#464646] border-[1px]"></div>
     ))}
 </div> 
-<div className="grid grid-rows-2 gap-[15px]  grid-cols-6 lg:grid-cols-5 lg:grid-rows-3 lg:px-2">
-    <div className="col-span-2 lg:col-span-5 font-light text-2xl 2xl:text-xl xs:text-sm  px-3 py-2 min-h-24 xs:min-h-14 relative">
+<div className="grid grid-rows-2 gap-[15px]  grid-cols-7 lg:grid-cols-5 lg:grid-rows-3 lg:px-2">
+    <div className="col-span-3 lg:col-span-5 font-light text-2xl 2xl:text-xl xs:text-sm  px-3 py-2 min-h-24 xs:min-h-14 relative">
         <h2 className=" leading-snug lg:text-center text-nowrap xs:text-wrap">
         { t('solving')}<br/>{!stack && <span className="animate-text-slide">{t('stack')}</span>}
         {stack && <><span style={{color: stack.color}} className="animate-text-slide inline-block font-bold">{stack.name}</span></>}
         </h2>
-        {/* <div className="absolute svgMask -right-6 -bottom-6 h-[100px] w-[100px] bg-[#222222] -z-10"  style={{maskImage: `url("/images/saturn.svg")`}}></div> */}
+        <div className="absolute svgMask -right-3 -bottom-5 h-[115px] w-[115px] bg-[#222222] -z-10"  style={{maskImage: `url("/images/saturn.svg")`}}></div>
         {/* <Image
           className=""
           src="/images/saturn.svg"
@@ -75,7 +75,7 @@ export default function Stack() {
     </div>
         { Object.keys(skills_imgs).map((skill) => (
         <div key={skill} style={{backgroundImage: `url(${skills_imgs[skill].image})`}} onMouseLeave={() => handleStackLeave()} onMouseOver={() => handleStackHover(skills_imgs[skill])} 
-        className="rounded-lg bg-center bg-no-repeat bg-contain saturate-0 bg-origin-content transition-all betterhover:hover:saturate-100 md:saturate-100 outline-1 c flex-grow-0 after:content-['ㅤ'] outline-[#4646463a] outline  flex items-center justify-items-center p-6 sm:p-3">
+        className="rounded-lg bg-center bg-no-repeat bg-contain saturate-0 bg-origin-content transition-all betterhover:hover:saturate-100 md:saturate-100 outline-1 flex-grow-0 outline-[#4646463a] outline  flex items-center justify-items-center p-6 sm:p-3">
         </div>
         ))}
 </div>
