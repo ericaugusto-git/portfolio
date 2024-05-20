@@ -32,6 +32,12 @@ const Header = () => {
     });
   });
 
+  const openResume = () => {
+    window.open(locale == "pt-BR"
+    ? "https://pub-23b2bdccea9b4dd0aa82eeba1d9c6805.r2.dev/curriculo%2FEric%20Augusto%20curr%C3%ADculo.pdf"
+    : "https://pub-23b2bdccea9b4dd0aa82eeba1d9c6805.r2.dev/curriculo%2FEric%20Augusto%20resume.pdf")
+  }
+
   return (
     <>
       {/* <code className="font-bold lg:text-xs block md:text-[8px] xs:hidden w-fit" title="not the actual code lol">
@@ -69,7 +75,7 @@ generateBuzzwords = () => setInterval(() => buzzword = buzzwords[++index % buzzw
           <a href="#contact" className="bg-black p-2 xxs:p-1 rounded-md hover:opacity-80 w-fit h-full align-middle shadow-inner shadow-white/20">
             {t('idea')}
           </a>
-          <a href="https://pub-23b2bdccea9b4dd0aa82eeba1d9c6805.r2.dev/curriculo%2FEric%20Augusto%20resume.pdf" target="_blank" className="h-full  p-2 rounded-md hover:border-zinc-700 w-fit shadow-inner transition-all hover:scale-105">
+          <a onClick={openResume} className="h-full  p-2 rounded-md hover:border-zinc-700 w-fit shadow-inner transition-all hover:scale-105">
             {t('cv')}
           </a>
         </div>
