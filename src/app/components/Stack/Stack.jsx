@@ -3,6 +3,7 @@
 import { skills_imgs } from "@/app/constants/skills_imgs";
 import { useEffect, useState } from "react";
 import { useTranslations, useLocale } from 'next-intl';
+import Image from "next/image";
 
 export default function Stack() {
    const [stack, setStack] = useState();
@@ -57,15 +58,24 @@ export default function Stack() {
     ))}
 </div> 
 <div className="grid grid-rows-2 gap-[15px]  grid-cols-6 lg:grid-cols-5 lg:grid-rows-3 lg:px-2">
-    <div className="col-span-2 lg:col-span-5 p-3 pt-5 rounded-sm font-light text-2xl 2xl:text-xl xs:text-sm outline outline-[#4646463a] outline-[1px]">
+    <div className="col-span-2 lg:col-span-5 font-light text-2xl 2xl:text-xl xs:text-sm  px-3 py-2 min-h-24 xs:min-h-14 relative">
         <h2 className=" leading-snug lg:text-center text-nowrap xs:text-wrap">
         { t('solving')}<br/>{!stack && <span className="animate-text-slide">{t('stack')}</span>}
         {stack && <><span style={{color: stack.color}} className="animate-text-slide inline-block font-bold">{stack.name}</span></>}
         </h2>
+        {/* <div className="absolute svgMask -right-6 -bottom-6 h-[100px] w-[100px] bg-[#222222] -z-10"  style={{maskImage: `url("/images/saturn.svg")`}}></div> */}
+        {/* <Image
+          className=""
+          src="/images/saturn.svg"
+          height={160}
+          width={160}
+          alt="send arrow"
+        /> */}
+        
     </div>
         { Object.keys(skills_imgs).map((skill) => (
         <div key={skill} style={{backgroundImage: `url(${skills_imgs[skill].image})`}} onMouseLeave={() => handleStackLeave()} onMouseOver={() => handleStackHover(skills_imgs[skill])} 
-        className="rounded-sm bg-center bg-no-repeat bg-contain saturate-0 bg-origin-content transition-all betterhover:hover:saturate-100 md:saturate-100 outline-1 c flex-grow-0 after:content-['ㅤ'] outline-[#4646463a] outline  flex items-center justify-items-center p-6 sm:p-3">
+        className="rounded-lg bg-center bg-no-repeat bg-contain saturate-0 bg-origin-content transition-all betterhover:hover:saturate-100 md:saturate-100 outline-1 c flex-grow-0 after:content-['ㅤ'] outline-[#4646463a] outline  flex items-center justify-items-center p-6 sm:p-3">
         </div>
         ))}
 </div>
