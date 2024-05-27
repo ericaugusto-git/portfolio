@@ -6,7 +6,7 @@ export default function Footer(){
 
     return <footer  className="text-comment-grey">
         <div className="flex justify-between mb-8">
-            <div>
+            <div className='sm:text-xs'>
                 <span>
                 {'//'} {t('developed')} Next.js, Tailwind, and Figma.
                 </span>
@@ -19,6 +19,6 @@ export default function Footer(){
                 ^
             </div>
         </div>
-        <p className="mb-[-30px] flex items-center gap-2"><span className='leading-[1px]'>&copy;</span> 2024 Eric Augusto. {t('rights')}.</p>
+        <p className="mb-[-30px] flex items-center gap-2 sm:text-xs"><span className='leading-[1px]'>&copy;</span> 2024 Eric Augusto. {t('rights')}.</p>
     </footer>
 }

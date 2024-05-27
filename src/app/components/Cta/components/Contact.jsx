@@ -49,7 +49,7 @@ export const Contact = () => {
       <h2 className="text-4xl sm:text-2xl xs:text-xl xxs:text-xs whitespace-pre-line">
         {t("title")}
       </h2>
-      <fieldset className="flex gap-[26px] xs:gap-2 xs:flex-col">
+      <fieldset className="flex gap-[26px] xs:gap-2 xs:flex-col sm:text-xs xs:text-[10px]">
         <label className="text-nowrap" htmlFor="email">
           <span className="text-pink-500">const</span> email ={" "}
         </label>
@@ -61,7 +61,7 @@ export const Contact = () => {
           className="bg-white/5 border-none outline-none w-full rounded-sm"
         />
       </fieldset>
-      <fieldset className="flex gap-2 xs:flex-col">
+      <fieldset className="flex gap-2 xs:flex-col sm:text-xs xs:text-[10px]">
         <span className="text-nowrap" htmlFor="message">
           <span className="text-pink-500">const</span> {t("message")} =
         </span>
@@ -74,11 +74,11 @@ export const Contact = () => {
       </fieldset>
       <button
         type="submit"
-        className="bg-[#0B0B0B] flex relative self-end p-1 pr-8 group rounded-sm mt-[-20px]"
+        className="bg-[#0B0B0B] flex relative self-end p-1 pr-8 xs:pr-5 xs:p-[2px] group rounded-sm mt-[-20px]"
       >
-        <span className="uppercase italic font-light">send</span>
+        <span className="uppercase italic font-light sm:text-xs xs:text-[8px]">send</span>
         <Image
-          className="absolute top-[2px] right-[2px] betterhover:group-hover:top-0 betterhover:group-hover:right-0 transition-all rotate-[140deg]"
+          className="absolute top-[2px] right-[2px] betterhover:group-hover:top-0 betterhover:group-hover:right-0 transition-all rotate-[140deg] sm:size-4 xs:size-3"
           src="images/arrow.svg"
           height={20}
           width={20}

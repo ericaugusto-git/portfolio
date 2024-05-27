@@ -34,8 +34,8 @@ const Header = () => {
       <header className="fixed top-0 w-full mx-[-130px] z-50  bg-black/80 px-1 xl:mx-[-30px] xs:-mx-2">
       <nav>
         <ul className="flex justify-between text-2xl lowercase items-center">
-          <li>
-            <a href="#" className="font-bold outline-none font-code">
+          <li className='contents'>
+            <a href="#" className="font-bold sm:text-xs text-lg outline-none font-code">
               eric<span className="text-[#5BB3A3]">_</span>augusto
             </a>
           </li>

@@ -41,7 +41,7 @@ export default function Stack() {
     handleAnimation(); // Call the animation function initially to apply the animation
   }, [stack]);
    return  <section  className="relative">
-    <code className="whitespace-pre absolute top-[-200px] left-[-120px] xl:left-[-22px] xl:top-[-203px]">
+    <code className="whitespace-pre absolute top-[-200px] left-[-120px] xl:left-[-22px] xl:top-[-203px] xs:text-xs xs:top-[-190px] xs:-left-1">
 {`
 /**
  * Microfrontend
@@ -52,7 +52,7 @@ export default function Stack() {
  * UI/UX
 **/`}
     </code>
-    <div className="flex flex-col gap-1 absolute right-7 top-[-145px] circles:hidden">
+    <div className="flex flex-col gap-1 absolute right-7 top-[-145px] xs:top-[-127px] circles:hidden">
 {Array.from({ length: 8 }).map((_,i) => (
         <div key={i} className="rounded-full size-3 border-solid border-[#464646] border-[1px]"></div>
     ))}
@@ -63,7 +63,7 @@ export default function Stack() {
         { t('solving')}<br/>{!stack && <span className="animate-text-slide">{t('stack')}</span>}
         {stack && <><span style={{color: stack.color}} className="animate-text-slide inline-block font-bold">{stack.name}</span></>}
         </h2>
-        <div className="absolute svgMask -right-3 -bottom-5 h-[115px] w-[115px] bg-[#222222] -z-10"  style={{maskImage: `url("/images/saturn.svg")`}}></div>
+        <div className="absolute svgMask -right-3 -bottom-5 h-[115px] w-[115px] bg-[#222222] -z-10 xs:hidden"  style={{maskImage: `url("/images/saturn.svg")`}}></div>
         {/* <Image
           className=""
           src="/images/saturn.svg"

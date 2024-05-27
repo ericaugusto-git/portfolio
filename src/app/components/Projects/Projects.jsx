@@ -12,8 +12,8 @@ export default function Projects() {
 ];
     
     return <section className="mb-[180px]">
-        <h2 className="text-4xl lg:text-3xl sm:text-2xl font-bold mb-3 lg:mb-1">{t('title')}</h2>
-        <label className='bg-comment-grey h-min flex-grow-0 lg:text-sm sm:text-xs'>{t('description')}</label>
+        <h2 className="text-4xl lg:text-3xl sm:text-2xl font-bold mb-3 lg:mb-1 sm:mb-0">{t('title')}</h2>
+        <label className='bg-comment-grey h-min flex-grow-0 lg:text-[10px] sm:text-[8px]'>{t('description')}</label>
         <ul className='grid grid-cols-3 gap-[60px] my-[30px] dots lg:grid-cols-1'>
             {projects.map((project) => {
                return <li key={project.name}>
