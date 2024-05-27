@@ -9,6 +9,7 @@
 - I reinforced my tailwind knowledge a lot with this project
 - Internationalization using next-intl and i18n for pt-BR and en-US translations.
 - emailjs so the user can send emails to me on the CTA section of the page
+- Typing animation using GSAP for the hero section
   
 <p align="center">🚀 Deploy: https://ericaugusto.pages.dev</p>
 <p align="center">
