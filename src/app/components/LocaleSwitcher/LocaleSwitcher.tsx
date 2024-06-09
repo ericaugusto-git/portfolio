@@ -7,7 +7,7 @@ export default function LocaleSwitcher() {
   return (
     <LocaleSwitcherSelect defaultValue={locale.replace('-', '_')} label={t('label')}>
       {['en', 'pt_BR'].map((cur) => (
-        <option key={cur} value={cur} className='bg-black text-center'>
+        <option key={cur} value={cur} className='bg-black text-white text-center'>
           {t('locale', {locale: cur})}
         </option>
       ))}

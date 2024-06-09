@@ -49,7 +49,7 @@ export const Contact = () => {
       <h2 className="text-4xl sm:text-2xl xs:text-xl xxs:text-xs whitespace-pre-line">
         {t("title")}
       </h2>
-      <fieldset className="flex gap-[26px] xs:gap-2 xs:flex-col sm:text-xs xs:text-[10px]">
+      <fieldset className="flex gap-[35px] xs:gap-2 xs:flex-col sm:text-xs sm:gap-7 xs:text-[10px]">
         <label className="text-nowrap" htmlFor="email">
           <span className="text-pink-500">const</span> email ={" "}
         </label>
@@ -58,7 +58,8 @@ export const Contact = () => {
           onChange={(e) => setEmail(e.target.value)}
           id="email"
           name="user_email"
-          className="bg-white/5 border-none outline-none w-full rounded-sm"
+          
+          className="dark:bg-white/5  bg-black/10 border-none outline-none w-full rounded"
         />
       </fieldset>
       <fieldset className="flex gap-2 xs:flex-col sm:text-xs xs:text-[10px]">
@@ -68,13 +69,13 @@ export const Contact = () => {
         <textarea
           name="message"
           id="message"
-          className="bg-white/5 border-none outline-none textarea resize-none w-full rounded-sm"
+          className="dark:bg-white/5 bg-black/10 border-none outline-none textarea resize-none w-full rounded"
           rows={5}
         ></textarea>
       </fieldset>
       <button
         type="submit"
-        className="bg-[#0B0B0B] flex relative self-end p-1 pr-8 xs:pr-5 xs:p-[2px] group rounded-sm mt-[-20px]"
+        className="bg-[#0B0B0B] text-white flex relative self-end p-1 pr-8 xs:pr-5 xs:p-[2px] group rounded mt-[-20px]"
       >
         <span className="uppercase italic font-light sm:text-xs xs:text-[8px]">send</span>
         <Image

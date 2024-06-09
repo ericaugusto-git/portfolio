@@ -1,7 +1,10 @@
 import { skills_imgs } from "@/app/constants/skills_imgs";
 
 export default function Box({img, name, description, skills, link, subtitle}){
-    return <a href={link} target="_blank" className="z-10 overflow-visible p-4 cursor-pointer  border-solid border-[1px] border-white rounded-[30px]  h-[500px]] flex flex-col gradient">
+    return <a href={link} target="_blank"   
+    className="shadow-[0_0_10px_#00000040] dark:shadow-[0_0_20px_#ffffff30] relative z-10 transition-all overflow-visible p-4 cursor-pointer border-solid border-[1px] rounded-[30px] h-[500px] flex flex-col gradient group"
+    >
+      <span className="absolute inset-0 bg-box-gradient opacity-0 -z-10 transition-opacity duration-300 ease-in-out rounded-[30px] group-hover:opacity-100"></span>
         <div style={{backgroundImage: `url(${img})`}} className="bg-white rounded-t-3xl overflow-hidden rounded-b-xl h-[300px]  w-full bg-cover bg-no-repeat">
         </div>
             <div className="mt-6 font-code">

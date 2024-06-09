@@ -1,14 +1,14 @@
 /* eslint-disable react/no-unescaped-entities */
 export default function Code(){
-    return           <div className="relative row-start-1 bg-transparent col-start-6 xl:col-start-7 col-span-7 xl:col-span-6">
-    <div className="-mx-4 sm:mx-0 gradient-mask-b-0">
-      <div className="relative overflow-hidden shadow-xl flex  h-[31.625rem] max-h-[60vh] sm:max-h-[none] rounded-xl lg:h-[34.6875rem] xl:h-[31.625rem]  backdrop-blur dark:ring-1 dark:ring-inset dark:ring-white/10 !h-auto max-h-[none]">
+    return           <div  className="relative row-start-1 bg-transparent col-start-6 xl:col-start-7 col-span-7 xl:col-span-6">
+    <div className="-mx-4 sm:mx-0 dark:gradient-mask-b-0 gradient-mask-b-60">
+      <div className="relative overflow-hidden shadow-xl flex   sm:max-h-[none] rounded-xl lg:h-[34.6875rem] xl:h-[31.625rem]  ring-1 ring-inset  ring-black/20 dark:ring-white/10 !h-auto max-h-[none] dark:bg-white/5 bg-black/5">
         <div className="relative w-full flex flex-col">
           <div className="flex-none border-b border-slate-500/30">
             <div className="flex items-center h-8 space-x-1.5 px-3">
-              <div className="w-2.5 h-2.5 bg-slate-600 rounded-full"></div>
-              <div className="w-2.5 h-2.5 bg-slate-600 rounded-full"></div>
-              <div className="w-2.5 h-2.5 bg-slate-600 rounded-full"></div>
+              <div className="w-2.5 h-2.5 bg-red-500 rounded-full"></div>
+              <div className="w-2.5 h-2.5 bg-yellow-300 rounded-full"></div>
+              <div className="w-2.5 h-2.5 bg-emerald-300 rounded-full"></div>
             </div>
           </div>
           <div className="relative min-h-0 flex-auto flex flex-col">
@@ -24,7 +24,7 @@ export default function Code(){
                       <div key={i}>{i + 1}</div>
                     ))}
                   </div>
-                  <code className="flex-auto relative block text-slate-50 pt-4 pb-4 px-4 overflow-hidden">
+                  <code className="flex-auto relative block text-black dark:text-slate-50 pt-4 pb-4 px-4 overflow-hidden">
 {`import Box from './components/Box'
 
 

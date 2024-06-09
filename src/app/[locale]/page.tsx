@@ -9,11 +9,13 @@ import Hero from '../components/Hero/Hero';
 import Projects from "../components/Projects/Projects";
 import Stack from "../components/Stack/Stack";
 import "../globals.css";
+import { useEffect } from "react";
 
 export default function Home() {
+
   return (
     <>
-      <div className="min-h-full min-w-full px-[130px] py-[40px] xl:px-[30px] xs:px-2 overflow-x-hidden">
+      <div className="min-h-full min-w-full px-[130px] py-[40px] xl:px-[30px] xs:px-2 overflow-x-hidden" id="home">
           <Header/>
           <main className="my-32 lg:my-10">
             <Hero/>

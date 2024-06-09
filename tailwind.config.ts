@@ -1,7 +1,7 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
-  darkMode: 'selector',
+  darkMode: 'class',
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -32,18 +32,23 @@ const config: Config = {
     },
     extend: {
       colors: {
-        'comment-grey': '#595959',
+        'comment-grey': '#7A7A7A',
         'function': '#4CE470'
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
         "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'box-gradient': 'linear-gradient(62deg, #8ec5fc14 0%, #e0c3fc2e 100%)',
+        // 'galaxy-gradient': 'linear-gradient(267deg, #0078d7 0%, #b4a0ff 100%)',
+        'galaxy-gradient': 'linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%)',
+        
       },
       background: {
       },
       fontFamily: {
         code: ['var(--font-ibm)', 'Menlo', 'Monaco', 'Courier New', 'monospace'],
+        martian: ['var(--font-martian)', 'Menlo', 'Monaco', 'Courier New', 'monospace'],
         // Setting a default font-family
       },
       keyframes: {

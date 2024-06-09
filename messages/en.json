@@ -11,7 +11,8 @@
       "webSolutions": " Web Solutions",
       "yourBusiness": " for Your Business.",
       "idea": "Let's turn ideas into code",
-      "cv": "Open CV"
+      "cv": "Open CV",
+      "theme": "change theme"
     },
     "Projects": {
       "title": "// Projects",
@@ -36,7 +37,7 @@
   },
   "Footer": {
     "rights": "All rights reserved",
-    "developed": "Built with",
+    "developed": "Built with Next.js, Tailwind, and Figma.",
     "thanks": "thanks"
   }
   }

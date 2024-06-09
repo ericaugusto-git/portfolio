@@ -25,8 +25,8 @@ export default function Cta(){
             <Contact/>
             <div className="flex flex-col gap-5">
                 {contact.map((info) => (
-                <div key={info} className="p-2 sm:p-1 border-solid outline-white outline outline-[1px] rounded-md xs:rounded-sm  flex justify-between items-center">
-                    <a className="hover:text-emerald-200 sm:text-xs xs:text-[8px] xs:leading-[8px] break-all w-full" href={info} target="_blank">{info}</a> <Image  onClick={(event) => copylink(info, event)} className="cursor-pointer xs:size-2" src={copiedLink == info ? "images/happy.svg" : "images/copy.svg"} height={15} width={15} alt="copy icon"/>
+                <div key={info} className="p-2 sm:p-1 border-solid rounded bg-white/5 outline-black dark:outline-white/10  outline outline-[1px]  flex justify-between items-center">
+                    <a className="hover:text-sky-500 sm:text-xs xs:text-[8px] xs:leading-[8px] break-all w-full" href={info} target="_blank">{info}</a><a onClick={(event) => copylink(info, event)} className='svgMask cursor-pointer size-4 xs:size-2 bg-black dark:bg-white'  style={{maskImage: `url("${copiedLink == info ? "images/happy.svg" : "images/copy.svg"}")`}}  ></a>
                 </div>
                 ))}
             </div>

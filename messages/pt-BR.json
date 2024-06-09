@@ -11,7 +11,8 @@
             "webSolutions": " Soluções Web ",
             "yourBusiness": "para Seu Negócio.",
             "idea": "Transforme ideias em código",
-            "cv": "Abrir Currículo"
+            "cv": "Abrir Currículo",
+            "theme": "mudar tema"
         },
         "Projects": {
             "title": "// Projetos",
@@ -22,7 +23,7 @@
             "stack": "uma stack em contínua expansão"
         }, 
         "Experience": {
-          "title": "Minha experiência.",
+          "title": "Minha experiência",
           "yearsCoding": "anos de experiência com programação",
           "yearsProfessional": "anos construindo projetos incríveis como desenvolvedor front-end profissional",
           "webappsDeployed": "webapps em produção"
@@ -37,7 +38,7 @@
         },
         "Footer": {
           "rights": "Todos os direitos reservados",
-          "developed": "Desenvolvido com",
+          "developed": "Desenvolvido com Next.js, Tailwind, e Figma.",
           "thanks": "obrigado"
         }
   }

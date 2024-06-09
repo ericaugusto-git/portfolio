@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/not-found.tsx", "src/app/components/LocaleSwitcher/LocaleSwitcherSelect.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/not-found.tsx", "src/app/components/LocaleSwitcher/LocaleSwitcherSelect.jsx", "src/app/components/Header/use-dimensions.Js"],
   "exclude": ["node_modules"]
 }

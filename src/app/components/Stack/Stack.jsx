@@ -40,7 +40,12 @@ export default function Stack() {
 
     handleAnimation(); // Call the animation function initially to apply the animation
   }, [stack]);
-   return  <section  className="relative">
+   return  <section  className="relative" id="stack">
+              <div className='rising-stars'>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
     <code className="whitespace-pre absolute top-[-200px] left-[-120px] xl:left-[-22px] xl:top-[-203px] xs:text-xs xs:top-[-190px] xs:-left-1">
 {`
 /**
@@ -57,25 +62,24 @@ export default function Stack() {
         <div key={i} className="rounded-full size-3 border-solid border-[#464646] border-[1px]"></div>
     ))}
 </div> 
-<div className="grid grid-rows-2 gap-[15px]  grid-cols-7 lg:grid-cols-5 lg:grid-rows-3 lg:px-2">
-    <div className="col-span-3 lg:col-span-5 font-light text-2xl 2xl:text-xl xs:text-sm  px-3 py-2 min-h-24 xs:min-h-14 relative">
-        <h2 className=" leading-snug lg:text-center text-nowrap xs:text-wrap">
+<div className="grid grid-rows-2 gap-[15px]  grid-cols-7 lg:grid-cols-4 xs:grid-cols-3 xs:grid-rows-5 lg:grid-rows-4 lg:px-2">
+    <div className="col-span-2 lg:col-span-4 xs:col-span-3 font-light text-2xl 2xl:text-xl xs:text-sm   min-h-24 xs:min-h-14 relative">
+        <h2 className="leading-snug lg:text-center xs:text-wrap text-nowrap dark:mix-blend-difference">
         { t('solving')}<br/>{!stack && <span className="animate-text-slide">{t('stack')}</span>}
         {stack && <><span style={{color: stack.color}} className="animate-text-slide inline-block font-bold">{stack.name}</span></>}
         </h2>
-        <div className="absolute svgMask -right-3 -bottom-5 h-[115px] w-[115px] bg-[#222222] -z-10 xs:hidden"  style={{maskImage: `url("/images/saturn.svg")`}}></div>
         {/* <Image
           className=""
           src="/images/saturn.svg"
           height={160}
           width={160}
           alt="send arrow"
-        /> */}
-        
+          /> */}
     </div>
+        <div className="rounded-2xl bg-galaxy-gradient text-8xl -z-10 xs:text-6xl xxs:hidden">🌌</div>
         { Object.keys(skills_imgs).map((skill) => (
         <div key={skill} style={{backgroundImage: `url(${skills_imgs[skill].image})`}} onMouseLeave={() => handleStackLeave()} onMouseOver={() => handleStackHover(skills_imgs[skill])} 
-        className="rounded-lg bg-center bg-no-repeat bg-contain saturate-0 bg-origin-content transition-all betterhover:hover:saturate-100 md:saturate-100 outline-1 flex-grow-0 outline-[#4646463a] outline  flex items-center justify-items-center p-6 sm:p-3">
+        className="bg-center bg-no-repeat bg-contain shadow-[0_4px_10px_#00000052] dark:shadow-[0_4px_10px_#ffffff20] rounded-2xl border-black/40 bg-black/5  dark:bg-white/5 dark:border-white/40 border-2  saturate-0 bg-origin-content transition-all betterhover:hover:saturate-100 md:saturate-100 flex-grow-0  flex items-center justify-items-center p-6 sm:p-3">
         </div>
         ))}
 </div>

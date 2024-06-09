@@ -8,14 +8,14 @@ export default function Footer(){
         <div className="flex justify-between mb-8">
             <div className='sm:text-xs'>
                 <span>
-                {'//'} {t('developed')} Next.js, Tailwind, and Figma.
+                {'//'} {t('developed')}
                 </span>
                 <br/>
                 <span className="text-function animate-pulse">
                 {t('thanks')}();
                 </span>
             </div>
-            <div onClick={() => {window.scrollTo(0, 0)}} className="bg-white hover:bg-gray-100 rounded-full w-fit px-1 cursor-pointer shadow-lg shadow-white/10">
+            <div onClick={() => {window.scrollTo(0, 0)}} className="bg-black dark:bg-white hover:bg-black/80 dark:hover:bg-gray-100 rounded-full w-fit px-1 cursor-pointer shadow-lg shadow-black/20 dark:shadow-white/10">
                 ^
             </div>
         </div>

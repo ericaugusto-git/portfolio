@@ -1,8 +1,9 @@
 import { useTranslations } from 'next-intl';
+import { useTheme } from 'next-themes';
+import Image from 'next/image';
 
 export default function Experience(){
     const t = useTranslations('Experience');
-
     const experiences = [
         {
           "value": "4+",
@@ -12,7 +13,7 @@ export default function Experience(){
         {
           "value": "2+",
           "labelKey": "yearsProfessional",
-          "hex": "#FFFF80"
+          "hex": "#8bc7d5"
         },
         {
           "value": "9",
@@ -20,7 +21,10 @@ export default function Experience(){
           "hex": "#FE80BF"
         }
       ];
-    return <section className="my-[100px] flex flex-col items-center">
+    return <section  className="relative my-[100px] flex flex-col items-center" id='experience'>
+      {/* radial-gradient(circle at center, white -20%, transparent 80%) */}
+      {/* <Image width={1400} height={500} className='absolute inset-0' src={'images/bbblurry (11).svg' } alt={''}></Image> */}
+      {/* <div  style={{ backgroundImage: `url('images/bbblurry (11).svg')`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'bottom', maskImage: 'radial-gradient(circle at center, white -20%, transparent 100%)'}} className='absolute inset-0'></div> */}
         <h2   className="text-4xl lg:text-3xl sm:text-2xl font-light text-wrap leading-tight text-center whitespace-pre-line">
         {t('title')}
         </h2>

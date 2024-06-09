@@ -45,12 +45,12 @@ export default function LocaleSwitcherSelect({
   return (
     <label
       className={clsx(
-        'relative  flex items-center align-middle cursor-pointer hover:text-slate-200 group',
+        'relative  flex items-center align-middle cursor-pointer hover:opacity-80 group',
         isPending && 'transition-opacity [&:disabled]:opacity-30'
       )}
     >
       <p className="sr-only">{label}</p>
-      <div style={{maskImage: `url("${globe.src}")`}} className="block w-4 h-4 group-hover:bg-slate-200 bg-white svgMask absolute top-[1px]"></div>
+      <div style={{maskImage: `url("${globe.src}")`}} className="block w-4 h-4 group-hover:opacity-80 bg-black dark:bg-white svgMask absolute top-[1px]"></div>
       <select
         ref={selectRef}
         style={{direction: 'rtl'}}
