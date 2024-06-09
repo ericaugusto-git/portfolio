@@ -59,9 +59,9 @@ generateBuzzwords = () => setInterval(() => buzzword = buzzwords[++index % buzzw
         <br/>
 <span className="animate-pulse text-[#4CE470]">generateBuzzwords(), index = 0;</span>
       </code> */}
-      <div className="">
-      <span style={{textOrientation: 'upright', writingMode: 'vertical-rl'}} ref={latin}   onMouseOver={replayLatin} onFocus={replayLatin}  className="font-martian absolute left-3 xl:-left-2 xs:-left-3 font-thin uppercase text-lg bottom-5 text-comment-grey"></span>
-      <span style={{textOrientation: 'upright', writingMode: 'vertical-rl'}} ref={jp}  onMouseOver={replayJp} onFocus={replayJp}  className="font-martian absolute right-3 xl:-right-2 lg:-right-3 xs:-right-4 font-thin uppercase text-lg top-14 text-comment-grey tracking-[0.4rem]"></span>
+      <div className="text-nowrap font-thin uppercase text-lg font-martian text-comment-grey ">
+      <span style={{textOrientation: 'upright', writingMode: 'vertical-rl'}} ref={latin}   onMouseOver={replayLatin} onFocus={replayLatin}  className="absolute left-3 xl:-left-2 xs:-left-3  bottom-5 "></span>
+      <span style={{textOrientation: 'upright', writingMode: 'vertical-rl'}} ref={jp}  onMouseOver={replayJp} onFocus={replayJp}  className="absolute right-3 xl:-right-2 lg:-right-3 xs:-right-4   top-14 tracking-[0.4rem]"></span>
       </div>
       <div className="mb-3 text-center flex justify-center items-center flex-col">
         <h1
