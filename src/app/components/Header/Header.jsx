@@ -6,7 +6,6 @@ import git from '../../../../public/images/github.svg';
 import linkedin from '../../../../public/images/linkedin.svg';
 import menu from '../../../../public/images/menu.svg';
 import LocaleSwitcher from "../LocaleSwitcher/LocaleSwitcher";
-import HeaderMenu from './HeaderMenu'
 
 const Header = () => {
   const t = useTranslations('Header');
