@@ -46,10 +46,15 @@ export const Contact = () => {
 
   return (
     <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-7">
-      <h2 className="text-4xl sm:text-2xl xs:text-xl xxs:text-xs whitespace-pre-line">
-        {t("title")}
-      </h2>
-      <fieldset className="flex gap-[35px] xs:gap-2 xs:flex-col sm:text-xs sm:gap-7 xs:text-[10px]">
+      <div className="flex flex-col gap-4">
+        <h2 className="text-4xl sm:text-2xl xs:text-xl whitespace-pre-line">
+          {t("title")}
+        </h2>
+        <h6 className="text-xs sm:text-[10px] xs:text-[9px] whitespace-pre-line font-light text-[#c0c0c0] subpixel-antialiased">
+          {t("subtitle")}
+        </h6>
+      </div>
+      <fieldset className="flex gap-[26px] xs:gap-2 xs:flex-col sm:text-xs sm:gap-7 xs:text-[10px]">
         <label className="text-nowrap" htmlFor="email">
           <span className="text-pink-500">const</span> email ={" "}
         </label>

@@ -21,7 +21,8 @@ const Header = () => {
 
   useEffect(() => {
     const resize = window.addEventListener("resize", () => {
-      refMenu.current.classList.add('md:hidden');
+      if(refMenu.current)
+        refMenu.current.classList.add('md:hidden');
     });
     return () => window.removeEventListener("resize", resize);
   }, []);

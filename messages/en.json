@@ -29,7 +29,8 @@
     "webappsDeployed": "webapps deployed"
   },
   "Cta": {
-    "title": "Let’s build an awesome\nproject together",
+    "title": "Let's talk",
+    "subtitle": "I'm excited to apply my skills to your projects. Contact me to learn more about how I can contribute.",
     "message": "message",
     "message_field": "Please fill the message field first",
     "email_field": "Please fill the email field correctly first.",

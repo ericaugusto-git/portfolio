@@ -15,7 +15,7 @@ export default function Footer(){
                 {t('thanks')}();
                 </span>
             </div>
-            <div onClick={() => {window.scrollTo(0, 0)}} className="bg-black dark:bg-white hover:bg-black/80 dark:hover:bg-gray-100 rounded-full w-fit px-1 cursor-pointer shadow-lg shadow-black/20 dark:shadow-white/10">
+            <div onClick={() => {window.scrollTo(0, 0)}} className="bg-[#ff7247] text-white dark:text-black dark:bg-white hover:opacity-85 rounded-full w-fit px-1 cursor-pointer shadow-lg shadow-[#ff724763] dark:shadow-white/10">
                 ^
             </div>
         </div>

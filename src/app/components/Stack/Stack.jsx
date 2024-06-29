@@ -41,7 +41,24 @@ export default function Stack() {
     handleAnimation(); // Call the animation function initially to apply the animation
   }, [stack]);
    return  <section  className="relative" id="stack">
-              <div className='rising-stars'>
+          <div 
+        style={{ 
+            backgroundImage: `url('images/bbblurry (48).svg')`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
+            height: '99%',
+            width: '100%',
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            zIndex: -1,
+            top: '50%',
+            transform: 'translateY(-50%)'
+        }}
+        className="opacity-35 gradient-mask-b-80 hidden dark:block"
+    ></div>
+              <div className='rising-stars hidden dark:block'>
           <div></div>
           <div></div>
           <div></div>
@@ -68,18 +85,11 @@ export default function Stack() {
         { t('solving')}<br/>{!stack && <span className="animate-text-slide">{t('stack')}</span>}
         {stack && <><span style={{color: stack.color}} className="animate-text-slide inline-block font-bold">{stack.name}</span></>}
         </h2>
-        {/* <Image
-          className=""
-          src="/images/saturn.svg"
-          height={160}
-          width={160}
-          alt="send arrow"
-          /> */}
     </div>
         <div className="rounded-2xl bg-galaxy-gradient text-8xl -z-10 xs:text-6xl xxs:hidden">🌌</div>
         { Object.keys(skills_imgs).map((skill) => (
         <div key={skill} style={{backgroundImage: `url(${skills_imgs[skill].image})`}} onMouseLeave={() => handleStackLeave()} onMouseOver={() => handleStackHover(skills_imgs[skill])} 
-        className="bg-center bg-no-repeat bg-contain shadow-[0_4px_10px_#00000052] dark:shadow-[0_4px_10px_#ffffff20] rounded-2xl border-black/40 bg-black/5  dark:bg-white/5 dark:border-white/40 border-2  saturate-0 bg-origin-content transition-all betterhover:hover:saturate-100 md:saturate-100 flex-grow-0  flex items-center justify-items-center p-6 sm:p-3">
+        className="bg-center bg-no-repeat bg-contain rounded-2xl border-black/40  dark:border-white/40 border-[1px]  saturate-0 bg-origin-content transition-all betterhover:hover:saturate-100 md:saturate-100 flex-grow-0  flex items-center justify-items-center p-6 sm:p-3">
         </div>
         ))}
 </div>

@@ -11,11 +11,27 @@ import Stack from "../components/Stack/Stack";
 import "../globals.css";
 import { useEffect } from "react";
 
+
 export default function Home() {
 
   return (
     <>
-      <div className="min-h-full min-w-full px-[130px] py-[40px] xl:px-[30px] xs:px-2 overflow-x-hidden" id="home">
+      <div  className="min-h-full min-w-full px-[130px] py-[40px] xl:px-[30px] xs:px-2 overflow-x-hidden" id="home">
+      <div 
+        style={{ 
+            backgroundImage: `url('images/bbblurry (48).svg')`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
+            height: '100%',
+            width: '100%',
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            zIndex: -1
+        }}
+        className="dark:hidden"
+    ></div>
           <Header/>
           <main className="my-32 lg:my-10">
             <Hero/>

@@ -10,7 +10,7 @@
             "building": "Desenvolvendo",
             "webSolutions": " Soluções Web ",
             "yourBusiness": "para Seu Negócio.",
-            "idea": "Transforme ideias em código",
+            "idea": "Vamos transformar ideias em código",
             "cv": "Abrir Currículo",
             "theme": "mudar tema"
         },
@@ -29,7 +29,8 @@
           "webappsDeployed": "webapps em produção"
         },
         "Cta": {
-          "title": "Vamos costruir um projeto\nincrível juntos", 
+          "title": "Vamos Conversar", 
+          "subtitle": "Estou animado para aplicar minhas habilidades em seu projeto. Entre em contato para saber mais sobre como posso contribuir.",
           "message": "mensagem",
           "message_field": "Por favor, escreva uma mensagem primeiro.",
           "email_field": "Por favor, preencha o email corretamente primeiro.",
