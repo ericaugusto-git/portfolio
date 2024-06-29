@@ -49,7 +49,7 @@ const Header = () => {
         </li>
         
         <li ref={refMenu} className='md:absolute md:hidden md:right-2 md:top-12'>
-          <ul className='flex gap-4 md:flex-col  md:bg-black md:py-4 md:rounded-md md:outline md:outline-1 md:outline-comment-grey md:gap-4 items-center'>
+          <ul className='flex gap-4 md:flex-col  md:dark:bg-black md:bg-white md:py-4 md:rounded-md md:outline md:outline-1 md:outline-comment-grey md:gap-4 items-center'>
           {rotas.map((rota) => 
             <li  key={rota} className='w-full text-center'>
               <a onClick={handleClickOutside} href={`#${rota}`} className='hover:opacity-80 w-full block md:px-4'>{rota}</a>
