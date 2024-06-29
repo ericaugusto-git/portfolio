@@ -20,7 +20,7 @@ export default async function RootLayout ({ children, params: {locale} }: { chil
   
   return (
     <html lang={locale} className="min-h-full min-w-full scroll-smooth overflow-x-hidden" suppressHydrationWarning={true}>
-      <body className={ibm.className + " h-full w-full bg-[hsl(60,13%,100%)] dark:text-white text-black dark:bg-[#000000] " + martian.variable} suppressHydrationWarning={true}>
+      <body className={ibm.className + " h-full w-full bg-[hsl(60,13%,100%)] overflow-x-hidden dark:text-white text-black dark:bg-[#000000] " + martian.variable} suppressHydrationWarning={true}>
         <Providers>
         <NextIntlClientProvider messages={messages}>
           {children}
