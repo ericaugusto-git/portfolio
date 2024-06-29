@@ -19,8 +19,8 @@ export default function Home() {
       <div  className="min-h-full min-w-full px-[130px] py-[40px] xl:px-[30px] xs:px-2 overflow-x-hidden" id="home">
       <div 
         style={{ 
-            backgroundImage: `url('images/bbblurry (48).svg')`,
-            backgroundSize: 'cover',
+          backgroundImage: `url("images/bbblurry.svg")`,
+          backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
             height: '100%',

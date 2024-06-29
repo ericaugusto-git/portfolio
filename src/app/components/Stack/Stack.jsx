@@ -1,9 +1,8 @@
 "use client"
 
 import { skills_imgs } from "@/app/constants/skills_imgs";
+import { useLocale, useTranslations } from 'next-intl';
 import { useEffect, useState } from "react";
-import { useTranslations, useLocale } from 'next-intl';
-import Image from "next/image";
 
 export default function Stack() {
    const [stack, setStack] = useState();
@@ -43,7 +42,7 @@ export default function Stack() {
    return  <section  className="relative" id="stack">
           <div 
         style={{ 
-            backgroundImage: `url('images/bbblurry (48).svg')`,
+            backgroundImage: `url("images/bbblurry.svg")`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
