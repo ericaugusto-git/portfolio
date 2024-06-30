@@ -33,7 +33,8 @@ const config: Config = {
     extend: {
       colors: {
         'comment-grey': '#7A7A7A',
-        'function': '#4CE470'
+        'function': '#4CE470',
+        'accent-orange': '#ff7247'
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

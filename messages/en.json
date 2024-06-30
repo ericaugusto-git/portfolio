@@ -12,11 +12,15 @@
       "yourBusiness": " for Your Business.",
       "idea": "Let's turn ideas into code",
       "cv": "Open CV",
-      "theme": "change theme"
+      "theme": "change theme",
+      "front": "Frontend developer"
     },
     "Projects": {
       "title": "// Projects",
-      "description": "Take a look at what I've been cooking"
+      "description": "Take a look at what I've been cooking",
+      "os": "My personal website with an linux rice inspired UI",
+      "disc": "Create servers, join audio and video calls, and send messages with this Discord clone.",
+      "jdm": "Fake dealership specialized in japanese cars"
     },
     "Stack": {
       "solving": "Solving real problems with",

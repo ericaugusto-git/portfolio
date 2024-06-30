@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/not-found.tsx", "src/app/components/LocaleSwitcher/LocaleSwitcherSelect.jsx", "src/app/components/Header/use-dimensions.Js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/not-found.tsx", "src/app/components/LocaleSwitcher/LocaleSwitcherSelect.jsx", "src/app/components/Header/use-dimensions.Js", "src/app/components/Hero/Code.jsx", "src/app/[locale]/layout.jsx", "src/app/[locale]/not-found.jsx", "src/app/[locale]/page.jsx"],
   "exclude": ["node_modules"]
 }

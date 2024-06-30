@@ -12,11 +12,15 @@
             "yourBusiness": "para Seu Negócio.",
             "idea": "Vamos transformar ideias em código",
             "cv": "Abrir Currículo",
-            "theme": "mudar tema"
+            "theme": "mudar tema",
+            "front": "Desenvolvedor Frontend"
         },
         "Projects": {
             "title": "// Projetos",
-            "description": "Dê uma olhada no que andei cozinhando"
+            "description": "Dê uma olhada no que andei cozinhando",
+            "os": "Meu site pessoal com uma interface inspirada em uma linux rice",
+            "disc": "Crie servidores , entre em chamadas de aúdio e vídeo e envie mensagens com esse clone do Discord.",
+            "jdm": "Concessionária fictícia especializada em carros japoneses"          
         },
           "Stack": {
             "solving": "Desenvolvendo soluções com",

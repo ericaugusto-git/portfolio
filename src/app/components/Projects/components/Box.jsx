@@ -11,7 +11,7 @@ export default function Box({img, name, description, skills, link, subtitle}){
                 <span className="text-3xl lg:text-2xl sm:text-xl font-bold">{name}</span>
                 {subtitle && <span className="text-xs"> ({subtitle})</span>}
                 <br/>
-                <label className="text-xs sm:text-[10px] text-[#C9C9C9] font-light">{description}</label>
+                <label className="text-xs sm:text-[10px] bg-white dark:bg-black text-[#7a7a7a] dark:text-[#C9C9C9]">{description}</label>
                 <div className="flex gap-4 mt-6">
                     {skills.map((skill) => {
                         const imageUrl = skills_imgs[skill].image;

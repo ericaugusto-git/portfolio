@@ -45,7 +45,7 @@ const Header = () => {
     speed: scrambleSpeed
   });
   const { ref: latin, replay: replayLatin } = useScramble({ 
-    text: "frontend developer",
+    text: t('front'),
     speed: scrambleSpeed
   });
 
