@@ -34,7 +34,7 @@
   .dots {
     --dot-color: #0E0E0E;
     --dot-bg: #dadada;
-    --dot-bg: hsla(0, 0%, 0%, 0.733);
+    --dot-bg: hsla(0, 0%, 0%, 0.8);
     --dot-color: #aeb2ba;
     --dot-size: 1px;
     --dot-space: 22px;

@@ -7,13 +7,15 @@
       "locale": "{locale, select, pt_BR {PT} en {ENG} other {Unknown}}"
     },
     "Hero": {
-      "building": "Building ",
-      "webSolutions": " Web Solutions",
-      "yourBusiness": " for Your Business.",
+      "iAm": "I’m",
+      "frontend": "a Frontend",
+      "developer": "Developer",
+      "hello": "Hello World 👋🏾! I have 4+ years of experience as a coding enthusiast and 2+ years as a professional developer working mostly with Angular.",
+      "basedIn": "based in",
+      "front": "Frontend Developer",
       "idea": "Let's turn ideas into code",
       "cv": "Open CV",
-      "theme": "change theme",
-      "front": "Frontend developer"
+      "theme": "change theme"
     },
     "Projects": {
       "title": "// Projects",
@@ -27,11 +29,24 @@
       "stack": "an constantly expanding stack"
    },
    "Experience": {
-    "title": "With the experience\nto back it up.",
-    "yearsCoding": "years of coding experience",
-    "yearsProfessional": "years building awesome projects as a professional front-end developer",
-    "webappsDeployed": "webapps deployed"
-  },
+    "title": "My Experience",
+    "Responsibilities": {
+        "title": "Responsibilities",
+        "point1": "Develop and maintain multiple Angular web applications within CONSISTE's ecosystem, ensuring high performance and user-friendly interfaces.",
+        "point2": "Conceptualize and implement reusable Angular libraries to streamline the development process and centralize maintenance efforts across various projects.",
+        "point3": "Consistently seeking to enhance user experience by exploring new technologies and methodologies.",
+
+        "point4": "Normalizing data from CSV files using Python, pandas and NumPy.",
+        "point5": "Data extraction per Web Scraping using Beautiful Soup.",
+        "point6": "Collaboration with team members to ensure data accuracy and integrity."
+    },
+    "Achievements": {
+        "title": "Achievements",
+        "point1": "Developed a dynamic dashboard web application similar to Microsoft Power BI, enabling users to create custom dashboards with flexible features for presenting data integrated from public entities like CADASTUR and IBGE.",
+        "point2": "Improved the UI/UX of an advanced table component featuring filtering, aggregation, and sorting functionalities to facilitate seamless data access and manipulation.",
+        "point3": "Dynamic charts using the APACHE ECHARTS library to provide visually engaging and interactive data presentations."
+    }
+  }, 
   "Cta": {
     "title": "Let's talk",
     "subtitle": "I'm excited to apply my skills to your projects. Contact me to learn more about how I can contribute.",

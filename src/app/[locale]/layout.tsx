@@ -5,6 +5,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { Martian_Mono } from "next/font/google";
 import Providers from '../contexts/Providers'
+import Sketch from "../components/ArtDots";
 export const runtime = "edge";
 const ibm = IBM_Plex_Mono({weight: ['100','300', '700'], subsets: ["latin"], variable: '--font-ibm'});
 const martian = Martian_Mono({weight:['100', '400', '700'], subsets: ["latin"], variable: '--font-martian'});
@@ -19,8 +20,10 @@ export default async function RootLayout ({ children, params: {locale} }: { chil
   
   
   return (
-    <html lang={locale} className="min-h-full min-w-full scroll-smooth overflow-x-hidden" suppressHydrationWarning={true}>
+    <html lang={locale} className="min-h-full min-w-full scroll-smooth overflow-x-hidden dark" suppressHydrationWarning={true}>
       <body className={ibm.className + " h-full w-full bg-[hsl(60,13%,100%)] overflow-x-hidden dark:text-white text-black dark:bg-[#000000] " + martian.variable} suppressHydrationWarning={true}>
+        {/* beware of gpu killer. cool visuals tho */}
+        {/* <Sketch/> */}
         <Providers>
         <NextIntlClientProvider messages={messages}>
           {children}
