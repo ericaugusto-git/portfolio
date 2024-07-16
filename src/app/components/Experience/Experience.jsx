@@ -43,7 +43,7 @@ export default function Experience() {
   
 
   return (
-    <section className="relative my-[100px]" id="experience">
+    <section className="relative my-[100px] scroll-mt-16" id="experience">
       {/* radial-gradient(circle at center, white -20%, transparent 80%) */}
       {/* <Image width={1400} height={500} className='absolute inset-0' src={'images/bbblurry (11).svg' } alt={''}></Image> */}
       {/* <div  style={{ backgroundImage: `url('images/bbblurry (11).svg')`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'bottom', maskImage: 'radial-gradient(circle at center, white -20%, transparent 100%)'}} className='absolute inset-0'></div> */}

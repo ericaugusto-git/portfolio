@@ -40,7 +40,7 @@ export default function Stack() {
 
     handleAnimation(); // Call the animation function initially to apply the animation
   }, [stack]);
-   return  <section  className="relative" id="stack">
+   return  <section  className="relative  scroll-mt-16" id="stack">
           {/* <div 
         style={{ 
             backgroundImage: `url("images/bbblurry.svg")`,
@@ -80,13 +80,14 @@ export default function Stack() {
     ))}
 </div> 
 <div className="grid grid-rows-2 gap-1  grid-cols-7 lg:grid-cols-4 xs:grid-cols-3 xs:grid-rows-5 lg:grid-rows-4 lg:px-2">
-    <div className="col-span-3 p-4 lg:col-span-4 xs:col-span-3 font-light text-2xl 2xl:text-xl xs:text-sm   min-h-24 xs:min-h-14 bg-[#0b0b0b65] border-[#131313] border-[1px] rounded-xl relative">
+    <div className="col-span-3 p-4 lg:col-span-4 xs:col-span-3 font-light text-2xl 2xl:text-xl xs:text-sm   min-h-24 xs:min-h-14 bg-black/5 border-black/20 dark:bg-[#0b0b0b65] dark:border-[#131313] border-[1px] rounded-xl relative">
         <div className="absolute top-[7px] left-[7px] flex items-center gap-1">
-            <div className="size-2 px-6 lg:px-9 xs:px-6 bg-white rounded-full"></div>
-            <div className="size-2 px-3 lg:px-6 xs:px-3 bg-white/50 rounded-full"></div>
-            <div className="size-2 px-1 bg-white/20 rounded-full"></div>
+            <div className="size-2 px-6 lg:px-9 xs:px-6 bg-black dark:bg-white rounded-full"></div>
+            <div className="size-2 px-3 lg:px-6 xs:px-3 bg-black/50 dark:bg-white/50 rounded-full"></div>
+            <div className="size-2 px-1 bg-black/20 dark:bg-white/20 rounded-full"></div>
         </div>
-        <span style={{outlineColor: stack && stack?.color}} className="xs:text-[8px] xs:leading-[8px] xs:px-2  md:text-[11px]  absolute transition-all top-[7px] right-[7px] text-xs outline-[1px] outline-white outline bg-white text-black outline-offset-2 rounded-full px-5  leading-[10px]">{stack?.exp ?? '4+'} years <span style={{color: stack?.color}}>{stack?.name ?? 'coding'} exp.</span></span>
+        <span style={{outlineColor: stack && stack?.color}} className="xs:text-[8px] xs:leading-[8px] xs:px-2  md:text-[11px]  absolute transition-all top-[7px] right-[7px] text-xs outline-[1px] outline-black bg-black text-white dark:outline-white outline dark:bg-white dark:text-black outline-offset-2 rounded-full px-5  leading-[10px]">{stack?.exp ?? '4+'} years <span style={{color: stack?.color}}>{stack?.name ?? 'coding'} exp.</span></span>
+        {/* <span style={{outlineColor: stack && stack?.color}} className="xs:text-[8px] xs:leading-[8px] xs:px-2  md:text-[11px]  absolute transition-all top-[7px] right-[7px] text-xs outline-[1px] outline-white outline bg-white text-black outline-offset-2 rounded-full px-5  leading-[10px]">{stack?.exp ?? '4+'} years <span style={{color: stack?.color}}>{stack?.name ?? 'coding'} exp.</span></span> */}
         <h2 className="mt-3 leading-snug lg:text-center xs:text-wrap text-nowrap dark:mix-blend-difference relative">
         { t('solving')}<br/>{!stack && <span className="animate-text-slide">{t('stack')}</span>}
         {stack && <><span style={{color: stack.color}} className="animate-text-slide inline-block font-bold">{stack.name}</span></>}
@@ -95,7 +96,7 @@ export default function Stack() {
         <div className="rounded-2xl bg-galaxy-gradient xxs:hidden saturate-0 betterhover:hover:saturate-100 transition-all flex items-center px-3 md:saturate-100"><Image className="xs:size-16" src={'/images/milky_way.png'} width={96} height={96} alt="milky way emoji"/></div>
         { Object.keys(skills_imgs).map((skill) => (
         <div key={skill} style={{backgroundImage: `url(${skills_imgs[skill].image})`}} onMouseLeave={() => handleStackLeave()} onMouseOver={() => handleStackHover(skills_imgs[skill])} 
-        className="bg-center bg-no-repeat bg-contain rounded-xl  border-black/40  dark:border-[#131313] border-[1px]  saturate-0 bg-origin-content transition-all  betterhover:hover:saturate-100 md:saturate-100 flex-grow-0  flex items-center justify-items-center p-6 sm:p-3">
+        className="bg-center bg-no-repeat bg-contain rounded-xl border-black/20  dark:border-[#131313] border-[1px]  saturate-0 bg-origin-content transition-all  betterhover:hover:saturate-100 md:saturate-100 flex-grow-0  flex items-center justify-items-center p-6 sm:p-3">
         </div>
         ))}
 </div>

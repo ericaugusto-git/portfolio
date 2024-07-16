@@ -1,8 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 export default function Code(){
     return           <div  className="relative ">
-    <div className="dark:gradient-mask-b-0 gradient-mask-b-60 p-2 pb-0 border rounded-2xl border-white/10 bg-white/5 ">
-      <div className="relative overflow-hidden shadow-xl flex bg-black   sm:max-h-[none] rounded-xl lg:h-[34.6875rem] xl:h-[31.625rem]  ring-1 ring-inset  ring-black/20 dark:ring-white/10 !h-auto max-h-[none]">
+    <div className="dark:gradient-mask-b-0 gradient-mask-b-60 p-2 pb-0 border rounded-2xl border-black/10 bg-black/5 dark:border-white/10 dark:bg-white/5 ">
+    <div className="relative overflow-hidden shadow-xl flex bg-white dark:bg-black    sm:max-h-[none] rounded-xl lg:h-[34.6875rem] xl:h-[31.625rem]  ring-1 ring-inset  ring-black/20 dark:ring-white/10 !h-auto max-h-[none]">
         <div className="relative w-full flex flex-col">
           <div className="flex-none border-b border-slate-500/30">
             <div className="flex items-center h-8 space-x-2 px-3">

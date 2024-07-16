@@ -59,7 +59,7 @@
         },
         "Footer": {
           "rights": "Todos os direitos reservados",
-          "developed": "Desenvolvido com Next.js, Tailwind, e Figma.",
+          "developed": "Desenvolvido com Next.js, Tailwind, e Figma;",
           "thanks": "obrigado"
         }
   }
