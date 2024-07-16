@@ -9,9 +9,9 @@ import { useTranslations } from 'next-intl';
 import { useOnClickOutside } from 'usehooks-ts';
 
 const SlideTabsExample = () => {
+  const refMenu = useRef();
+  const refBtn = useRef();
   const t = useTranslations('Header');
-  const refMenu = useRef()
-  const refBtn = useRef()
   const handleClickOutside = (event) => {
     
     if(!refBtn?.current?.contains(event.target) && window.innerWidth <= 767){
@@ -50,10 +50,9 @@ const SlideTabsExample = () => {
           <SlideTabs/>
         </motion.div>
         <ul className='flex gap-3 items-center'>
-        <li className="cursor-pointer mt-[0px] bg-white/5 outline-white/20 outline outline-1 rounded-md px-1">
+        <li className="cursor-pointer">
                   <LocaleSwitcher />
             </li>
-            <ul className="bg-white/5 outline-white/20 outline outline-1 flex items-center py-[3px] px-1 gap-3 rounded-md">
               <li>
                 <ThemeSwitcher/>
               </li>
@@ -63,28 +62,17 @@ const SlideTabsExample = () => {
               <li>
                 <a href="https://www.linkedin.com/in/eric-augusto-775245a9/"  target="_blank" className='group'><span style={{maskImage: `url("/images/linkedin.svg")`}} className="block mx-auto size-[18px] bg-black  dark:bg-white svgMask group-hover:opacity-80 cursor-pointer"></span> </a>
               </li>
-            </ul>
             <button ref={refBtn} onClick={handleMenu} style={{maskImage: `url("/images/menu.svg")`}} className="w-6 h-6 bg-black dark:bg-white hover:opacity-60 svgMask cursor-pointer hidden md:block"></button>
 
 
         </ul>
         <li ref={refMenu} className='absolute hidden right-2 top-12 list-none'>
-          <ul className='flex-col dark:bg-black bg-white py-4 rounded-md outline outline-1 outline-comment-grey gap-4 items-center'>
+          <ul className='flex flex-col dark:bg-black bg-white py-4 rounded-md outline outline-1 outline-comment-grey gap-3 items-center'>
             {rotas.map((rota) => 
               <li key={rota} className='w-full text-center'>
-                <a onClick={handleClickOutside} href={`#${rota}`} className='hover:opacity-80 w-full block px-4'>{rota}</a>
+                <a onClick={handleClickOutside} href={`#${rota}`} className='hover:opacity-80 w-full block px-4'>{t(rota)}</a>
               </li>
             )}
-            {/* <li className='hidden block w-full text-center'>
-              <a onClick={handleClickOutside} href="https://github.com/ericaugusto-git" target="_blank" className='group'>
-                <span style={{maskImage: 'url("/images/github.svg")'}} className="block mx-auto w-4 h-4 bg-black dark:bg-white svgMask group-hover:opacity-80 cursor-pointer"></span>
-              </a>
-            </li>
-            <li className='hidden block w-full text-center'>
-              <a onClick={handleClickOutside} href="https://www.linkedin.com/in/eric-augusto-775245a9/" target="_blank" className='group'>
-                <span style={{maskImage: 'url("/images/linkedin.svg")'}} className="block mx-auto w-4 h-4 bg-black dark:bg-white svgMask group-hover:opacity-80 cursor-pointer"></span>
-              </a>
-            </li> */}
           </ul>
         </li>
 
@@ -94,6 +82,7 @@ const SlideTabsExample = () => {
 };
 
 const SlideTabs = () => {
+  const t = useTranslations('Header');
   const [position, setPosition] = useState({
     left: 0,
     width: 0,
@@ -110,7 +99,7 @@ const SlideTabs = () => {
       }}
       className="z-20 mx-auto flex w-fit rounded-full relative outline-[1px] outline outline-offset-2 bg-black/5 outline-black/20 dark:bg-white/5 p-1 dark:outline-white/20"
     >
-      <Tab setPosition={setPosition}>home</Tab>
+  <Tab setPosition={setPosition}>home</Tab>
       <Tab setPosition={setPosition}>projects</Tab>
       <Tab setPosition={setPosition}>stack</Tab>
       <Tab setPosition={setPosition}>experience</Tab>
@@ -123,6 +112,7 @@ const SlideTabs = () => {
 
 const Tab = ({ children, setPosition }) => {
   const ref = useRef(null);
+  const t = useTranslations('Header');
 
   return (
     <li
@@ -141,7 +131,7 @@ const Tab = ({ children, setPosition }) => {
       className="relative z-10 block cursor-pointer text-xs uppercase"
     >
       <a className="px-3 py-1.5 block " href={`#${children}`}>
-        {children}
+        {t(children)}
       </a>
     </li>
   );

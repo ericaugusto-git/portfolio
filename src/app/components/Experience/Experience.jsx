@@ -7,7 +7,7 @@ export default function Experience() {
   const experienceData = {
     title: "Front-end Developer",
     company: "CONSISTE CONSULTORIA E SISTEMAS LTDA",
-    date: "jun 2022 / present",
+    date: t('date.current'),
     obligations: [
       t("Responsibilities.point1"),
       t("Responsibilities.point2"),
@@ -29,7 +29,7 @@ export default function Experience() {
   const internship = {
     title: "Data Science Intern",
     company: "CONSISTE CONSULTORIA E SISTEMAS LTDA",
-    date: "fev 2022 / jun 2022",
+    date: t('date.intern'),
     obligations: [
       t("Responsibilities.point4"),
       t("Responsibilities.point5"),

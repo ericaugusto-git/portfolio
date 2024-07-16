@@ -1,5 +1,9 @@
 {
     "Header": {
+      "home": "início",
+      "projects": "projetos",
+      "stack": "tecnologias",
+      "experience": "experiência",
       "contact": "contato"
     },
     "LocaleSwitcher": {
@@ -27,7 +31,9 @@
         },
           "Stack": {
             "solving": "Desenvolvendo soluções com",
-            "stack": "uma stack em contínua expansão"
+            "stack": "uma stack em contínua expansão",
+            "coding": "códgo",
+            "years": "anos de"
         }, 
         "Experience": {
           "title": "Minha experiência",
@@ -46,6 +52,10 @@
               "point1": "Desenvolvi um webapp de dashboards dinâmicos semelhante ao Microsoft Power BI, permitindo que os usuários criem dashboards personalizados com recursos flexíveis para apresentação dos dados integrados de entidades públicas como CADASTUR e IBGE.",
               "point2": "Melhorei a UI/UX de um componente de tabela avançada com funcionalidades de filtragem, agregação e ordenação para facilitar a visualização e a manipulação de dados.",
               "point3": "Gráficos dinâmicos usando a biblioteca APACHE ECHARTS para fornecer apresentações de dados visuais envolventes e interativas."
+          },
+          "date": {
+            "current": "Jun 2022 / Atual",
+            "intern": "Fev 2022 / Jun 2022"
           }
       },
         "Cta": {

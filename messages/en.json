@@ -1,5 +1,9 @@
 {
   "Header": {
+    "home": "home",
+    "projects": "projects",
+    "stack": "stack",
+    "experience": "experience",
     "contact": "contact"
   },
     "LocaleSwitcher": {
@@ -26,7 +30,9 @@
     },
     "Stack": {
       "solving": "Solving real problems with",
-      "stack": "an constantly expanding stack"
+      "stack": "an constantly expanding stack",
+      "coding": "coding",
+       "years": "years"
    },
    "Experience": {
     "title": "My Experience",
@@ -45,6 +51,10 @@
         "point1": "Developed a dynamic dashboard web application similar to Microsoft Power BI, enabling users to create custom dashboards with flexible features for presenting data integrated from public entities like CADASTUR and IBGE.",
         "point2": "Improved the UI/UX of an advanced table component featuring filtering, aggregation, and sorting functionalities to facilitate seamless data access and manipulation.",
         "point3": "Dynamic charts using the APACHE ECHARTS library to provide visually engaging and interactive data presentations."
+    },
+    "date": {
+      "current": "Jun 2022 / Present",
+      "intern": "Feb 2022 / Jun 2022"
     }
   }, 
   "Cta": {
