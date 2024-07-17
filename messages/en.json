@@ -50,7 +50,7 @@
         "title": "Achievements",
         "point1": "Developed a dynamic dashboard web application similar to Microsoft Power BI, enabling users to create custom dashboards with flexible features for presenting data integrated from public entities like CADASTUR and IBGE.",
         "point2": "Improved the UI/UX of an advanced table component featuring filtering, aggregation, and sorting functionalities to facilitate seamless data access and manipulation.",
-        "point3": "Dynamic charts using the APACHE ECHARTS library to provide visually engaging and interactive data presentations."
+        "point3": "Contributed to CONSISTE's custom component library, enhancing it with new features and improving existing functionalities to support the development of high-quality web applications."
     },
     "date": {
       "current": "Jun 2022 / Present",

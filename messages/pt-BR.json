@@ -2,7 +2,7 @@
     "Header": {
       "home": "início",
       "projects": "projetos",
-      "stack": "tecnologias",
+      "stack": "stack",
       "experience": "experiência",
       "contact": "contato"
     },
@@ -32,8 +32,8 @@
           "Stack": {
             "solving": "Desenvolvendo soluções com",
             "stack": "uma stack em contínua expansão",
-            "coding": "códgo",
-            "years": "anos de"
+            "coding": "fazendo programa 😏",
+            "years": "anos"
         }, 
         "Experience": {
           "title": "Minha experiência",
@@ -51,7 +51,7 @@
               "title": "Conquistas",
               "point1": "Desenvolvi um webapp de dashboards dinâmicos semelhante ao Microsoft Power BI, permitindo que os usuários criem dashboards personalizados com recursos flexíveis para apresentação dos dados integrados de entidades públicas como CADASTUR e IBGE.",
               "point2": "Melhorei a UI/UX de um componente de tabela avançada com funcionalidades de filtragem, agregação e ordenação para facilitar a visualização e a manipulação de dados.",
-              "point3": "Gráficos dinâmicos usando a biblioteca APACHE ECHARTS para fornecer apresentações de dados visuais envolventes e interativas."
+              "point3": "Contribuí para a biblioteca de componentes personalizados da CONSISTE, aprimorando-a com novos recursos e melhorando funcionalidades existentes, apoiando o desenvolvimento de aplicações web de alta qualidade."
           },
           "date": {
             "current": "Jun 2022 / Atual",

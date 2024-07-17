@@ -3,7 +3,7 @@ export const skills_imgs = {
     "name": "Angular",
     "image": "/images/skills/angular.png",
     "color": "#FE38BA",
-    "exp": "3+"
+    "exp": "2+"
   },
   "react": {
     "name": "React",
@@ -39,7 +39,7 @@ export const skills_imgs = {
     "name": "SCSS",
     "image": "/images/skills/scss.png",
     "color": "#CD6799",
-    "exp": "3+"
+    "exp": "2+"
   },
   "html": {
     "name": "HTML",
@@ -51,7 +51,7 @@ export const skills_imgs = {
     "name": "Git",
     "image": "/images/skills/git.png",
     "color": "#F05032",
-    "exp": "3+"
+    "exp": "4+"
   },
   "figma": {
     "name": "Figma",
