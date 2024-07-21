@@ -14,6 +14,6 @@
 <p align="center">🚀 Deploy: https://ericaugusto.pages.dev</p>
 <p align="center">
   <a href="https://ericaugusto.pages.dev" >
-    <img src="https://github.com/ericaugusto-git/portfolio/assets/56616279/a35ed86f-5dbd-4bf5-9312-afe4c11fb576"/>
+    <img src="https://github.com/user-attachments/assets/c9087f87-2ef0-4be0-b257-f5b5285ae41a"/>
   </a>
 </p>
