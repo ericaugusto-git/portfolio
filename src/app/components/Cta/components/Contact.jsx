@@ -82,7 +82,7 @@ export const Contact = () => {
         type="submit"
         className="bg-[#0B0B0B] text-white flex relative self-end p-1 pr-8 xs:pr-5 xs:p-[2px] group rounded mt-[-20px]"
       >
-        <span className="uppercase italic font-light sm:text-xs xs:text-[8px]">send</span>
+        <span className="uppercase italic font-light sm:text-xs xs:text-[8px]">{t('send')}</span>
         <Image
           className="absolute top-[2px] right-[2px] betterhover:group-hover:top-0 betterhover:group-hover:right-0 transition-all rotate-[140deg] sm:size-4 xs:size-3"
           src="images/arrow.svg"

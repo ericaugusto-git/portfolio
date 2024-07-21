@@ -38,19 +38,19 @@
     "title": "My Experience",
     "Responsibilities": {
         "title": "Responsibilities",
-        "point1": "Develop and maintain multiple Angular web applications within CONSISTE's ecosystem, ensuring high performance and user-friendly interfaces.",
-        "point2": "Conceptualize and implement reusable Angular libraries to streamline the development process and centralize maintenance efforts across various projects.",
-        "point3": "Consistently seeking to enhance user experience by exploring new technologies and methodologies.",
+        "point1": "Develop and maintain 5+ Angular web applications, ensuring high performance, responsiveness and good user experience through regular usability testing and feedback incorporation.",
+        "point2": "Conceptualize and implement reusable Angular libraries to streamline development and centralize maintenance. ",
+        "point3": "Explore and integrate new technologies and methodologies to enhance user experience.",
 
         "point4": "Normalizing data from CSV files using Python, pandas and NumPy.",
         "point5": "Data extraction per Web Scraping using Beautiful Soup.",
         "point6": "Collaboration with team members to ensure data accuracy and integrity."
     },
     "Achievements": {
-        "title": "Achievements",
-        "point1": "Developed a dynamic dashboard web application similar to Microsoft Power BI, enabling users to create custom dashboards with flexible features for presenting data integrated from public entities like CADASTUR and IBGE.",
-        "point2": "Improved the UI/UX of an advanced table component featuring filtering, aggregation, and sorting functionalities to facilitate seamless data access and manipulation.",
-        "point3": "Contributed to CONSISTE's custom component library, enhancing it with new features and improving existing functionalities to support the development of high-quality web applications."
+        "title": "Key Results",
+        "point1": "Designed and developed 6 reusable Angular libraries, reducing development time by 40% and centralizing maintenance, resulting in a more efficient workflow across 10+ projects.",
+        "point2": "Developed a dynamic dashboard web application similar to Microsoft Power BI, enabling users to create custom dashboards with flexible features for presenting data integrated from public entities like CADASTUR and IBGE.",
+        "point3": "Enhanced the UI/UX of an advanced table component with filtering, aggregation, and sorting functionalities, improving data access efficiency by 40% and user satisfaction by 25%."
     },
     "date": {
       "current": "Jun 2022 / Present",
@@ -61,6 +61,7 @@
     "title": "Let's talk",
     "subtitle": "I'm excited to apply my skills to your projects. Contact me to learn more about how I can contribute.",
     "message": "message",
+    "send": "send",
     "message_field": "Please fill the message field first",
     "email_field": "Please fill the email field correctly first.",
     "sent": "Thanks for contacting me! I well mail you back within 48hrs :)"

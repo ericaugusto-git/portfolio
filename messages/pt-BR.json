@@ -39,19 +39,19 @@
           "title": "Minha experiência",
           "Responsibilities": {
               "title": "Responsabilidades",
-              "point1": "Desenvolver e manter várias aplicações web Angular dentro do ecossistema da CONSISTE, garantindo alto desempenho e interfaces amigáveis.",
-              "point2": "Conceitualizar e implementar bibliotecas Angular reutilizáveis para otimizar o processo de desenvolvimento e centralizar os esforços de manutenção dos vários projetos.",
-              "point3": "Buscar melhorar a experiência do usuário explorando novas tecnologias e metodologias.",
+              "point1": "Desenvolver e manter 5+ aplicativos web Angular, garantindo alto desempenho, responsividade e melhor experiência do usuário por meio de testes consistentes de usabilidade e incorporação de feedback.",
+              "point2": "Conceitualizar e implementar bibliotecas Angular reutilizáveis para agilizar o desenvolvimento e centralizar manutenções",
+              "point3": "Explorar e integrar novas tecnologias e metodologias para aprimorar a experiência do usuário.",
 
               "point4": "Normalizar dados de arquivos CSV usando Python, pandas e NumPy.",
               "point5": "Extração de dados via Web Scraping utilizando Beautiful Soup.",
               "point6": "Colaboração com membros da equipe para garantir a precisão e integridade dos dados."
           },
           "Achievements": {
-              "title": "Conquistas",
+              "title": "Principais resultados",
               "point1": "Desenvolvi um webapp de dashboards dinâmicos semelhante ao Microsoft Power BI, permitindo que os usuários criem dashboards personalizados com recursos flexíveis para apresentação dos dados integrados de entidades públicas como CADASTUR e IBGE.",
-              "point2": "Melhorei a UI/UX de um componente de tabela avançada com funcionalidades de filtragem, agregação e ordenação para facilitar a visualização e a manipulação de dados.",
-              "point3": "Contribuí para a biblioteca de componentes personalizados da CONSISTE, aprimorando-a com novos recursos e melhorando funcionalidades existentes, apoiando o desenvolvimento de aplicações web de alta qualidade."
+              "point2": "Aprimorei a UI/UX de um componente de tabela avançado com funcionalidades de filtragem,agregação e ordenação, melhorando a eficiência do acesso aos dados em 40% e a satisfação dos usuários em 25%.",
+              "point3": "Projetei e desenvolvi 6 bibliotecas Angular reutilizáveis, reduzindo o tempo de desenvolvimento em 40% e centralizando manutenções, resultando em um fluxo de trabalho mais eficiente em 10+ projetos."
           },
           "date": {
             "current": "Jun 2022 / Atual",
@@ -62,6 +62,7 @@
           "title": "Vamos Conversar", 
           "subtitle": "Estou animado para aplicar minhas habilidades em seu projeto. Entre em contato para saber mais sobre como posso contribuir.",
           "message": "mensagem",
+          "send": "enviar",
           "message_field": "Por favor, escreva uma mensagem primeiro.",
           "email_field": "Por favor, preencha o email corretamente primeiro.",
           "sent": "Obrigado por entrar em contato! Envio um retorno dentro das próximas 48hrs :)"

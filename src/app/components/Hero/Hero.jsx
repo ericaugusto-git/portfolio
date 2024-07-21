@@ -7,6 +7,7 @@ import Pill from "./Pill";
 import ThemeSwitcher from "./ThemeSwitcher"; 
 import { useScramble } from "use-scramble";
 import { motion } from "framer-motion";
+import { resumes } from "@/app/constants/resume";
 
 
 const container = {
@@ -34,9 +35,7 @@ const Header = () => {
   const t = useTranslations("Hero");
 
   const openResume = () => {
-    window.open(locale == "pt-BR"
-    ? "https://pub-23b2bdccea9b4dd0aa82eeba1d9c6805.r2.dev/curriculo%2FEric%20Augusto%20curr%C3%ADculo.pdf"
-    : "https://pub-23b2bdccea9b4dd0aa82eeba1d9c6805.r2.dev/curriculo%2FEric%20Augusto%20resume.pdf")
+    window.open(resumes[locale])
   }
   const scrambleSpeed = 0.5;
   const { ref: jp, replay: replayJp } = useScramble({ 
