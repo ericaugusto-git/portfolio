@@ -23,7 +23,7 @@ export default function Box({img, name, description, skills, link, subtitle, isO
                     })}
                 </div>
             </div>
-            <div className="bg-black px-1 text-[10px] gap-2 flex items-center rounded-full absolute bottom-1 right-5">
+            <div className="dark:bg-black bg-white px-1 text-[10px] gap-2 flex items-center rounded-full absolute bottom-1 right-5">
                     Deploy Status: {isOnline ? 'online' : 'offline'} <div style={{backgroundColor: isOnline ? '#34d399' : ' #6b7280' }} className="size-2 rounded-full animate-pulse"></div>
             </div>
     </a>
