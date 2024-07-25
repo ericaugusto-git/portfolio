@@ -48,7 +48,7 @@
     },
     "Achievements": {
         "title": "Key Results",
-        "point1": "Designed and developed 6 reusable Angular libraries, reducing development time by 40% and centralizing maintenance, resulting in a more efficient workflow across 10+ projects.",
+        "point1": "Designed and developed 6 reusable Angular libraries, reducing development time by 60% and centralizing maintenance, resulting in a more efficient workflow across 10+ projects.",
         "point2": "Developed a dynamic dashboard web application similar to Microsoft Power BI, enabling users to create custom dashboards with flexible features for presenting data integrated from public entities like CADASTUR and IBGE.",
         "point3": "Enhanced the UI/UX of an advanced table component with filtering, aggregation, and sorting functionalities, improving data access efficiency by 40% and user satisfaction by 25%."
     },

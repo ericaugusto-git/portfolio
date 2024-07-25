@@ -12,7 +12,7 @@ const container = {
   visible: {
     opacity: 1,
     transition: {
-      staggerChildren: 0.2
+      staggerChildren: 0.1
     }
   }
 };
@@ -81,7 +81,7 @@ const Header = () => {
           </a>
         </motion.div> 
       </motion.div>
-      <motion.div initial={{scale: 0}} animate={{scale: 1}}>
+      <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{delay: 0.6}}>
         <Code />
       </motion.div>
     </section>

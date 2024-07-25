@@ -42,28 +42,6 @@ export default function Stack() {
     handleAnimation(); // Call the animation function initially to apply the animation
   }, [stack]);
    return  <section  className="relative  scroll-mt-16" id="stack">
-          {/* <div 
-        style={{ 
-            backgroundImage: `url("images/bbblurry.svg")`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            backgroundRepeat: 'no-repeat',
-            height: '99%',
-            width: '100%',
-            position: 'absolute',
-            top: 0,
-            left: 0,
-            zIndex: -1,
-            top: '50%',
-            transform: 'translateY(-50%)'
-        }}
-        className="opacity-35 gradient-mask-b-80 hidden dark:block"
-    ></div> */}
-              {/* <div className='rising-stars hidden dark:block'>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div> */}
     <code className="whitespace-pre absolute top-[-200px] left-[-120px] xl:left-[-22px] xl:top-[-203px] xs:text-xs xs:top-[-190px] xs:-left-1">
 {`
 /**
@@ -77,7 +55,7 @@ export default function Stack() {
     </code>
     <div className="flex flex-col gap-1 absolute right-7 top-[-145px] xs:top-[-127px] circles:hidden">
 {Array.from({ length: 8 }).map((_,i) => (
-        <div key={i} className="rounded-full size-3 border-solid border-[#464646] border-[1px]"></div>
+        <div key={i} style={{borderColor:  i % 2 == 0 ? '#7a7a7a' : '#464646' }} className="rounded-full size-3 border-solid  border-[1px]"></div>
     ))}
 </div> 
 <div className="grid grid-rows-2 gap-1  grid-cols-7 lg:grid-cols-4 xs:grid-cols-3 xs:grid-rows-5 lg:grid-rows-4 lg:px-2">

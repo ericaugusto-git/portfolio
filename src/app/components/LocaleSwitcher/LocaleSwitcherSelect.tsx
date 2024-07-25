@@ -50,7 +50,7 @@ export default function LocaleSwitcherSelect({
       )}
     >
       <p className="sr-only">{label}</p>
-      <div style={{maskImage: `url("${globe.src}")`}} className="block size-5 group-hover:opacity-80 bg-black dark:bg-white svgMask absolute top-[1px]"></div>
+      <div style={{maskImage: `url("${globe.src}")`}} className="block size-5 group-hover:opacity-80 bg-black dark:bg-white svgMask absolute top-[2px]"></div>
       <select
         ref={selectRef}
         style={{direction: 'rtl'}}
