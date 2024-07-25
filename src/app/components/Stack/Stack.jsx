@@ -5,6 +5,7 @@ import { useLocale, useTranslations } from 'next-intl';
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
+
 export default function Stack() {
    const [stack, setStack] = useState();
    const t = useTranslations('Stack');

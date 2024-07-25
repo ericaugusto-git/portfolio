@@ -1,22 +1,18 @@
 /* eslint-disable react/no-unescaped-entities */
-"use client";
-import { useGSAP } from "@gsap/react";
 import { useLocale, useTranslations } from "next-intl";
 import Code from "./Code"; 
 import Pill from "./Pill"; 
-import ThemeSwitcher from "./ThemeSwitcher"; 
 import { useScramble } from "use-scramble";
-import { motion } from "framer-motion";
+import { delay, motion } from "framer-motion";
 import { resumes } from "@/app/constants/resume";
 
 
 const container = {
-  hidden: { opacity: 1 },
+  hidden: { opacity: 0 },
   visible: {
     opacity: 1,
     transition: {
-      delayChildren: 0.1,
-      staggerChildren: 0.1
+      staggerChildren: 0.2
     }
   }
 };
