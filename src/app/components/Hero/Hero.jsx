@@ -64,7 +64,7 @@ const Header = () => {
 
          {locale != 'pt-BR' && <motion.div variants={item} className="flex items-center gap-6 lg:gap-4 xs:gap-3">
             {t("basedIn")} <span className="dark:text-white text-black">Brazil</span>
-            <Pill src={'/images/orla.jpg'}/>
+            <Pill src={'/images/tucano.jpg'}/>
           </motion.div>}
 
         </h1>
