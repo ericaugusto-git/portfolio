@@ -55,7 +55,7 @@ export default function Stack() {
     </code>
     <div className="flex flex-col gap-1 absolute right-7 top-[-145px] xs:top-[-127px] circles:hidden">
 {Array.from({ length: 8 }).map((_,i) => (
-        <div key={i} style={{borderColor:  i % 2 == 0 ? '#7a7a7a' : '#464646' }} className="rounded-full size-3 border-solid  border-[1px]"></div>
+        <div key={i} style={{borderColor:  i % 2 == 0 ? '#7a7a7a' : '#464646'}} className="rounded-full size-3 border-solid  border-[1px]"></div>
     ))}
 </div> 
 <div className="grid grid-rows-2 gap-1  grid-cols-7 lg:grid-cols-4 xs:grid-cols-3 xs:grid-rows-5 lg:grid-rows-4 lg:px-2">
