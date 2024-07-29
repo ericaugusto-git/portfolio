@@ -45,16 +45,16 @@ export const Contact = () => {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-7">
-      <div className="flex flex-col gap-4">
+    <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-7 shadow-inner shadow-black/10 dark:shadow-white/5 border-black/10  dark:border-white/10 border rounded-[37px] p-3 py-3">
+      <div className="flex flex-col gap-4 p-5">
         <h2 className="text-4xl sm:text-2xl xs:text-xl whitespace-pre-line">
           {t("title")}
         </h2>
-        <h6 className="text-xs sm:text-[10px] xs:text-[9px] whitespace-pre-line font-light text-[#c0c0c0] subpixel-antialiased">
+        <h6 className="text-xs sm:text-[10px] xs:text-[9px] whitespace-pre-line font-light text-comment-grey dark:text-[#c0c0c0] subpixel-antialiased">
           {t("subtitle")}
         </h6>
       </div>
-      <fieldset className="flex gap-[26px] xs:gap-2 xs:flex-col sm:text-xs sm:gap-7 xs:text-[10px]">
+      <fieldset className="flex  gap-2 flex-col sm:text-xs  xs:text-[10px">
         <label className="text-nowrap" htmlFor="email">
           <span className="text-pink-500">const</span> email ={" "}
         </label>
@@ -67,7 +67,7 @@ export const Contact = () => {
           className="dark:bg-white/5  bg-black/10 border-none outline-none w-full rounded"
         />
       </fieldset>
-      <fieldset className="flex gap-2 xs:flex-col sm:text-xs xs:text-[10px]">
+      <fieldset className="flex gap-2 flex-col sm:text-xs xs:text-[10px]">
         <span className="text-nowrap" htmlFor="message">
           <span className="text-pink-500">const</span> {t("message")} =
         </span>
@@ -78,19 +78,16 @@ export const Contact = () => {
           rows={5}
         ></textarea>
       </fieldset>
-      <button
+      <a onClick={(e) => sendEmail(e)} className="w-full cursor-pointer group items-center flex relative group mx-auto text-center dark:bg-black p-2 xxs:p-1 px-4 outline-1  rounded-full hover:opacity-80 h-full align-middle shadow-inner shadow-black/20 dark:shadow-white/20">
+            <span className="mx-auto">{t('send')}</span>
+            <div  className='svgMask betterhover:group-hover:translate-x-1 transition-all group-active:!translate-x-2 cursor-pointer size-6  bg-[#363636] dark:bg-white'  style={{maskImage: `url("images/send_icon.svg"`}}></div>
+          </a>      
+        {/* <button
         type="submit"
         className="bg-[#0B0B0B] text-white flex relative self-end p-1 pr-8 xs:pr-5 xs:p-[2px] group rounded mt-[-20px]"
       >
         <span className="uppercase italic font-light sm:text-xs xs:text-[8px]">{t('send')}</span>
-        <Image
-          className="absolute top-[2px] right-[2px] betterhover:group-hover:top-0 betterhover:group-hover:right-0 transition-all rotate-[140deg] sm:size-4 xs:size-3"
-          src="images/arrow.svg"
-          height={20}
-          width={20}
-          alt="send arrow"
-        />
-      </button>
+      </button> */}
     </form>
   );
 };

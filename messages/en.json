@@ -50,7 +50,7 @@
         "title": "Key Results",
         "point1": "Designed and developed 6 reusable Angular libraries, reducing development time by 60% and centralizing maintenance, resulting in a more efficient workflow across 10+ projects.",
         "point2": "Developed a dynamic dashboard web application similar to Microsoft Power BI, enabling users to create custom dashboards with flexible features for presenting data integrated from public entities like CADASTUR and IBGE.",
-        "point3": "Enhanced the UI/UX of an advanced table component with filtering, aggregation, and sorting functionalities, improving data access efficiency by 40% and user satisfaction by 25%."
+        "point3": "Enhanced the UI/UX of an advanced table component with filtering, aggregation, and sorting functionalities, improving data access efficiency and user satisfaction."
     },
     "date": {
       "current": "Jun 2022 / Present",
@@ -61,7 +61,7 @@
     "title": "Let's talk",
     "subtitle": "I'm excited to apply my skills to your projects. Contact me to learn more about how I can contribute.",
     "message": "message",
-    "send": "send",
+    "send": "send message",
     "message_field": "Please fill the message field first",
     "email_field": "Please fill the email field correctly first.",
     "sent": "Thanks for contacting me! I well mail you back within 48hrs :)"
