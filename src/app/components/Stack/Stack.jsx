@@ -42,10 +42,10 @@ export default function Stack() {
     handleAnimation(); // Call the animation function initially to apply the animation
   }, [stack]);
    return  <section  className="relative  scroll-mt-52" id="stack">
-      <h2 className="mb-7 absolute top-[-100px] left-0 right-0 transformm text-4xl lg:text-3xl sm:text-2xl font-light text-wrap leading-tight text-center">
+      {/* <h2 className="mb-7 absolute top-[-100px] left-0 right-0 transformm text-4xl lg:text-3xl sm:text-2xl font-light text-wrap leading-tight text-center">
         {t("title")}
-      </h2>
-    <code className="whitespace-pre absolute top-[-200px] left-[-120px] xl:left-[-22px] xl:top-[-203px] xs:text-xs xs:top-[-190px] xs:-left-1">
+      </h2> */}
+    <code className="whitespace-pre absolute top-[-200px] left-[-120px] xl:left-[-22px] xl:top-[-203px] xs:text-xs xs:top-[-190px] xs:-left-1 dark:text-comment-grey-darker">
 {`
 /**
  * Microfrontend

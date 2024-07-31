@@ -5,7 +5,7 @@ export default function Experience() {
   const t = useTranslations("Experience");
 
   const experienceData = {
-    title: "Front-end Developer",
+    title: "Mid-level Front-end Developer",
     company: "CONSISTE CONSULTORIA E SISTEMAS LTDA",
     date: t('date.current'),
     obligations: [

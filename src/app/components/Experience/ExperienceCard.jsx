@@ -9,12 +9,12 @@ const ExperienceCard = ({ title, company, date, obligations, achievements, skill
     <div>
       <div className="flex items-center justify-between">
         <span className="flex flex-col">
-          <span>{title} <span className='invisible xs:visible text-[8px]'>({date})</span></span>
+          <span className='text-xl lg:text-sm'>{title} <span className='invisible md:visible text-[10px]'>({date})</span></span>
           <span className="text-comment-grey text-xs">{company}</span>
         </span>
-        <span className='xs:hidden'>{date}</span>
+        <span className='md:hidden'>{date}</span>
       </div>
-      <div className="text-xs xs:text-[10px] xxs:text-[8px]">
+      <div className="text-sm lg:text-xs xxs:text-[10px]">
         <span className="flex my-2 items-center gap-1 text-nowrap xs:flex-col xs:items-start xs:gap-2">
           Working with:
           <div className="flex items-center gap-1 flex-wrap">
