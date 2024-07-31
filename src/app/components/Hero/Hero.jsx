@@ -45,7 +45,7 @@ const Header = () => {
 
   return (
     <section id="hero">
-      <div className="text-nowrap font-thin uppercase text-lg font-martian text-comment-grey lg:text-sm xs:text-xs">
+      <div className="text-nowrap font-thin uppercase text-lg font-martian text-comment-grey-darker lg:text-sm xs:text-xs">
       <span style={{textOrientation: 'upright', writingMode: 'vertical-rl'}} ref={latin}   onMouseOver={replayLatin} onFocus={replayLatin}  className="absolute left-3  xl:-left-2  bottom-5 "></span>
       <span style={{textOrientation: 'upright', writingMode: 'vertical-rl'}} ref={jp}  onMouseOver={replayJp} onFocus={replayJp}  className="absolute right-3 xs:-right-2 lg:-right-1   top-14 tracking-[0.4rem]"></span>
       </div>
@@ -81,7 +81,7 @@ const Header = () => {
           </a>
         </motion.div> 
       </motion.div>
-      <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{delay: 0.6}}>
+      <motion.div className="size-full" initial={{opacity: 0}} animate={{opacity: 1}} transition={{delay: 0.6}}>
         <Code />
       </motion.div>
     </section>

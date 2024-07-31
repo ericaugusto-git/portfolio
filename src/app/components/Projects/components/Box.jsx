@@ -1,6 +1,8 @@
 import { skills_imgs } from "@/app/constants/skills_imgs";
+import { useTranslations } from "next-intl";
 
 export default function Box({img, name, description, skills, link, subtitle, isOnline}){
+    const t = useTranslations('Projects')
     return <a href={link} target="_blank"   
     className="shadow-[0_0_10px_#00000040] dark:shadow-[0_0_20px_#ffffff30] relative z-10 transition-all overflow-visible p-4 cursor-pointer border-solid border-[1px] rounded-[30px] h-[500px] flex flex-col gradient group"
     >
@@ -24,7 +26,7 @@ export default function Box({img, name, description, skills, link, subtitle, isO
                 </div>
             </div>
             <div className="dark:bg-black bg-white px-1 text-[10px] gap-2 flex items-center rounded-full absolute bottom-1 right-5">
-                    Deploy Status: {isOnline ? 'online' : 'offline'} <div style={{backgroundColor: isOnline ? '#34d399' : ' #6b7280' }} className="size-2 rounded-full animate-pulse"></div>
+                    {t('status')}: {isOnline ? 'online' : 'offline'} <div style={{backgroundColor: isOnline ? '#34d399' : ' #6b7280' }} className="size-2 rounded-full animate-pulse"></div>
             </div>
     </a>
 }

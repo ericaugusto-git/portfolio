@@ -33,6 +33,7 @@ const config: Config = {
     extend: {
       colors: {
         'comment-grey': '#7A7A7A',
+        'comment-grey-darker': '#262626',
         'function': '#4CE470',
         'accent-orange': '#ff7247'
       },

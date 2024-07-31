@@ -45,8 +45,8 @@ export const Contact = () => {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-7 shadow-inner shadow-black/10 dark:shadow-white/5 border-black/10  dark:border-white/10 border rounded-[37px] p-3 py-3">
-      <div className="flex flex-col gap-4 p-5">
+    <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-7  dark:bg-[#121212] bg-slate-200 rounded-[37px] p-3 outline-1 outline outline-offset-4 outline-black/20 dark:outline-white/20">
+      <div className="flex flex-col gap-4 py-4">
         <h2 className="text-4xl sm:text-2xl xs:text-xl whitespace-pre-line">
           {t("title")}
         </h2>
@@ -78,9 +78,12 @@ export const Contact = () => {
           rows={5}
         ></textarea>
       </fieldset>
-      <a onClick={(e) => sendEmail(e)} className="w-full cursor-pointer group items-center flex relative group mx-auto text-center dark:bg-black p-2 xxs:p-1 px-4 outline-1  rounded-full hover:opacity-80 h-full align-middle shadow-inner shadow-black/20 dark:shadow-white/20">
-            <span className="mx-auto">{t('send')}</span>
-            <div  className='svgMask betterhover:group-hover:translate-x-1 transition-all group-active:!translate-x-2 cursor-pointer size-6  bg-[#363636] dark:bg-white'  style={{maskImage: `url("images/send_icon.svg"`}}></div>
+      {/* <a onClick={(e) => sendEmail(e)} className="w-[50%] ml-auto pr-2 py-2 cursor-pointer group items-center flex relative text-center dark:bg-black  rounded-full hover:opacity-80 h-full align-middle"> */}
+      <a onClick={(e) => sendEmail(e)} className="w-[98%] mx-auto pr-2 py-2 cursor-pointer group items-center flex relative text-center dark:bg-black bg-white  rounded-full hover:opacity-80 h-full align-middle">
+            <span className="text-center mr-auto ml-8">{t('send')}</span>
+            <div className="dark:bg-white bg-black  rounded-full h-6 w-14 flex items-center justify-end px-2">
+              <div  className='svgMask betterhover:group-hover:translate-x-1 transition-all group-active:!translate-x-2 cursor-pointer size-6 rotate-180  dark:bg-black bg-white'  style={{maskImage: `url("images/arrow.svg"`}}></div>
+            </div>
           </a>      
         {/* <button
         type="submit"

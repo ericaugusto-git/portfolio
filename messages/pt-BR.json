@@ -27,9 +27,11 @@
             "description": "Dê uma olhada no que andei cozinhando",
             "os": "Meu site pessoal com uma interface inspirada em uma linux rice",
             "disc": "Crie servidores , entre em chamadas de aúdio e vídeo e envie mensagens com esse clone do Discord.",
-            "jdm": "Concessionária fictícia especializada em carros japoneses"          
+            "jdm": "Concessionária fictícia especializada em carros japoneses",
+            "status": "Status do Deploy"
         },
           "Stack": {
+            "title": "Stack",
             "solving": "Desenvolvendo soluções com",
             "stack": "uma stack em contínua expansão",
             "coding": "fazendo programa 😏",
