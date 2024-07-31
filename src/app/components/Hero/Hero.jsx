@@ -45,10 +45,10 @@ const Header = () => {
 
   return (
     <section id="hero">
-      <div className="text-nowrap font-thin uppercase text-lg font-martian text-comment-grey-darker lg:text-sm xs:text-xs">
-      <span style={{textOrientation: 'upright', writingMode: 'vertical-rl'}} ref={latin}   onMouseOver={replayLatin} onFocus={replayLatin}  className="absolute left-3  xl:-left-2  bottom-5 "></span>
+      {/* <div className="text-nowrap font-thin uppercase text-lg font-martian text-comment-grey-darker lg:text-sm xs:text-xs">
+      <span style={{textOrientation: 'upright', writingMode: 'vertical-rl'}} ref={latin}   onMouseOver={replayLatin} onFocus={replayLatin}  className="absolute left-3  xl:hidden  bottom-5 "></span>
       <span style={{textOrientation: 'upright', writingMode: 'vertical-rl'}} ref={jp}  onMouseOver={replayJp} onFocus={replayJp}  className="absolute right-3 xs:-right-2 lg:-right-1   top-14 tracking-[0.4rem]"></span>
-      </div>
+      </div> */}
       <motion.div initial="hidden" animate={"visible"}  variants={container}  className="mb-3 text-center flex justify-center items-center flex-col">
         <h1 className="text-5xl lg:text-3xl sm:text-2xl xs:text-[15px] xs:leading-6 xxs:text-xs font-bold flex flex-col justify-center items-center leading-[84px] text-nowrap text-comment-grey">
           <motion.div variants={item} className="flex items-center gap-6 lg:gap-4 xs:gap-3 relative">
