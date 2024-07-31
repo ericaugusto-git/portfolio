@@ -27,7 +27,7 @@ export default function Cta(){
 
         <Contact/>
         </div>
-        <div className="dark:bg-[#121212] bg-slate-200 xl:col-span-1 col-span-4 rounded-[40px] flex flex-col justify-between py-5 px-5 outline-1 outline outline-offset-4 outline-black/20 dark:outline-white/20 ">
+        <div className="dark:bg-[#121212] bg-slate-100 xl:col-span-1 col-span-4 rounded-[40px] flex flex-col justify-between py-5 px-5 outline-1 outline outline-offset-4 outline-black/20 dark:outline-white/20 ">
             <span className="text-3xl sm:text-2xl xs:text-xl leading-snug xl:mb-8">
            You can also hit me up in <br/>any of this places 🤙🏾
             </span>
@@ -46,15 +46,15 @@ export default function Cta(){
                 </a>
             </div>
         </div>
-        <div className="dark:bg-[#121212] bg-slate-200 text-2xl p-5 size-full col-span-3 xl:col-span-1 rounded-[40px] outline-1 outline outline-offset-4 outline-black/20 dark:outline-white/20 ">
+        <div className="dark:bg-[#121212] bg-slate-100 text-2xl p-5 size-full col-span-3 xl:col-span-1 rounded-[40px] outline-1 outline outline-offset-4 outline-black/20 dark:outline-white/20 ">
             <span className="sm:text-2xl xs:text-xl">
             Find me at
             </span>
             <div className="flex gap-6 size-full py-4">
-                <a href="https://www.linkedin.com/in/eric-augusto-775245a9/" target="_blank" className="size-[90%]  duration-500  bg-[rgba(10,102,194,0.4)] transition-all hover:betterhover:bg-[rgb(10,102,194)]  outline rounded-[30px] p-4">
+                <a href="https://www.linkedin.com/in/eric-augusto-775245a9/" target="_blank" className="size-[90%]  duration-300  bg-[rgb(10,102,194)] transition-all hover:betterhover:opacity-80  outline rounded-[30px] p-4">
                     <div style={{maskImage: `url("images/linkedin_cta.svg")`, maskSize: 'auto'}} className="block size-full group-hover:opacity-80 bg-white svgMask"></div>
                 </a>
-                <a href="https://github.com/ericaugusto-git" target="_blank" className="size-[90%]  bg-[rgba(1,4,9,0.70)]  duration-500 hover:betterhover:bg-[rgb(1,4,9)] transition-all outline rounded-[30px] p-4">
+                <a href="https://github.com/ericaugusto-git" target="_blank" className="size-[90%]  bg-[rgb(1,4,9)]  duration-300 hover:betterhover:opacity-80 transition-all outline rounded-[30px] p-4">
                     <div style={{maskImage: `url("images/github_cta.svg")`, maskSize: 'auto'}} className="block size-full group-hover:opacity-80 bg-white svgMask"></div>
                 </a>
             </div>
