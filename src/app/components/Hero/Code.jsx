@@ -1,4 +1,3 @@
-import { Rnd } from "react-rnd";
 
 /* eslint-disable react/no-unescaped-entities */
 export default function Code(){
