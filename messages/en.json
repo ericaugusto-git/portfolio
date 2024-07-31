@@ -66,7 +66,10 @@
     "send": "send message",
     "message_field": "Please fill the message field first",
     "email_field": "Please fill the email field correctly first.",
-    "sent": "Thanks for contacting me! I well mail you back within 48hrs :)"
+    "sent": "Thanks for contacting me! I well mail you back within 48hrs :)",
+    "place1": "You can also hit me up in",
+    "place2": "any of this places",
+    "find": "Find me at"
   },
   "Footer": {
     "rights": "All rights reserved",

@@ -4,11 +4,13 @@ import Image from "next/image";
 import { useState } from "react";
 import {Contact} from './components/Contact';
 import style from './Cta.module.css'
+import { useTranslations } from "next-intl";
 
 export default function Cta(){
     const contact = ["mailto:eric72001@hotmail.com", "tel:+55(71) 98188-6126", "https://github.com/ericaugusto-git", "https://www.linkedin.com/in/eric-augusto-775245a9/"];
     const [copiedLink, setCopiedLink] = useState();
     const [timeout, setTimeoutState] = useState();
+    const t = useTranslations('Cta');
     const copylink = (link, event) => {
         event.stopPropagation();
         navigator.clipboard.writeText(link.replace('mailto:', '').replace('tel:', ''));
@@ -29,7 +31,7 @@ export default function Cta(){
         </div>
         <div className="dark:bg-[#121212] bg-slate-100 xl:col-span-1 col-span-4 rounded-[40px] flex flex-col justify-between py-5 px-5 outline-1 outline outline-offset-4 outline-black/20 dark:outline-white/20 ">
             <span className="text-3xl sm:text-2xl xs:text-xl leading-snug xl:mb-8">
-           You can also hit me up in <br/>any of this places 🤙🏾
+           {t('place1')} <br/>{t('place2')} 🤙🏾
             </span>
             <div className="flex gap-4">
                 <a href="https://wa.me/5571981886126" target="_blank" className="bg-comment-grey size-9 w-20 transition-all duration-500 hover:bg-[#25d366] rounded-full p-1 group cursor-pointer">
@@ -48,13 +50,13 @@ export default function Cta(){
         </div>
         <div className="dark:bg-[#121212] bg-slate-100 text-2xl p-5 size-full col-span-3 xl:col-span-1 rounded-[40px] outline-1 outline outline-offset-4 outline-black/20 dark:outline-white/20 ">
             <span className="sm:text-2xl xs:text-xl">
-            Find me at
+            {t('find')}
             </span>
             <div className="flex gap-6 size-full py-4">
-                <a href="https://www.linkedin.com/in/eric-augusto-775245a9/" target="_blank" className="size-[90%]  duration-300  bg-[rgb(10,102,194)] transition-all hover:betterhover:opacity-80  outline rounded-[30px] p-4">
+                <a href="https://www.linkedin.com/in/eric-augusto-775245a9/" target="_blank" className="size-[90%]  duration-300  bg-[rgb(10,102,194)] transition-all hover:betterhover:opacity-70  outline rounded-[30px] p-4">
                     <div style={{maskImage: `url("images/linkedin_cta.svg")`, maskSize: 'auto'}} className="block size-full group-hover:opacity-80 bg-white svgMask"></div>
                 </a>
-                <a href="https://github.com/ericaugusto-git" target="_blank" className="size-[90%]  bg-[rgb(1,4,9)]  duration-300 hover:betterhover:opacity-80 transition-all outline rounded-[30px] p-4">
+                <a href="https://github.com/ericaugusto-git" target="_blank" className="size-[90%]  bg-[rgb(1,4,9)]  duration-300 hover:betterhover:opacity-70 transition-all outline rounded-[30px] p-4">
                     <div style={{maskImage: `url("images/github_cta.svg")`, maskSize: 'auto'}} className="block size-full group-hover:opacity-80 bg-white svgMask"></div>
                 </a>
             </div>

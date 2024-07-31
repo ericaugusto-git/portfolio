@@ -67,8 +67,10 @@
           "send": "enviar mensagem",
           "message_field": "Por favor, escreva uma mensagem primeiro.",
           "email_field": "Por favor, preencha o email corretamente primeiro.",
-          "sent": "Obrigado por entrar em contato! Envio um retorno dentro das próximas 48hrs :)"
-
+          "sent": "Obrigado por entrar em contato! Envio um retorno dentro das próximas 48hrs :)",
+          "place1": "Você também pode entrar em contanto",
+          "place2": "em qualquer um desses canais",
+          "find": "Me encontre no"
         },
         "Footer": {
           "rights": "Todos os direitos reservados",
