@@ -75,7 +75,7 @@ export default function Stack() {
         {stack && <><span style={{color: stack.color}} className="animate-text-slide inline-block font-bold">{stack.name}</span></>}
         </h2>
     </div>
-        <div className="rounded-2xl bg-galaxy-gradient xxs:hidden saturate-0 betterhover:hover:saturate-100 transition-all flex items-center px-3 md:saturate-100"><Image className="xs:size-16" src={'/images/milky_way.png'} width={96} height={96} alt="milky way emoji"/></div>
+        <div className="rounded-2xl bg-galaxy-gradient xxs:hidden transition-all flex items-center px-3 md:saturate-100"><Image className="xs:size-16" src={'/images/milky_way.png'} width={96} height={96} alt="milky way emoji"/></div>
         { Object.keys(skills_imgs).map((skill) => (
         <div key={skill} style={{backgroundImage: `url(${skills_imgs[skill].image})`}} onMouseLeave={() => handleStackLeave()} onMouseOver={() => handleStackHover(skills_imgs[skill])} 
         className="bg-center bg-no-repeat bg-contain rounded-xl border-black/20  dark:border-[#131313] border-[1px]  saturate-0 bg-origin-content transition-all  betterhover:hover:saturate-100 md:saturate-100 flex-grow-0  flex items-center justify-items-center p-6 sm:p-3">
