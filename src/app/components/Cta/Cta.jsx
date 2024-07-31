@@ -34,17 +34,17 @@ export default function Cta(){
            {t('place1')} <br/>{t('place2')} 🤙🏾
             </span>
             <div className="flex gap-4">
-                <a href="https://wa.me/5571981886126" target="_blank" className="bg-comment-grey size-9 w-20 transition-all duration-500 hover:bg-[#25d366] rounded-full p-1 group cursor-pointer">
+                <a href="https://wa.me/5571981886126" target="_blank" className="size-9 w-20 transition-all duration-500 bg-[#25d366]  hover:betterhover:opacity-70 rounded-full p-1 group cursor-pointer">
                     <div style={{maskImage: `url("images/zap.svg")`, maskSize: 'auto'}} className="block size-full bg-white svgMask"></div>
                 </a>
-                <a href="tel:+55(71) 98188-6126" className="bg-comment-grey size-9 w-20 group rounded-full  duration-500 p-1 hover:bg-[#a64ca6]">
+                <a href="tel:+55(71) 98188-6126" className="size-9 w-20 group rounded-full  duration-500 p-1 bg-[#a64ca6]  hover:betterhover:opacity-70">
                     <div style={{maskImage: `url("images/phone.svg")`, maskSize: 'auto'}} className="block size-full bg-white svgMask"></div>
                 </a>
-                <a href="https://discord.com/users/368858792139423747" target="_blank" className="bg-comment-grey  duration-500 hover:bg-[#7289da] group size-9 w-20 rounded-full p-1">
+                <a href="https://discord.com/users/368858792139423747" target="_blank" className="duration-500 bg-[#7289da] group size-9 w-20 rounded-full p-1  hover:betterhover:opacity-70">
                     <div style={{maskImage: `url("images/discord.svg")`, maskSize: 'auto'}} className="block size-full bg-white svgMask"></div>
                 </a>
-                <a href="mailto:eric72001@hotmail.com" target="_blank" className="bg-comment-grey size-9 group w-20 rounded-full  duration-500 p-1 hover:bg-[#54daff]">
-                    <div style={{maskImage: `url("images/mail.svg")`, maskSize: 'auto'}} className="block size-full group-hover:opacity-80 bg-white svgMask"></div>
+                <a href="mailto:eric72001@hotmail.com" target="_blank" className="size-9 group w-20 rounded-full  duration-500 p-1 bg-[#54daff]  hover:betterhover:opacity-70">
+                    <div style={{maskImage: `url("images/mail.svg")`, maskSize: 'auto'}} className="block size-full  bg-white svgMask"></div>
                 </a>
             </div>
         </div>
@@ -54,10 +54,10 @@ export default function Cta(){
             </span>
             <div className="flex gap-6 size-full py-4">
                 <a href="https://www.linkedin.com/in/eric-augusto-775245a9/" target="_blank" className="size-[90%]  duration-300  bg-[rgb(10,102,194)] transition-all hover:betterhover:opacity-70  outline rounded-[30px] p-4">
-                    <div style={{maskImage: `url("images/linkedin_cta.svg")`, maskSize: 'auto'}} className="block size-full group-hover:opacity-80 bg-white svgMask"></div>
+                    <div style={{maskImage: `url("images/linkedin_cta.svg")`, maskSize: 'auto'}} className="block size-full  bg-white svgMask"></div>
                 </a>
                 <a href="https://github.com/ericaugusto-git" target="_blank" className="size-[90%]  bg-[rgb(1,4,9)]  duration-300 hover:betterhover:opacity-70 transition-all outline rounded-[30px] p-4">
-                    <div style={{maskImage: `url("images/github_cta.svg")`, maskSize: 'auto'}} className="block size-full group-hover:opacity-80 bg-white svgMask"></div>
+                    <div style={{maskImage: `url("images/github_cta.svg")`, maskSize: 'auto'}} className="block size-full  bg-white svgMask"></div>
                 </a>
             </div>
         </div>
