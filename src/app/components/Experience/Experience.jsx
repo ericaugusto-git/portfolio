@@ -47,8 +47,8 @@ export default function Experience() {
       {/* radial-gradient(circle at center, white -20%, transparent 80%) */}
       {/* <Image width={1400} height={500} className='absolute inset-0' src={'images/bbblurry (11).svg' } alt={''}></Image> */}
       {/* <div  style={{ backgroundImage: `url('images/bbblurry (11).svg')`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'bottom', maskImage: 'radial-gradient(circle at center, white -20%, transparent 100%)'}} className='absolute inset-0'></div> */}
-      <h2 className="mb-7 text-4xl lg:text-3xl sm:text-2xl font-light text-wrap leading-tight text-center">
-        {t("title")}
+      <h2 className="mb-7 text-4xl lg:text-3xl sm:text-2xl font-light text-wrap leading-tight">
+        {`//`} {t("title")}
       </h2>
       <div className="flex flex-col divide-y-[1px] divide-comment-grey gap-3">
       <ExperienceCard {...experienceData} />
