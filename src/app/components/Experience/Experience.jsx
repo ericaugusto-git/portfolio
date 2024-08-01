@@ -5,8 +5,8 @@ export default function Experience() {
   const t = useTranslations("Experience");
 
   const experienceData = {
-    title: "Mid-level Front-end Developer",
-    company: "CONSISTE CONSULTORIA E SISTEMAS LTDA",
+    title: t("Front.title"),
+    company: t("Front.company"),
     date: t('date.current'),
     obligations: [
       t("Responsibilities.point1"),
@@ -22,13 +22,14 @@ export default function Experience() {
       { img: "/images/skills/angular.png", name: "Angular" },
       { img: "/images/skills/ts.webp", name: "TypeScript" },
       { img: "/images/skills/scss.png", name: "SCSS" },
-      { img: "/images/skills/git.png", name: "Git" }
+      { img: "/images/skills/git.png", name: "Git" },
+      { img: "/images/skills/figma.png", name: "Figma" },
     ]
   };
   
   const internship = {
-    title: "Data Science Intern",
-    company: "CONSISTE CONSULTORIA E SISTEMAS LTDA",
+    title: t("Intern.title"),
+    company: t("Intern.company"),
     date: t('date.intern'),
     obligations: [
       t("Responsibilities.point4"),

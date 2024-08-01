@@ -12,7 +12,7 @@
     border-radius: 60px;
     outline-offset: 6px;
     box-shadow: 0 0 2px #fff, inset 0 0 2px #fff, 0 0 5px #08f, 0 0 15px #08f, 0 0 20px #08f;
-    animation: pulsate 1.8s infinite alternate;
+    animation: pulsate 1s infinite alternate;
   }
   
   @keyframes pulsate {

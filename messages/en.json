@@ -38,6 +38,14 @@
    },
    "Experience": {
     "title": "My Experience",
+    "Front": {
+      "title": "Mid-level Front-end Developer",
+      "company": "CONSISTE CONSULTORIA E SISTEMAS LTDA"
+    },
+    "Intern": {
+      "title": "Data Science Intern",
+      "company": "CONSISTE CONSULTORIA E SISTEMAS LTDA"
+    },
     "Responsibilities": {
         "title": "Responsibilities",
         "point1": "Develop and maintain 5+ Angular web applications, ensuring high performance, responsiveness and good user experience through regular usability testing and feedback incorporation.",

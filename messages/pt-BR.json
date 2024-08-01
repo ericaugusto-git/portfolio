@@ -39,6 +39,14 @@
         }, 
         "Experience": {
           "title": "Minha experiência",
+          "Front": {
+            "title": "Desenvolvedor front-end Pleno",
+            "company": "CONSISTE CONSULTORIA E SISTEMAS LTDA"
+          },
+          "Intern": {
+            "title": "Estagiário de Ciência de Dados",
+            "company": "CONSISTE CONSULTORIA E SISTEMAS LTDA"
+          },
           "Responsibilities": {
               "title": "Responsabilidades",
               "point1": "Desenvolver e manter 5+ aplicativos web Angular, garantindo alto desempenho, responsividade e melhor experiência do usuário por meio de testes consistentes de usabilidade e incorporação de feedback.",
