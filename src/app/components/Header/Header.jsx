@@ -43,7 +43,7 @@ const Header = () => {
   return (<motion.header initial={{y: -50}} animate={{y: 0}} className="fixed top-0 w-full p-2 px-5 z-50  backdrop-blur-sm mx-[-130px] xl:mx-[-30px] xs:-mx-2">
       <nav className="flex justify-between  items-center">
       {/* <div className="absolute backdrop-blur-3xl size-full top-0"></div> */}
-        <a href="#home" className="hover:opacity-80 transform scale-x-[-1] text-xl bg-black text-white dark:bg-white dark:text-black px-3 rounded-full">
+        <a  href="#home" className="hover:opacity-80 transform scale-x-[-1] text-xl bg-black text-white dark:bg-white dark:text-black px-3 rounded-full">
         Æ
         </a>
         <motion.div className="md:hidden">

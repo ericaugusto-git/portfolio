@@ -78,8 +78,9 @@ export const Contact = () => {
           rows={5}
         ></textarea>
       </fieldset>
+      {/* bg-[#cccccc24] */}
       {/* <a onClick={(e) => sendEmail(e)} className="w-[50%] ml-auto pr-2 py-2 cursor-pointer group items-center flex relative text-center dark:bg-black  rounded-full hover:opacity-80 h-full align-middle"> */}
-      <a onClick={(e) => sendEmail(e)} className="w-[50%] 2xl:w-[66%] xl:w-[98%] xl:mx-auto ml-auto pr-2 py-2 cursor-pointer group items-center flex relative text-center dark:bg-black bg-white  rounded-full hover:opacity-80 h-full align-middle">
+      <a onClick={(e) => sendEmail(e)} className="w-[50%] bg-[#cccccc24] dark:bg-[#00000024] shadow-md shadow-[#ffffff33] outline outline-1 2xl:w-[66%] xl:w-[98%] xl:mx-auto ml-auto pr-2 py-2 cursor-pointer group items-center flex relative text-center  rounded-full hover:opacity-80 h-full align-middle">
             <span className="mx-auto ml-8">{t('send')}</span>
             <div className="dark:bg-white bg-black  rounded-full h-6 w-14 flex items-center justify-end px-2">
               <div  className='svgMask betterhover:group-hover:translate-x-1 transition-all group-active:!translate-x-2 cursor-pointer size-6 rotate-180  dark:bg-black bg-white'  style={{maskImage: `url("images/arrow.svg"`}}></div>
