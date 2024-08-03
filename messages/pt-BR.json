@@ -1,88 +1,86 @@
 {
-    "Header": {
-      "home": "início",
-      "projects": "projetos",
-      "stack": "stack",
-      "experience": "experiência",
-      "contact": "contato"
+  "Header": {
+    "home": "início",
+    "projects": "projetos",
+    "stack": "stack",
+    "experience": "experiência",
+    "contact": "contato"
+  },
+  "LocaleSwitcher": {
+    "label": "Mudar idioma",
+    "locale": "{locale, select, pt_BR {PT} en {ENG} other {Unknown}}"
+  },
+  "Hero": {
+    "idea": "Vamos transformar ideias em código",
+    "cv": "Abrir Currículo",
+    "theme": "mudar tema",
+    "front": "Desenvolvedor Frontend",
+    "iAm": "Sou",
+    "frontend": "Desenvolvedor",
+    "developer": "Frontend",
+    "basedIn": "que atua",
+    "hello": "Olá Mundo 👋🏾! Tenho mais de 4 anos de experiência como entusiasta de programação e mais de 2 anos como desenvolvedor profissional trabalhando principalmente com Angular."
+  },
+  "Projects": {
+    "title": "// Projetos",
+    "description": "Dê uma olhada no que andei cozinhando",
+    "os": "Meu site pessoal com uma interface inspirada em uma linux rice",
+    "disc": "Crie servidores, entre em chamadas de áudio e vídeo e envie mensagens com esse clone do Discord.",
+    "jdm": "Concessionária fictícia especializada em carros japoneses",
+    "status": "Status do Deploy"
+  },
+  "Stack": {
+    "title": "Stack",
+    "solving": "Desenvolvendo soluções com",
+    "stack": "uma stack em contínua expansão",
+    "coding": "fazendo programa 😏",
+    "years": "anos"
+  },
+  "Experience": {
+    "title": "Minha experiência",
+    "Front": {
+      "title": "Desenvolvedor front-end Pleno",
+      "company": "CONSISTE CONSULTORIA E SISTEMAS LTDA"
     },
-    "LocaleSwitcher": {
-        "label": "Mudar idiom",
-        "locale": "{locale, select, pt_BR {PT} en {ENG} other {Unknown}}"
-      },
-      "Hero": {
-            "idea": "Vamos transformar ideias em código",
-            "cv": "Abrir Currículo",
-            "theme": "mudar tema",
-            "front": "Desenvolvedor Frontend",
-
-            "iAm": "Sou",
-            "frontend": "Desenvolvedor",
-            "developer": "Frontend",
-            "basedIn": "que atua",
-            "hello": "Olá Mundo 👋🏾! Tenho mais de 4 anos de experiência como entusiasta de programação e mais de 2 anos como desenvolvedor profissional trabalhando principalmente com Angular."
-        },
-        "Projects": {
-            "title": "// Projetos",
-            "description": "Dê uma olhada no que andei cozinhando",
-            "os": "Meu site pessoal com uma interface inspirada em uma linux rice",
-            "disc": "Crie servidores , entre em chamadas de aúdio e vídeo e envie mensagens com esse clone do Discord.",
-            "jdm": "Concessionária fictícia especializada em carros japoneses",
-            "status": "Status do Deploy"
-        },
-          "Stack": {
-            "title": "Stack",
-            "solving": "Desenvolvendo soluções com",
-            "stack": "uma stack em contínua expansão",
-            "coding": "fazendo programa 😏",
-            "years": "anos"
-        }, 
-        "Experience": {
-          "title": "Minha experiência",
-          "Front": {
-            "title": "Desenvolvedor front-end Pleno",
-            "company": "CONSISTE CONSULTORIA E SISTEMAS LTDA"
-          },
-          "Intern": {
-            "title": "Estagiário de Ciência de Dados",
-            "company": "CONSISTE CONSULTORIA E SISTEMAS LTDA"
-          },
-          "Responsibilities": {
-              "title": "Responsabilidades",
-              "point1": "Desenvolver e manter 5+ aplicativos web Angular, garantindo alto desempenho, responsividade e melhor experiência do usuário por meio de testes consistentes de usabilidade e incorporação de feedback.",
-              "point2": "Conceitualizar e implementar bibliotecas Angular reutilizáveis para agilizar o desenvolvimento e centralizar manutenções",
-              "point3": "Explorar e integrar novas tecnologias e metodologias para aprimorar a experiência do usuário.",
-
-              "point4": "Normalizar dados de arquivos CSV usando Python, pandas e NumPy.",
-              "point5": "Extração de dados via Web Scraping utilizando Beautiful Soup.",
-              "point6": "Colaboração com membros da equipe para garantir a precisão e integridade dos dados."
-          },
-          "Achievements": {
-              "title": "Principais resultados",
-              "point1": "Desenvolvi um webapp de dashboards dinâmicos semelhante ao Microsoft Power BI, permitindo que os usuários criem dashboards personalizados com recursos flexíveis para apresentação dos dados integrados de entidades públicas como CADASTUR e IBGE.",
-              "point2": "Aprimorei a UI/UX de um componente de tabela avançado com funcionalidades de filtragem,agregação e ordenação, melhorando a eficiência do acesso aos dados e a satisfação dos usuários.",
-              "point3": "Projetei e desenvolvi 6 bibliotecas Angular reutilizáveis, reduzindo o tempo de desenvolvimento em 60% e centralizando manutenções, resultando em um fluxo de trabalho mais eficiente em 10+ projetos."
-          },
-          "date": {
-            "current": "Jun 2022 / Atual",
-            "intern": "Fev 2022 / Jun 2022"
-          }
-      },
-        "Cta": {
-          "title": "Vamos Conversar", 
-          "subtitle": "Estou animado para aplicar minhas habilidades em seu projeto. Entre em contato para saber mais sobre como posso contribuir.",
-          "message": "mensagem",
-          "send": "enviar mensagem",
-          "message_field": "Por favor, escreva uma mensagem primeiro.",
-          "email_field": "Por favor, preencha o email corretamente primeiro.",
-          "sent": "Obrigado por entrar em contato! Envio um retorno dentro das próximas 48hrs :)",
-          "place1": "Você também pode entrar em contanto",
-          "place2": "em qualquer um desses canais",
-          "find": "Me encontre no"
-        },
-        "Footer": {
-          "rights": "Todos os direitos reservados",
-          "developed": "Desenvolvido com Next.js, Tailwind, e Figma;",
-          "thanks": "obrigado"
-        }
+    "Intern": {
+      "title": "Estagiário de Ciência de Dados",
+      "company": "CONSISTE CONSULTORIA E SISTEMAS LTDA"
+    },
+    "Responsibilities": {
+      "title": "Responsabilidades",
+      "point1": "Desenvolver e manter 5+ aplicativos web Angular, garantindo alto desempenho, responsividade e melhor experiência do usuário por meio de testes consistentes de usabilidade e incorporação de feedback.",
+      "point2": "Conceitualizar e implementar bibliotecas Angular reutilizáveis para agilizar o desenvolvimento e centralizar manutenções",
+      "point3": "Explorar e integrar novas tecnologias e metodologias para aprimorar a experiência do usuário.",
+      "point4": "Normalizar dados de arquivos CSV usando Python, pandas e NumPy.",
+      "point5": "Extração de dados via Web Scraping utilizando Beautiful Soup.",
+      "point6": "Colaboração com membros da equipe para garantir a precisão e integridade dos dados."
+    },
+    "Achievements": {
+      "title": "Principais resultados",
+      "point1": "Desenvolvi um webapp de dashboards dinâmicos semelhante ao Microsoft Power BI, permitindo que os usuários criem dashboards personalizados com recursos flexíveis para apresentação dos dados integrados de entidades públicas como CADASTUR e IBGE.",
+      "point2": "Aprimorei a UI/UX de um componente de tabela avançado com funcionalidades de filtragem, agregação e ordenação, melhorando a eficiência do acesso aos dados e a satisfação dos usuários.",
+      "point3": "Projetei e desenvolvi 6 bibliotecas Angular reutilizáveis, reduzindo o tempo de desenvolvimento em 60% e centralizando manutenções, resultando em um fluxo de trabalho mais eficiente em 10+ projetos."
+    },
+    "date": {
+      "current": "Jun 2022 / Atual",
+      "intern": "Fev 2022 / Jun 2022"
+    }
+  },
+  "Cta": {
+    "title": "Vamos Conversar",
+    "subtitle": "Estou animado para aplicar minhas habilidades em seu projeto. Entre em contato para saber mais sobre como posso contribuir.",
+    "message": "mensagem",
+    "send": "enviar mensagem",
+    "message_field": "Por favor, escreva uma mensagem primeiro.",
+    "email_field": "Por favor, preencha o email corretamente primeiro.",
+    "sent": "Obrigado por entrar em contato! Envio um retorno dentro das próximas 48hrs :)",
+    "place1": "Você também pode entrar em contato",
+    "place2": "por qualquer um desses canais",
+    "find": "Me encontre no"
+  },
+  "Footer": {
+    "rights": "Todos os direitos reservados",
+    "developed": "Desenvolvido com Next.js, Tailwind, e Figma;",
+    "thanks": "obrigado"
   }
+}

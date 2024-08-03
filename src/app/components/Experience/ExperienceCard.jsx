@@ -17,7 +17,7 @@ const ExperienceCard = ({ title, company, date, obligations, achievements, skill
       <div className="text-sm lg:text-xs xxs:text-[10px]">
         <span className="flex my-2 items-center gap-1 text-nowrap xs:flex-col xs:items-start xs:gap-2">
           Working with:
-          <div className="flex items-center gap-1 flex-wrap">
+          <div className="ml-2 flex items-center gap-2 flex-wrap">
             {skills.map((skill, index) => (
               <StackBox key={index} img={skill.img} skill={skill.name} />
             ))}
