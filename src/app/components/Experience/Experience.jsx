@@ -53,7 +53,7 @@ export default function Experience() {
       <h2 className="text-4xl lg:text-3xl sm:text-2xl font-light text-wrap leading-tight">
         {`//`} {t("title")}
       </h2>
-      <label className='dark:bg-white/95 w-fit  bg-accent-orange text-white dark:text-black/90 h-min flex-grow-0 lg:text-[10px] sm:text-[8px]'>{t('description')}</label>
+      {/* <label className='dark:bg-white/95 w-fit  bg-accent-orange text-white dark:text-black/90 h-min flex-grow-0 lg:text-[10px] sm:text-[8px]'>{t('description')}</label> */}
       </div>
       <div className="flex flex-col divide-y-[1px] divide-comment-grey gap-3">
       <ExperienceCard {...experienceData} />
