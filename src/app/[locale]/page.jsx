@@ -11,6 +11,7 @@ import Stack from "../components/Stack/Stack";
 import "../globals.css";
 import { useEffect } from "react";
 import { AuroraBackground } from "../components/ui/aurora-background";
+import { WavyBackground } from "@/components/ui/wavy-background";
 
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
     <>
         {/* <AuroraBackground>
         </AuroraBackground> */}
+        {/* <WavyBackground/> */}
       <div  className="min-h-full min-w-full px-[130px] py-[40px] xl:px-[30px] xs:px-2 overflow-x-hidden" id="home">
       <div 
         style={{ 

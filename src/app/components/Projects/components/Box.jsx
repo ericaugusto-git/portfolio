@@ -19,8 +19,8 @@ export default function Box({img, name, description, skills, link, subtitle, isO
       {skills.map((skill, index) => (
         <div
           key={index}
-          className=" border-2 rounded-full black-gradient lg:w-7 lg:h-7 w-8 h-8 flex justify-center items-center"
-          style={{ transform: `translateX(-${2 + index * 5}px)`, background: 'linear-gradient(90deg, rgb(7 7 7), rgb(35 36 37))'  }}
+          className=" border-2 border-black/80 dark:border-white rounded-full black-gradient lg:w-7 lg:h-7 w-8 h-8 flex justify-center items-center bg-gradient-to-r from-[#f6f6f6] to-[#d4d4d4] dark:from-[#070707] dark:to-[#232425]"
+          style={{ transform: `translateX(-${2 + index * 5}px)`}}
         >
           <Image width={32} height={32} src={skills_imgs[skill].image} alt={`icon${index + 1}`} className="p-2" />
         </div>
