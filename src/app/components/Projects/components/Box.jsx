@@ -1,5 +1,6 @@
 import { skills_imgs } from "@/app/constants/skills_imgs";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 
 export default function Box({img, name, description, skills, link, subtitle, isOnline}){
     const t = useTranslations('Projects')
@@ -14,18 +15,23 @@ export default function Box({img, name, description, skills, link, subtitle, isO
                 {subtitle && <span className="text-xs"> ({subtitle})</span>}
                 <br/>
                 <label className="text-xs sm:text-[10px] bg-white dark:bg-black text-[#7a7a7a] dark:text-[#C9C9C9]">{description}</label>
-                <div className="flex gap-4 mt-6">
-                    {skills.map((skill) => {
-                        const imageUrl = skills_imgs[skill].image;
-                        if(!imageUrl){
-                            
-                        }
-                                                // bg-[url('/images/skills/angular.png')] 
-                    return <div key={skill} style={{backgroundImage: `url(${imageUrl})`}} className={`saturate-0 w-6 h-6 bg-center bg-no-repeat bg-contain`}  alt=""></div>
-                    })}
-                </div>
+                <div className="flex items-center absolute bottom-3 ">
+      {skills.map((skill, index) => (
+        <div
+          key={index}
+          className=" border-2 rounded-full black-gradient lg:w-7 lg:h-7 w-8 h-8 flex justify-center items-center"
+          style={{ transform: `translateX(-${2 + index * 5}px)`, background: 'linear-gradient(90deg, rgb(7 7 7), rgb(35 36 37))'  }}
+        >
+          <Image width={32} height={32} src={skills_imgs[skill].image} alt={`icon${index + 1}`} className="p-2" />
+        </div>
+      ))}
+    </div>
+                {/* <div className="flex gap-4 mt-6">
+                    {skills.map((skill) => <div key={skill} style={{backgroundImage: `url(${skills_imgs[skill].image})`}} className={`saturate-0 w-6 h-6 bg-center bg-no-repeat bg-contain`}  alt=""></div>
+                    )}
+                </div> */}
             </div>
-            <div className="dark:bg-black bg-white px-1 text-[10px] gap-2 flex items-center rounded-full absolute bottom-1 right-5">
+            <div className="dark:bg-black bg-white px-1 text-[10px] gap-2 flex items-center rounded-full absolute bottom-3 right-5">
                     {t('status')}: {isOnline ? 'online' : 'offline'} <div style={{backgroundColor: isOnline ? '#34d399' : ' #6b7280' }} className="size-2 rounded-full animate-pulse"></div>
             </div>
     </a>

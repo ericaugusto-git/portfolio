@@ -48,9 +48,13 @@ export default function Experience() {
       {/* radial-gradient(circle at center, white -20%, transparent 80%) */}
       {/* <Image width={1400} height={500} className='absolute inset-0' src={'images/bbblurry (11).svg' } alt={''}></Image> */}
       {/* <div  style={{ backgroundImage: `url('images/bbblurry (11).svg')`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'bottom', maskImage: 'radial-gradient(circle at center, white -20%, transparent 100%)'}} className='absolute inset-0'></div> */}
-      <h2 className="mb-7 text-4xl lg:text-3xl sm:text-2xl font-light text-wrap leading-tight">
+      <div className="mb-7 flex gap-2 flex-col">
+
+      <h2 className="text-4xl lg:text-3xl sm:text-2xl font-light text-wrap leading-tight">
         {`//`} {t("title")}
       </h2>
+      <label className='dark:bg-white/95 w-fit  bg-accent-orange text-white dark:text-black/90 h-min flex-grow-0 lg:text-[10px] sm:text-[8px]'>{t('description')}</label>
+      </div>
       <div className="flex flex-col divide-y-[1px] divide-comment-grey gap-3">
       <ExperienceCard {...experienceData} />
       <ExperienceCard {...internship} />

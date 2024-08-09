@@ -45,7 +45,7 @@ export const Contact = () => {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-7  dark:bg-[#121212] bg-slate-100 rounded-[37px] p-3 outline-1 outline outline-offset-4 outline-black/20 dark:outline-white/20">
+    <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-7  dark:bg-[#121212] bg-slate-100 rounded-[37px] p-3 outline-4 outline outline-offset-4 outline-black/20 dark:outline-white/20">
       <div className="flex flex-col gap-4 py-4">
         <h2 className="text-4xl sm:text-2xl xs:text-xl whitespace-pre-line">
           {t("title")}

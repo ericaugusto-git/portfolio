@@ -29,7 +29,7 @@ export default function Cta(){
 
         <Contact/>
         </div>
-        <div className="dark:bg-[#121212] bg-slate-100 xl:col-span-1 col-span-4 rounded-[40px] flex flex-col justify-between py-5 px-5 outline-1 outline outline-offset-4 outline-black/20 dark:outline-white/20 ">
+        <div className="dark:bg-[#121212] bg-slate-100 xl:col-span-1 col-span-4 rounded-[40px] flex flex-col justify-between py-5 px-5 outline-4 outline outline-offset-4 outline-black/20 dark:outline-white/20 ">
             <span className="text-3xl sm:text-2xl xs:text-xl leading-snug xl:mb-8">
            {t('place1')} <br/>{t('place2')} 🤙🏾
             </span>
@@ -48,7 +48,7 @@ export default function Cta(){
                 </a>
             </div>
         </div>
-        <div className="dark:bg-[#121212] bg-slate-100 text-2xl p-5 size-full col-span-3 xl:col-span-1 rounded-[40px] outline-1 outline outline-offset-4 outline-black/20 dark:outline-white/20 ">
+        <div className="dark:bg-[#121212] bg-slate-100 text-2xl p-5 size-full col-span-3 xl:col-span-1 rounded-[40px] outline-4 outline outline-offset-4 outline-black/20 dark:outline-white/20 ">
             <span className="sm:text-2xl xs:text-xl">
             {t('find')}:
             </span>

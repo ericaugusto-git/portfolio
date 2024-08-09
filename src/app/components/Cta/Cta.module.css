@@ -3,7 +3,7 @@
 }
 
 .neon_effect {
-    outline: 1px solid rgba(0, 136, 255, 0.76);
+    outline: 4px solid rgba(0, 136, 255, 0.76);
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
