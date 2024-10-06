@@ -65,7 +65,10 @@ body {
     text-wrap: balance;
   }
   .gradient_hero {
-    @apply bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-white to-white;
+    @apply bg-clip-text text-transparent bg-gradient-to-b from-neutral-100 via-black to-black;
+  }
+  .dark .gradient_hero{
+      @apply bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-white to-white;
   }
 }
 
