@@ -29,26 +29,26 @@ export default function Cta(){
 
         <Contact/>
         </div>
-        <div className="dark:bg-[#121212] bg-slate-100 xl:col-span-1 col-span-4 rounded-[40px] flex flex-col justify-between py-5 px-5 outline-4 outline outline-offset-4 outline-black/20 dark:outline-white/20 ">
+        <div className="dark:bg-[#12121285] bg-slate-100 xl:col-span-1 col-span-4 rounded-[40px] flex flex-col justify-between py-5 px-5 outline-1 outline outline-offset-4 outline-black/20 dark:outline-white/20 ">
             <span className="text-3xl sm:text-2xl xs:text-xl leading-snug xl:mb-8">
            {t('place1')} <br/>{t('place2')} 🤙🏾
             </span>
             <div className="flex gap-4">
-                <a href="https://wa.me/5571981886126" target="_blank" className="size-9 w-20 transition-all duration-500 bg-[#25d366]  hover:betterhover:opacity-70 rounded-full p-1 group cursor-pointer">
-                    <div style={{maskImage: `url("images/zap.svg")`, maskSize: 'auto'}} className="block size-full bg-white svgMask"></div>
+                <a href="mailto:eric72001@hotmail.com" target="_blank" className="size-9 group w-20 rounded-full  duration-500 p-1 bg-[#54daff]  hover:betterhover:opacity-70">
+                    <div style={{maskImage: `url("images/mail.svg")`, maskSize: 'auto'}} className="block size-full  bg-white svgMask"></div>
                 </a>
                 <a href="tel:+55(71) 98188-6126" className="size-9 w-20 group rounded-full  duration-500 p-1 bg-[#a64ca6]  hover:betterhover:opacity-70">
                     <div style={{maskImage: `url("images/phone.svg")`, maskSize: 'auto'}} className="block size-full bg-white svgMask"></div>
                 </a>
-                <a href="https://discord.com/users/368858792139423747" target="_blank" className="duration-500 bg-[#7289da] group size-9 w-20 rounded-full p-1  hover:betterhover:opacity-70">
+                <a href="https://wa.me/5571981886126" target="_blank" className="size-9 w-20 transition-all duration-500 bg-[#25d366]  hover:betterhover:opacity-70 rounded-full p-1 group cursor-pointer">
+                    <div style={{maskImage: `url("images/zap.svg")`, maskSize: 'auto'}} className="block size-full bg-white svgMask"></div>
+                </a>
+                {/* <a href="https://discord.com/users/368858792139423747" target="_blank" className="duration-500 bg-[#7289da] group size-9 w-20 rounded-full p-1  hover:betterhover:opacity-70">
                     <div style={{maskImage: `url("images/discord.svg")`, maskSize: 'auto'}} className="block size-full bg-white svgMask"></div>
-                </a>
-                <a href="mailto:eric72001@hotmail.com" target="_blank" className="size-9 group w-20 rounded-full  duration-500 p-1 bg-[#54daff]  hover:betterhover:opacity-70">
-                    <div style={{maskImage: `url("images/mail.svg")`, maskSize: 'auto'}} className="block size-full  bg-white svgMask"></div>
-                </a>
+                </a> */}
             </div>
         </div>
-        <div className="dark:bg-[#121212] bg-slate-100 text-2xl p-5 size-full col-span-3 xl:col-span-1 rounded-[40px] outline-4 outline outline-offset-4 outline-black/20 dark:outline-white/20 ">
+        <div className="dark:bg-[#12121285] bg-slate-100 text-2xl p-5 size-full col-span-3 xl:col-span-1 rounded-[40px] outline-1 outline outline-offset-4 outline-black/20 dark:outline-white/20 ">
             <span className="sm:text-2xl xs:text-xl">
             {t('find')}:
             </span>

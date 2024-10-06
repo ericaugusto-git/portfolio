@@ -110,7 +110,7 @@ export const WavyBackground = ({
   }, []);
 
   return (
-    <div  className="absolute top-0 h-[100vh] w-full -z-10">
+    <div  className="absolute top-64 h-[100vh] w-full -z-10">
 
     <div
       className={cn(

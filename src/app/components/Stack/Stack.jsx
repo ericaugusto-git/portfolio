@@ -45,23 +45,12 @@ export default function Stack() {
       {/* <h2 className="mb-7 absolute top-[-100px] left-0 right-0 transformm text-4xl lg:text-3xl sm:text-2xl font-light text-wrap leading-tight text-center">
         {t("title")}
       </h2> */}
-    <code className="whitespace-pre absolute top-[-200px] left-[-120px] xl:left-[-22px] xl:top-[-203px] xs:text-xs xs:top-[-190px] xs:-left-1 dark:text-comment-grey-darker">
-{`
-/**
- * Microfrontend
- * Responsive Design
- * Progressive Web App (PWA)
- * Single Page Application (SPA)
- * SEO optimization
- * UI/UX
-**/`}
-    </code>
-    <div className="flex flex-col gap-1 absolute right-7 top-[-145px] xs:top-[-127px] circles:hidden">
+    {/* <div className="flex flex-col gap-1 absolute right-7 top-[-145px] xs:top-[-127px] circles:hidden">
 {Array.from({ length: 8 }).map((_,i) => (
         <div key={i} style={{borderColor:  i % 2 == 0 ? '#7a7a7a' : '#464646'}} className="rounded-full size-3 border-solid  border-[1px]"></div>
     ))}
-</div> 
-<div className="grid grid-rows-2 gap-1  grid-cols-7 lg:grid-cols-4 xs:grid-cols-3 xs:grid-rows-5 lg:grid-rows-4 lg:px-2">
+</div>  */}
+<div className="grid grid-rows-2 gap-1  grid-cols-7 lg:grid-cols-4 xs:grid-cols-3 xs:grid-rows-5 lg:grid-rows-4 lg:px-2 my-[80px]">
     <div className="col-span-3 p-4 lg:col-span-4 xs:col-span-3 font-light text-2xl 2xl:text-xl xs:text-sm   min-h-24 xs:min-h-14 bg-black/5 border-black/20 dark:bg-[#0b0b0b65] dark:border-[#131313] border-[1px] rounded-xl relative">
         <div className="absolute top-[7px] left-[7px] flex items-center gap-1">
             <div className="size-2 px-6 lg:px-9 xs:px-6 bg-black dark:bg-white rounded-full"></div>

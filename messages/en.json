@@ -17,12 +17,12 @@
       "hello": "Hello World 👋🏾! I have 4+ years of experience as a coding enthusiast and 2+ years as a professional developer working mostly with Angular.",
       "basedIn": "based in",
       "front": "Frontend Developer",
-      "idea": "Let's turn ideas into code",
+      "idea": "Let's talk :)",
       "cv": "Open CV",
       "theme": "change theme"
     },
     "Projects": {
-      "title": "// Projects",
+      "title": "My Projects",
       "description": "Take a look at what I've been cooking",
       "os": "My personal website with an linux rice inspired UI",
       "disc": "Create servers, join audio and video calls, and send messages with this Discord clone.",

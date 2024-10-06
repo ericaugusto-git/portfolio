@@ -6,7 +6,7 @@ import { useTranslations } from "next-intl";
 const ExperienceCard = ({ title, company, date, obligations, achievements, skills }) => {
   const t = useTranslations("Experience");
   return (
-    <div>
+    <div className=''>
       <div className="flex items-center justify-between">
         <span className="flex flex-col">
           <span className='text-xl lg:text-sm'>{title} <span className='invisible md:visible text-[10px]'>({date})</span></span>

@@ -101,8 +101,8 @@ const SlideTabs = () => {
     >
   <Tab setPosition={setPosition}>home</Tab>
       <Tab setPosition={setPosition}>projects</Tab>
-      <Tab setPosition={setPosition}>stack</Tab>
       <Tab setPosition={setPosition}>experience</Tab>
+      <Tab setPosition={setPosition}>stack</Tab>
       <Tab setPosition={setPosition}>contact</Tab>
 
       <Cursor position={position} />

@@ -64,6 +64,9 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  .gradient_hero {
+    @apply bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-white to-white;
+  }
 }
 
 
