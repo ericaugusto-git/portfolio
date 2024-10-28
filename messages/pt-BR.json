@@ -11,13 +11,13 @@
     "locale": "{locale, select, pt_BR {PT} en {ENG} other {Unknown}}"
   },
   "Hero": {
-    "idea": "Vamos conversar :)",
+    "idea": "Vamos conversar",
     "cv": "Abrir Currículo",
     "theme": "mudar tema",
-    "front": "Desenvolvedor Frontend",
+    "front": "Desenvolvedor Front-End",
     "iAm": "Sou",
     "frontend": "Desenvolvedor",
-    "developer": "Frontend",
+    "developer": "Front-End",
     "basedIn": "que atua",
     "hello": "Olá Mundo 👋🏾! Tenho mais de 4 anos de experiência como entusiasta de programação e mais de 2 anos como desenvolvedor profissional trabalhando principalmente com Angular."
   },
@@ -33,7 +33,7 @@
     "title": "Stack",
     "solving": "Desenvolvendo soluções com",
     "stack": "uma stack em contínua expansão",
-    "coding": "fazendo programa 😏",
+    "coding": "fazendo programa",
     "years": "anos"
   },
   "Experience": {

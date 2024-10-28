@@ -184,3 +184,25 @@ background-image: conic-gradient(#381D6A 80%, #E0D1FF 88%, #E0D1FF 92%, #381D6A 
   height: 100%;
   background: #fff;
 }
+
+.hero_animation{
+  animation: background-pan 3s linear infinite;
+  background: linear-gradient(to right,#7b1fa2,#673ab7,#f48fb1,#7b1fa2);
+  background: linear-gradient(to right, #4CE470, #6bdf86, #f48fb1 , #4CE470);
+  background: linear-gradient(to right, #1e88e5, #42a5f5, #ecdbe1 , #1e88e5);
+  background-size: 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  white-space: nowrap; 
+}
+
+@keyframes background-pan {
+  0%{
+    background-position: 0% center;
+  }
+
+  100%{
+    background-position: -200% center;
+  }
+}

@@ -12,12 +12,12 @@
     },
     "Hero": {
       "iAm": "I’m",
-      "frontend": "a Frontend",
+      "frontend": "Front-End",
       "developer": "Developer",
       "hello": "Hello World 👋🏾! I have 4+ years of experience as a coding enthusiast and 2+ years as a professional developer working mostly with Angular.",
       "basedIn": "based in",
       "front": "Frontend Developer",
-      "idea": "Let's talk :)",
+      "idea": "Let's talk",
       "cv": "Open CV",
       "theme": "change theme"
     },

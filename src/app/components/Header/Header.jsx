@@ -43,7 +43,7 @@ const Header = () => {
   return (<motion.header initial={{y: -50}} animate={{y: 0}} className="fixed top-0 w-full p-2 px-5 z-50  backdrop-blur-sm mx-[-130px] xl:mx-[-30px] xs:-mx-2">
       <nav className="flex justify-between  items-center">
       {/* <div className="absolute backdrop-blur-3xl size-full top-0"></div> */}
-        <a  href="#home" className="hover:opacity-80 transform scale-x-[-1] text-xl bg-black text-white dark:bg-white dark:text-black px-3 rounded-full">
+        <a  href="#home" className="hover:opacity-80 transform scale-x-[-1] text-xl bg-black text-white dark:bg-white dark:text-black px-4 rounded-full">
         Æ
         </a>
         <motion.div className="md:hidden">
@@ -56,12 +56,12 @@ const Header = () => {
               <li>
                 <ThemeSwitcher/>
               </li>
-              <li>
+              {/* <li>
                 <a href="https://github.com/ericaugusto-git" target="_blank" className='group'><span style={{maskImage: `url("/images/github.svg")`}} className="block mx-auto size-[18px] bg-black  dark:bg-white svgMask group-hover:opacity-80 cursor-pointer"></span> </a>
               </li>
               <li>
                 <a href="https://www.linkedin.com/in/eric-augusto-775245a9/"  target="_blank" className='group'><span style={{maskImage: `url("/images/linkedin.svg")`}} className="block mx-auto size-[18px] bg-black  dark:bg-white svgMask group-hover:opacity-80 cursor-pointer"></span> </a>
-              </li>
+              </li> */}
             <button ref={refBtn} onClick={handleMenu} style={{maskImage: `url("/images/menu.svg")`}} className="w-6 h-6 bg-black dark:bg-white hover:opacity-60 svgMask cursor-pointer hidden md:block"></button>
 
 
@@ -101,8 +101,8 @@ const SlideTabs = () => {
     >
   <Tab setPosition={setPosition}>home</Tab>
       <Tab setPosition={setPosition}>projects</Tab>
-      <Tab setPosition={setPosition}>experience</Tab>
       <Tab setPosition={setPosition}>stack</Tab>
+      <Tab setPosition={setPosition}>experience</Tab>
       <Tab setPosition={setPosition}>contact</Tab>
 
       <Cursor position={position} />
