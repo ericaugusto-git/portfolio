@@ -5,7 +5,7 @@ const ExperienceCard = ({ title, company, date, obligations, achievements, skill
   const t = useTranslations("Experience");
   return (
     <div className='border border-black dark:border-white p-[3px] rounded-xl'>
-      <div className="flex items-center justify-between rounded-[9px] px-2 bg-black/90 dark:bg-white/95 text-white dark:text-black">
+      <div className="flex items-center justify-between rounded-[9px] px-2 bg-black/90 dark:bg-white/90 text-white dark:text-black">
         <span className="flex flex-col">
           <span className='text-xl lg:text-sm leading-5'>{title} <span className='invisible md:visible text-[10px]'>({date})</span></span>
           <span className="text-comment-grey text-xs">{company}</span>
