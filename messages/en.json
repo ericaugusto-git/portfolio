@@ -14,7 +14,7 @@
       "iAm": "I’m",
       "frontend": "Front-End",
       "developer": "Developer",
-      "hello": "Hello World 👋🏾! I have 4+ years of experience as a coding enthusiast and 2+ years as a professional developer working mostly with Angular.",
+      "hello": "I have 4+ years of experience as a coding enthusiast and 2+ years as a professional developer working mostly with Angular.",
       "basedIn": "based in",
       "front": "Frontend Developer",
       "idea": "Let's talk",
@@ -24,8 +24,8 @@
     "Projects": {
       "title": "My Projects",
       "description": "Take a look at what I've been cooking",
-      "os": "My personal website with an linux rice inspired UI",
-      "disc": "Create servers, join audio and video calls, and send messages with this Discord clone.",
+      "os": "Web-based operating system inspired by linux and hyprland.",
+      "disc": "Create servers, join audio and video calls, and send messages in real time.",
       "jdm": "Fake dealership specialized in japanese cars",
       "status": "Deploy status"
     },

@@ -16,16 +16,16 @@
     "theme": "mudar tema",
     "front": "Desenvolvedor Front-End",
     "iAm": "Sou",
-    "frontend": "Desenvolvedor",
+    "frontend": "Dev",
     "developer": "Front-End",
     "basedIn": "que atua",
-    "hello": "Olá Mundo 👋🏾! Tenho mais de 4 anos de experiência como entusiasta de programação e mais de 2 anos como desenvolvedor profissional trabalhando principalmente com Angular."
+    "hello": "Tenho 4 anos de experiência como entusiasta de programação e 2 anos como desenvolvedor profissional trabalhando principalmente com Angular."
   },
   "Projects": {
     "title": "Meus Projetos",
     "description": "Dê uma olhada no que andei cozinhando",
-    "os": "Meu site pessoal com uma interface inspirada em uma linux rice",
-    "disc": "Crie servidores, entre em chamadas de áudio e vídeo e envie mensagens com esse clone do Discord.",
+    "os": "Sistema operacional 100% online, inspirado no linux e hyprland.",
+    "disc": "Crie servidores, entre em chamadas de áudio e vídeo e envie mensagens emm tempo real.",
     "jdm": "Concessionária fictícia especializada em carros japoneses",
     "status": "Status do Deploy"
   },

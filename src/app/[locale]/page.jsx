@@ -52,6 +52,18 @@ export default function Home() {
           }}
           className="dark:hidden"
         ></div> */}
+        <div    style={{
+            // backgroundImage: `url("images/bbblurry.svg")`,
+            // backgroundSize: "cover",
+            // backgroundPosition: "center",
+            // backgroundRepeat: "no-repeat",
+            height: "100%",
+            width: "100%",
+            position: "fixed",
+            top: 0,
+            left: 0,
+            zIndex: -1,
+          }}><div style={{width: "100%", height: "100%", backgroundSize: "128px", backgroundRepeat: "repeat", backgroundImage: "url('images/noise.png')", opacity: "0.06", borderRadius: "0px"}}></div></div>
         <Header />
         <main className="my-32 lg:my-10">
           <Hero/>

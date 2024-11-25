@@ -3,14 +3,13 @@
 }
 
 .neon_effect {
-    /* outline: 4px solid rgba(0, 136, 255, 0.76); */
+    outline: 4px solid;
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 100%;
     border-radius: 60px;
-    outline-offset: 6px;
     /* box-shadow: 0 0 2px #fff, inset 0 0 2px #fff, 0 0 5px #08f, 0 0 15px #08f, 0 0 20px #08f;
     animation: pulsate 1s infinite alternate; */
   }

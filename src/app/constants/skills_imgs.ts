@@ -25,7 +25,7 @@ export const skills_imgs = {
   },
   "ts": {
     "name": "TypeScript",
-    "image": "/images/skills/ts.webp",
+    "image": "/images/skills/ts.png",
     "color": "#3178C6",
     "exp": "2+"
   },

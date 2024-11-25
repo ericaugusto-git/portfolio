@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { motion, AnimatePresence, useAnimation } from 'framer-motion';
 
 const images = [
-  '/images/ericaugusto-os.png',
+  '/images/kashi-os.png',
   '/images/discord_clone.png',
   '/images/hero_section.png'
 ];

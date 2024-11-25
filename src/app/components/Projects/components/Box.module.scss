@@ -1,0 +1,8 @@
+.box{
+    .box_img {
+        background-image: var(--img-project);
+    }
+    &:hover .box_img{
+        background-image: var(--gif-project);
+    }
+}
