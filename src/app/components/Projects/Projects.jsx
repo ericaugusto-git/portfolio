@@ -23,7 +23,7 @@ export default function Projects() {
     const t = useTranslations("Projects");
 
     const projects = [
-        {name: 'kashi-os', isOnline: true, link: 'https://ericaugusto-os.pages.dev', img: '/images/kashi-os.png', gif: '/images/kashi-os.gif', description: t('os'), skills: ['react', 'ts', 'scss', 'figma']},
+        {name: 'kashi-os', isOnline: true, link: 'https://kashi-os.pages.dev', img: '/images/kashi-os.png', gif: '/images/kashi-os.gif', description: t('os'), skills: ['react', 'ts', 'scss', 'figma']},
         {name: 'Discourse', isOnline: true, img: '/images/discord_clone.png', gif: '/images/discourse.gif',  link: 'https://discourse-live-chat.onrender.com', description:t('disc'), skills: ['next', 'tailwind', 'ts']},
         {name: 'JDM Store', subtitle: 'under development', img: '/images/hero_section.png', link: 'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FjpjNX650FS4XtJrolls9RW%2FJDM%3Fpage-id%3D%26type%3Ddesign%26node-id%3D1-6%26viewport%3D741%252C598%252C0.23%26t%3DfBBVvALWC6PAzlv0-1%26scaling%3Dscale-down-width%26mode%3Ddesign', description: t('jdm'), skills: ['angular', 'ts', 'html', 'scss', 'figma']}
 ];
