@@ -1,12 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
-import { useLocale, useTranslations } from "next-intl";
-import Code from "./Code"; 
-import Pill from "./Pill"; 
-import { useScramble } from "use-scramble";
-import { delay, motion } from "framer-motion";
 import { resumes } from "@/app/constants/resume";
-import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-with-collision";
-import { Spotlight } from "@/components/ui/spotlight";
+import { motion } from "framer-motion";
+import { useLocale, useTranslations } from "next-intl";
+import { useScramble } from "use-scramble";
+import Pill from "./Pill";
 
 
 const container = {

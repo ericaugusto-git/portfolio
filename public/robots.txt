@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://ericaugusto.pages.dev
+
+# Sitemaps
+Sitemap: https://ericaugusto.pages.dev/sitemap.xml

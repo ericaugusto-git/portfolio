@@ -14,7 +14,7 @@
       "iAm": "I’m",
       "frontend": "Front-End",
       "developer": "Developer",
-      "hello": "I have 4+ years of experience as a coding enthusiast and 2+ years as a professional developer working mostly with Angular.",
+      "hello": "I have 5 years of experience as a coding enthusiast and 3 years as a professional developer working mostly with Angular.",
       "basedIn": "based in",
       "front": "Frontend Developer",
       "idea": "Let's talk",
@@ -40,22 +40,22 @@
     "title": "My Experience",
     "description": "professional journey",
     "Front": {
+      "title": "Frontend Developer I",
+      "company": "GFT Technologies"
+    },
+    "Secondary": {
       "title": "Mid-level Front-end Developer",
       "company": "CONSISTE CONSULTORIA E SISTEMAS LTDA"
     },
-    "Intern": {
-      "title": "Data Science Intern",
-      "company": "CONSISTE CONSULTORIA E SISTEMAS LTDA"
-    },
     "Responsibilities": {
-        "title": "Responsibilities",
-        "point1": "Develop and maintain 5+ Angular web applications, ensuring high performance, responsiveness and good user experience through regular usability testing and feedback incorporation.",
-        "point2": "Conceptualize and implement reusable Angular libraries to streamline development and centralize maintenance. ",
-        "point3": "Explore and integrate new technologies and methodologies to enhance user experience.",
-
-        "point4": "Normalizing data from CSV files using Python, pandas and NumPy.",
-        "point5": "Data extraction per Web Scraping using Beautiful Soup.",
-        "point6": "Collaboration with team members to ensure data accuracy and integrity."
+      "title": "Responsibilities",
+      "point1": "Create and adjust UIs based on Figma prototypes.",
+      "point2": "Maintain and refactor code.",
+      "point3": "Integrate with REST APIs.",
+      "point4": "Write unit tests using Jest.",
+      "point5": "Develop and maintain 5+ Angular web applications, ensuring high performance, responsiveness and good user experience through regular usability testing and feedback incorporation.",
+      "point6": "Conceptualize and implement reusable Angular libraries to streamline development and centralize maintenance.",
+      "point7": "Explore and integrate new technologies and methodologies to enhance user experience."
     },
     "Achievements": {
         "title": "Key Results",
@@ -64,8 +64,8 @@
         "point3": "Enhanced the UI/UX of an advanced table component with filtering, aggregation, and sorting functionalities, improving data access efficiency and user satisfaction."
     },
     "date": {
-      "current": "Jun 2022 / Present",
-      "intern": "Feb 2022 / Jun 2022"
+      "current": "Jan 2025 - Present",
+      "secondary": "Jun 2022 - Jan 2025"
     }
   }, 
   "Cta": {

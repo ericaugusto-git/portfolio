@@ -65,7 +65,7 @@ body {
     text-wrap: balance;
   }
   .gradient_hero {
-    @apply bg-clip-text text-transparent bg-gradient-to-b from-neutral-100 via-black to-black;
+    @apply bg-clip-text text-transparent bg-gradient-to-b from-neutral-100/5 via-black to-black;
   }
   .dark .gradient_hero{
       @apply bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-white to-white;
@@ -104,6 +104,18 @@ body {
   border-radius: var(--radius);
   border: var(--border-width) solid transparent;
 }
+
+@-moz-document url-prefix() {
+  .gradient::before,
+  .gradient:hover::before {
+    content: none !important;
+    /* animation: none !important; */
+    /* background: none !important; */
+    /* border: none !important; */
+    border: 1px white solid;
+  }
+}
+
 
 .gradient:hover::before {
   content: " ";

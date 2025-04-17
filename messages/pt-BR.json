@@ -19,7 +19,7 @@
     "frontend": "Dev",
     "developer": "Front-End",
     "basedIn": "que atua",
-    "hello": "Tenho 4 anos de experiência como entusiasta de programação e 2 anos como desenvolvedor profissional trabalhando principalmente com Angular."
+    "hello": "Tenho 5 anos de experiência como entusiasta de programação e 3 anos como desenvolvedor profissional trabalhando principalmente com Angular."
   },
   "Projects": {
     "title": "Meus Projetos",
@@ -40,20 +40,22 @@
     "title": "Experiência Profissional",
     "description": "jornada profissional",
     "Front": {
-      "title": "Desenvolvedor front-end Pleno",
-      "company": "CONSISTE CONSULTORIA E SISTEMAS LTDA"
+      "title": "Desenvolvedor front-end I",
+      "company": "GFT Technologies"
     },
-    "Intern": {
-      "title": "Estagiário de Ciência de Dados",
+    "Secondary": {
+      "title": "Desenvolvedor front-end Pleno",
       "company": "CONSISTE CONSULTORIA E SISTEMAS LTDA"
     },
       "Responsibilities": {
         "title": "Responsabilidades",
-        "point1": "Manter múltiplos aplicativos Angular, garantindo alto desempenho, responsividade e boa experiência do usuário por meio de testes consistentes de usabilidade e incorporação de feedback dos clientes.",
-        "point2": "Conceitualizar e implementar bibliotecas Angular reutilizáveis para agilizar o desenvolvimento e centralizar manutenções.",
-        "point3": "Projetar e desenvolver novos aplicativos para atender as necessidades administrativas dos clientes.",
-        "point4": "Normalizar dados de arquivos CSV usando Python, pandas e NumPy.",
-        "point5": "Colaborar com os membros da equipe para garantir a precisão e integridade dos dados."
+        "point1": "Criação e revisão de interfaces com base em protótipos Figma.",
+        "point2": "Manutenção e refatoração de código.",
+        "point3": "Integração com APIs REST.",
+        "point4": "Escrita de testes unitários com Jest.",
+        "point5": "Manter múltiplos aplicativos Angular, garantindo alto desempenho, responsividade e boa experiência do usuário por meio de testes consistentes de usabilidade e incorporação de feedback dos clientes.",
+        "point6": "Conceitualizar e implementar bibliotecas Angular reutilizáveis para agilizar o desenvolvimento e centralizar manutenções.",
+        "point7": "Projetar e desenvolver novos aplicativos para atender as necessidades administrativas dos clientes."
       },
       "Achievements": {
         "title": "Principais resultados",
@@ -62,8 +64,8 @@
         "point3": "Projetei e desenvolvi 6 bibliotecas Angular reutilizáveis, reduzindo o tempo de desenvolvimento em novos aplicativos e centralizando manutenções em 10 projetos."
       },   
     "date": {
-      "current": "Jun 2022 / Atual",
-      "intern": "Fev 2022 / Jun 2022"
+      "current": "Jan 2025 - Atual",
+      "secondary": "Jun 2022 - Jan 2025"
     }
   },
   "Cta": {

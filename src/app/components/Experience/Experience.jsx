@@ -4,14 +4,36 @@ import ExperienceCard from "./ExperienceCard";
 export default function Experience() {
   const t = useTranslations("Experience");
 
-  const experienceData = {
+  const current = {
     title: t("Front.title"),
     company: t("Front.company"),
     date: t('date.current'),
     obligations: [
       t("Responsibilities.point1"),
       t("Responsibilities.point2"),
-      t("Responsibilities.point3")
+      t("Responsibilities.point3"),
+      t("Responsibilities.point4"),
+    ],
+    achievements: [],
+    skills: [
+      { img: "/images/skills/angular.png", name: "Angular" },
+      { img: "/images/skills/ts.png", name: "TypeScript" },
+      { img: "/images/skills/nx.png", name: "NX Monorepo" },
+      { img: "/images/skills/git.png", name: "Git" },
+      { img: "/images/skills/figma.png", name: "Figma" },
+    ]
+  };
+
+
+  
+  const secondary = {
+    title: t("Secondary.title"),
+    company: t("Secondary.company"),
+    date: t('date.secondary'),
+    obligations: [
+      t("Responsibilities.point5"),
+      t("Responsibilities.point6"),
+      t("Responsibilities.point7"),
     ],
     achievements: [
       t("Achievements.point1"),
@@ -24,20 +46,6 @@ export default function Experience() {
       { img: "/images/skills/scss.png", name: "SCSS" },
       { img: "/images/skills/git.png", name: "Git" },
       { img: "/images/skills/figma.png", name: "Figma" },
-    ]
-  };
-  
-  const internship = {
-    title: t("Intern.title"),
-    company: t("Intern.company"),
-    date: t('date.intern'),
-    obligations: [
-      t("Responsibilities.point4"),
-      t("Responsibilities.point5")
-    ],
-    skills: [
-      { img: "/images/skills/py.webp", name: "Python" },
-      { img: "/images/skills/java.png", name: "Java" }
     ]
   };
   
@@ -55,8 +63,8 @@ export default function Experience() {
       {/* <label className='dark:bg-white/95 w-fit  bg-accent-orange text-white dark:text-black/90 h-min flex-grow-0 lg:text-[10px] sm:text-[8px]'>{t('description')}</label> */}
       </div>
       <div className="flex flex-col divide-y-[1px] gap-6">
-      <ExperienceCard {...experienceData} />
-      <ExperienceCard {...internship} />
+      <ExperienceCard {...current} />
+      <ExperienceCard {...secondary} />
       </div>
       {/* <div className="flex gap-28 mt-24 xl:gap-0 lg:gap-10 xl:mt-10 lg:grid lg:grid-cols-1 ">
             {experiences.map((exp,i) => (
