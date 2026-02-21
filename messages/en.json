@@ -12,11 +12,11 @@
     },
     "Hero": {
       "iAm": "I’m",
-      "frontend": "Front-End",
+      "frontend": "Front-end",
       "developer": "Developer",
       "hello": "I have 5 years of experience as a coding enthusiast and 3 years as a professional developer working mostly with Angular.",
       "basedIn": "based in",
-      "front": "Frontend Developer",
+      "front": "Front-end Developer",
       "idea": "Let's talk",
       "cv": "Open CV",
       "theme": "change theme"
@@ -40,7 +40,7 @@
     "title": "My Experience",
     "description": "professional journey",
     "Front": {
-      "title": "Frontend Developer I",
+      "title": "Front-end Developer I",
       "company": "GFT Technologies"
     },
     "Secondary": {
@@ -48,20 +48,24 @@
       "company": "CONSISTE CONSULTORIA E SISTEMAS LTDA"
     },
     "Responsibilities": {
-      "title": "Responsibilities",
-      "point1": "Create and adjust UIs based on Figma prototypes.",
-      "point2": "Maintain and refactor code.",
-      "point3": "Integrate with REST APIs.",
-      "point4": "Write unit tests using Jest.",
-      "point5": "Develop and maintain 5+ Angular web applications, ensuring high performance, responsiveness and good user experience through regular usability testing and feedback incorporation.",
-      "point6": "Conceptualize and implement reusable Angular libraries to streamline development and centralize maintenance.",
-      "point7": "Explore and integrate new technologies and methodologies to enhance user experience."
+      "title": "Role in the project",
+      "point1": "Developed and reviewed Angular interfaces based on Figma prototypes, ensuring visual fidelity and consistency with the global design system.",
+      "point2": "Integrated REST APIs and implemented mocks with Wiremock to enable development and testing independent of the Back-End.",
+      "point3": "Maintained code quality according to global standards and Angular and TypeScript best practices.",
+      "point4": "Collaborated with global teams, requesting and performing code reviews, and handling Squad-related requests.",
+      "point5": "Developed and maintained 5+ Angular web applications, ensuring high performance, responsiveness and good user experience through regular usability testing and feedback incorporation.",
+      "point6": "Conceptualized and implemented reusable Angular libraries to streamline development and centralize maintenance.",
+      "point7": "Explored and integrated new technologies and methodologies to enhance user experience."
     },
     "Achievements": {
-        "title": "Key Results",
-        "point1": "Designed and developed 6 reusable Angular libraries, reducing development time by 60% and centralizing maintenance, resulting in a more efficient workflow across 10+ projects.",
-        "point2": "Developed a dynamic dashboard web application similar to Microsoft Power BI, enabling users to create custom dashboards with flexible features for presenting data integrated from public entities like CADASTUR and IBGE.",
-        "point3": "Enhanced the UI/UX of an advanced table component with filtering, aggregation, and sorting functionalities, improving data access efficiency and user satisfaction."
+      "title": "Key Results",
+      "point1": "Planned and executed the correction of three years of technical debt, fixing over 1,000 ESLint/TypeScript violations, migrating NgRx (Redux) to Signals/RxJS and replacing deprecated APIs and components.",
+      "point2": "Contributed to the project's UI/UX overhaul, developing high-fidelity interfaces from Figma prototypes and assisting the design team with technical questions, suggestions, and leading four-eyes validations.",
+      "point3": "Implemented unit tests with Jest, raising code coverage to a minimum of 90% and establishing this indicator with the Squad as DoD (Definition of Done).",
+      "point4": "Developed end-to-end (E2E) tests with WebdriverIO for main user flows, increasing deploy reliability and reducing production incident response time.",
+      "point5": "Designed and developed 6 reusable Angular libraries, reducing development time by 60% and centralizing maintenance, resulting in a more efficient workflow across 10+ projects.",
+      "point6": "Developed a dynamic dashboard web application similar to Microsoft Power BI, enabling users to create custom dashboards with flexible features for presenting data integrated from public entities like CADASTUR and IBGE.",
+      "point7": "Enhanced the UI/UX of an advanced table component with filtering, aggregation, and sorting functionalities, improving data access efficiency and user satisfaction."
     },
     "date": {
       "current": "Jan 2025 - Present",

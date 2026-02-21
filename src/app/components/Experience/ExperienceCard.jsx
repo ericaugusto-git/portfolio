@@ -21,24 +21,24 @@ const ExperienceCard = ({ title, company, date, obligations, achievements, skill
             ))}
           </div>
         </span>
-        <span>{t('Responsibilities.title')}</span>
-        <ul className="list-disc pl-5 space-y-2 my-2">
-          {obligations.map((obligation, index) => (
-            <li key={index} className="flex items-start">
-              <span className="mr-2">◉</span>
-              <span>{obligation}</span>
-            </li>
-          ))}
-        </ul>
-        {achievements && achievements.length > 0 && <><span>{t('Achievements.title')}</span>
+        {achievements && achievements.length > 0 && <><span className="font-bold">{t('Achievements.title')}</span>
         <ul className="list-disc pl-5 space-y-2 my-2 ">
           {achievements.map((achievement, index) => (
             <li key={index} className="flex items-start">
               <span className="mr-2">◉</span>
-              <span>{achievement}</span>
+              <span className="font-light">{achievement}</span>
             </li>
           ))}
         </ul></>}
+        <span className="font-bold">{t('Responsibilities.title')}</span>
+        <ul className="list-disc pl-5 space-y-2 my-2">
+          {obligations.map((obligation, index) => (
+            <li key={index} className="flex items-start">
+              <span className="mr-2">◉</span>
+              <span className="font-light">{obligation}</span>
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   );

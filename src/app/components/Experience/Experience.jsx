@@ -14,13 +14,21 @@ export default function Experience() {
       t("Responsibilities.point3"),
       t("Responsibilities.point4"),
     ],
-    achievements: [],
+    achievements: [
+      t("Achievements.point1"),
+      t("Achievements.point2"),
+      t("Achievements.point3"),
+      t("Achievements.point4"),
+    ],
     skills: [
       { img: "/images/skills/angular.png", name: "Angular" },
       { img: "/images/skills/ts.png", name: "TypeScript" },
       { img: "/images/skills/nx.png", name: "NX Monorepo" },
       { img: "/images/skills/git.png", name: "Git" },
       { img: "/images/skills/figma.png", name: "Figma" },
+      { img: "/images/skills/rxjs.png", name: "RxJS" },
+      { img: "/images/skills/wio.png", name: "WebdriverIO" },
+      { img: "/images/skills/jest.png", name: "Jest" },
     ]
   };
 
@@ -36,9 +44,9 @@ export default function Experience() {
       t("Responsibilities.point7"),
     ],
     achievements: [
-      t("Achievements.point1"),
-      t("Achievements.point2"),
-      t("Achievements.point3"),
+      t("Achievements.point5"),
+      t("Achievements.point6"),
+      t("Achievements.point7"),
     ],
     skills: [
       { img: "/images/skills/angular.png", name: "Angular" },

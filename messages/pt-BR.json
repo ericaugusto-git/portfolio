@@ -14,10 +14,10 @@
     "idea": "Vamos conversar",
     "cv": "Abrir Currículo",
     "theme": "mudar tema",
-    "front": "Desenvolvedor Front-End",
+    "front": "Desenvolvedor Front-end",
     "iAm": "Sou",
     "frontend": "Dev",
-    "developer": "Front-End",
+    "developer": "Front-end",
     "basedIn": "que atua",
     "hello": "Tenho 5 anos de experiência como entusiasta de programação e 3 anos como desenvolvedor profissional trabalhando principalmente com Angular."
   },
@@ -40,28 +40,32 @@
     "title": "Experiência Profissional",
     "description": "jornada profissional",
     "Front": {
-      "title": "Desenvolvedor front-end I",
+      "title": "Desenvolvedor Front-end I",
       "company": "GFT Technologies"
     },
     "Secondary": {
-      "title": "Desenvolvedor front-end Pleno",
+      "title": "Desenvolvedor Front-end Pleno",
       "company": "CONSISTE CONSULTORIA E SISTEMAS LTDA"
     },
       "Responsibilities": {
-        "title": "Responsabilidades",
-        "point1": "Criação e revisão de interfaces com base em protótipos Figma.",
-        "point2": "Manutenção e refatoração de código.",
-        "point3": "Integração com APIs REST.",
-        "point4": "Escrita de testes unitários com Jest.",
-        "point5": "Manter múltiplos aplicativos Angular, garantindo alto desempenho, responsividade e boa experiência do usuário por meio de testes consistentes de usabilidade e incorporação de feedback dos clientes.",
-        "point6": "Conceitualizar e implementar bibliotecas Angular reutilizáveis para agilizar o desenvolvimento e centralizar manutenções.",
-        "point7": "Projetar e desenvolver novos aplicativos para atender as necessidades administrativas dos clientes."
+        "title": "Atuação no projeto",
+        "point1": "Desenvolvi e revisei interfaces Angular com base em protótipos Figma, garantindo fidelidade visual e consistência com design system global.",
+        "point2": "Realizei integração de APIs REST e implementação de mocks com Wiremock para viabilizar desenvolvimento e testes independentes do Back-End.",
+        "point3": "Mantive a qualidade do código de acordo com padrões definidos pelo global e boas práticas do Angular e TypeScript.",
+        "point4": "Colaborei com times globais, solicitando e realizando code reviews, e atendendo pedidos relacionados a Squad.",
+        "point5": "Mantive múltiplos aplicativos Angular, garantindo alto desempenho, responsividade e boa experiência do usuário por meio de testes consistentes de usabilidade e incorporação de feedback dos clientes.",
+        "point6": "Conceitualizei e implementei bibliotecas Angular reutilizáveis para agilizar o desenvolvimento e centralizar manutenções.",
+        "point7": "Projetei e desenvolvi novos aplicativos para atender às necessidades administrativas dos clientes."
       },
       "Achievements": {
         "title": "Principais resultados",
-        "point1": "Desenvolvi um WebApp Angular para criação de dashboards dinâmicos semelhante ao Power BI, usando gráficos arrastáveis e redimensionáveis e dados integrados de entidades públicas como CADASTUR e IBGE.",
-        "point2": "Criei uma nova versão de um aplicativo de CRM com melhorias significativas na UI/UX, facilitando o cadastro e visualização de relacionamento entre empresas e pessoas.",
-        "point3": "Projetei e desenvolvi 6 bibliotecas Angular reutilizáveis, reduzindo o tempo de desenvolvimento em novos aplicativos e centralizando manutenções em 10 projetos."
+        "point1": "Planejei e executei a correção de três anos de débitos técnicos, corrigindo mais de 1.000 violações de ESLint/TypeScript, migrando NgRx (Redux) para Signals/RxJS e substituindo APIs e componentes depreciados.",
+        "point2": "Contribuí na reformulação da UI/UX do projeto, desenvolvendo interfaces com alta fidelidade aos protótipos Figma e auxiliando o time de design com dúvidas técnicas, sugestões e liderando as validações por four-eyes.",
+        "point3": "Implementei testes unitários com Jest elevando o code coverage para um mínimo de 90% e estabeleci junto a Squad esse indicador como DoD (Definition of Done).",
+        "point4": "Desenvolvi testes end-to-end (E2E) com WebdriverIO para cobertura dos principais fluxos dos usuários, aumentando a confiabilidade dos deploys e reduzindo o tempo de resposta a incidentes em produção.",
+        "point5": "Desenvolvi um WebApp Angular para criação de dashboards dinâmicos semelhante ao Power BI, usando gráficos arrastáveis e redimensionáveis e dados integrados de entidades públicas como CADASTUR e IBGE.",
+        "point6": "Criei uma nova versão de um aplicativo de CRM com melhorias significativas na UI/UX, facilitando o cadastro e visualização de relacionamento entre empresas e pessoas.",
+        "point7": "Projetei e desenvolvi 6 bibliotecas Angular reutilizáveis, reduzindo o tempo de desenvolvimento em novos aplicativos e centralizando manutenções em 10 projetos."
       },   
     "date": {
       "current": "Jan 2025 - Atual",

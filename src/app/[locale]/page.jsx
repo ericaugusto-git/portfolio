@@ -23,9 +23,9 @@
           "@context": "https://schema.org",
           "@type": "Person",
           name: "Eric Augusto",
-          url: "https://ericaugusto.pages.dev", // <-- replace with your domain
+          url: "https://ericaugusto.pages.dev",
           sameAs: [
-            "https://github.com/ericaugusto-git", // <-- replace with your links
+            "https://github.com/ericaugusto-git",
             "https://www.linkedin.com/in/eric-augusto-775245a9/"
           ],
           jobTitle: "Frontend Developer",

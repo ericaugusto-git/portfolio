@@ -18,6 +18,6 @@ export default function Footer(){
                 ^
             </div>
         </div>
-        <p className="mb-[-30px] flex items-center gap-2 sm:text-xs"><span className='leading-[1px]'>&copy;</span> 2024 Eric Augusto. {t('rights')}.</p>
+        <p className="mb-[-30px] flex items-center gap-2 sm:text-xs"><span className='leading-[1px]'>&copy;</span> {new Date().getFullYear()} Eric Augusto. {t('rights')}.</p>
     </footer>
 }
