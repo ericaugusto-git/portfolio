@@ -14,7 +14,7 @@
       "iAm": "I’m",
       "frontend": "Front-end",
       "developer": "Developer",
-      "hello": "I have 5 years of experience as a coding enthusiast and 3 years as a professional developer working mostly with Angular.",
+      "hello": "I have {years} years of experience as a Front-end Developer working mostly with Angular, also have experience with React and Next.js in personal projects.",
       "basedIn": "based in",
       "front": "Front-end Developer",
       "idea": "Let's talk",
@@ -26,7 +26,7 @@
       "description": "Take a look at what I've been cooking",
       "os": "Web-based operating system inspired by linux and hyprland.",
       "disc": "Create servers, join audio and video calls, and send messages in real time.",
-      "jdm": "Fake dealership specialized in japanese cars",
+      "jdm": "Figma design of a fake dealership specialized in japanese cars",
       "status": "Deploy status"
     },
     "Stack": {
@@ -79,10 +79,11 @@
     "send": "send message",
     "message_field": "Please fill the message field first",
     "email_field": "Please fill the email field correctly first.",
-    "sent": "Thanks for contacting me! I well mail you back within 48hrs :)",
+    "sent": "Thanks for contacting me! I will mail you back within 48hrs :)",
     "place1": "You can also hit me up in",
     "place2": "any of this places",
-    "find": "Find me at"
+    "find": "Find me at",
+    "error": "An error occurred while sending the email. Contact me using the channels on the right."
   },
   "Footer": {
     "rights": "All rights reserved",

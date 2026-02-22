@@ -24,7 +24,7 @@ export default function Cta(){
 
     }
     return <section id="contact">
-    <div className="grid mt-24 xl:grid-cols-1 xl:grid-rows-1 justify-stretch grid-cols-7 grid-rows-2 gap-8  rounded-[64px]">
+    <div className="grid mt-24 xl:grid-cols-1 xl:grid-rows-1 justify-stretch grid-cols-7 grid-rows-2 gap-8  rounded-[64px] font-code">
         <div className="row-span-2 xl:row-span-1 col-span-3 xl:col-span-1">
 
         <Contact/>

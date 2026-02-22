@@ -7,7 +7,6 @@
   import Hero from "../components/Hero/Hero";
   import Projects from "../components/Projects/Projects";
   import Stack from "../components/Stack/Stack";
-  import "../globals.css";
   import Script from 'next/script';
 
   export default function Home() {

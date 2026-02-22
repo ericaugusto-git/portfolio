@@ -12,11 +12,11 @@ export default function Box({img, gif, name, description, skills, link, subtitle
       <span className="absolute inset-0 bg-box-gradient opacity-0 -z-10 transition-opacity duration-300 ease-in-out rounded-[30px] group-hover:opacity-100"></span>
         <div className={`bg-white rounded-t-3xl overflow-hidden rounded-b-xl h-[300px] lg:h-[150px]  w-full bg-cover bg-no-repeat ${styles.box_img}`}>
         </div>
-            <div className="mt-6 font-code">
-                <span className="text-3xl lg:text-2xl sm:text-xl font-bold">{name}</span>
+            <div className="mt-6">
+                <span className="text-3xl font-code lg:text-2xl sm:text-xl font-bold">{name}</span>
                 {subtitle && <span className="text-xs"> ({subtitle})</span>}
                 <br/>
-                <label className="text-xs sm:text-[10px] bg-white dark:bg-black text-[#7a7a7a] dark:text-[#C9C9C9]">{description}</label>
+                <label className="text-sm font-code sm:text-[10px] bg-white dark:bg-black text-[#7a7a7a] dark:text-[#C9C9C9]">{description}</label>
                 <div className="flex items-center absolute bottom-3 ">
       {skills.map((skill, index) => (
         <div
@@ -33,8 +33,8 @@ export default function Box({img, gif, name, description, skills, link, subtitle
                     )}
                 </div> */}
             </div>
-            <div className="dark:bg-black lg:invisible bg-white px-1 text-[10px] gap-2 flex items-center rounded-full absolute bottom-3 right-5">
+            {/* <div className="dark:bg-black lg:invisible bg-white px-1 text-[10px] gap-2 flex items-center rounded-full absolute bottom-3 right-5 font-code">
                     {t('status')}: {isOnline ? 'online' : 'offline'} <div style={{backgroundColor: isOnline ? '#34d399' : ' #6b7280' }} className="size-2 rounded-full animate-pulse"></div>
-            </div>
+            </div> */}
     </a>
 }

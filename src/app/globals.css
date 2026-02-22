@@ -25,6 +25,9 @@
     @apply font-code;
     @apply text-comment-grey;
   }
+  h2 {
+    @apply font-code;
+  }
 }
 @layer components {
   .light .dots{
@@ -65,7 +68,7 @@ body {
     text-wrap: balance;
   }
   .gradient_hero {
-    @apply bg-clip-text text-transparent bg-gradient-to-b from-neutral-100/5 via-black to-black;
+    @apply bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 via-zinc-700 to-black;
   }
   .dark .gradient_hero{
       @apply bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-white to-white;

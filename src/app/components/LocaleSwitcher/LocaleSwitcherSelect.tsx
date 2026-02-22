@@ -54,7 +54,7 @@ export default function LocaleSwitcherSelect({
       <select
         ref={selectRef}
         style={{direction: 'rtl'}}
-        className="inline-flex items-center justify-center appearance-none cursor-pointer bg-transparent rounded-xl  pl-6 focus-visible:outline-none direc z-10"
+        className="inline-flex items-center justify-center appearance-none cursor-pointer bg-transparent rounded-xl  pl-6 focus-visible:outline-none direc z-10 font-code"
         defaultValue={defaultValue}
         disabled={isPending}
         onChange={onSelectChange}

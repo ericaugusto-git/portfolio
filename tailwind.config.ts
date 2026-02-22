@@ -55,9 +55,9 @@ const config: Config = {
       background: {
       },
       fontFamily: {
+        sans: ['var(--font-sans)', 'ui-sans-serif', 'system-ui', 'sans-serif', '"Apple Color Emoji"', '"Segoe UI Emoji"', '"Segoe UI Symbol"', '"Noto Color Emoji"'],
         code: ['var(--font-ibm)', 'Menlo', 'Monaco', 'Courier New', 'monospace'],
         martian: ['var(--font-martian)', 'Menlo', 'Monaco', 'Courier New', 'monospace'],
-        // Setting a default font-family
       },
       keyframes: {
         'text-slide': {

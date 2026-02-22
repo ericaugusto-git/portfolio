@@ -19,14 +19,14 @@
     "frontend": "Dev",
     "developer": "Front-end",
     "basedIn": "que atua",
-    "hello": "Tenho 5 anos de experiência como entusiasta de programação e 3 anos como desenvolvedor profissional trabalhando principalmente com Angular."
+    "hello": "Tenho {years} anos de experiência como desenvolvedor Front-end atuando principalmente com Angular, também tenho experiência com React e Next.js em projetos pessoais."
   },
   "Projects": {
     "title": "Meus Projetos",
     "description": "Dê uma olhada no que andei cozinhando",
     "os": "Sistema operacional 100% online, inspirado no linux e hyprland.",
     "disc": "Crie servidores, entre em chamadas de áudio e vídeo e envie mensagens emm tempo real.",
-    "jdm": "Concessionária fictícia especializada em carros japoneses",
+    "jdm": "Design em Figma de uma concessionária fictícia especializada em carros japoneses",
     "status": "Status do Deploy"
   },
   "Stack": {
@@ -82,7 +82,8 @@
     "sent": "Obrigado por entrar em contato! Envio um retorno dentro das próximas 48hrs :)",
     "place1": "Você também pode entrar em contato",
     "place2": "por qualquer um desses canais",
-    "find": "Me encontre no"
+    "find": "Me encontre no",
+    "error": "Ocorreu um erro ao enviar o email. Entre em contato usando os canais ao lado."
   },
   "Footer": {
     "rights": "Todos os direitos reservados",
