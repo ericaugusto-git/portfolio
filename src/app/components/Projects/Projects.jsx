@@ -31,7 +31,7 @@ export default function Projects() {
     return <motion.section initial={{opacity: 0}} animate={{opacity: 1}} className="scroll-mt-16" id='projects'>
       <div className='flex flex-col gap-1 items-center'>
         <h2 className="text-4xl sm:text-3xl xs:text-xl xxs:text-xl mb-3 lg:mb-1 sm:mb-0">{t('title')}</h2>
-        <label className='font-code dark:bg-white/95 px-4 rounded-full text-center w-fit bg-accent-orange text-white dark:text-black/90 h-min flex-grow-0 lg:text-[10px] sm:text-[8px]'>{t('description')}</label>
+        <label className='font-code dark:bg-white/95 px-7 rounded-full text-center w-fit bg-accent-orange text-white dark:text-black/90 h-min flex-grow-0 lg:text-[10px] sm:text-[8px]'>{t('description')}</label>
       </div>
         <motion.ul variants={container} initial="hidden" whileInView="visible" viewport={{once: true}} className='grid grid-cols-3 gap-[60px] md:gap-9 lg:gap-2 my-[40px] dots md:grid-cols-1'>
             {projects.map((project) => {

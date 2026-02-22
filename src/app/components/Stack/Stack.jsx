@@ -57,7 +57,7 @@ export default function Stack() {
             <div className="size-2 px-3 md:px-6 xs:px-3 bg-black/50 dark:bg-white/50 rounded-full"></div>
             <div className="size-2 px-1 bg-black/20 dark:bg-white/20 rounded-full"></div>
         </div>
-{ stack && <span style={{outlineColor: stack && stack?.color}} className="xs:text-[8px] xs:leading-[8px] xs:px-2  md:text-[11px]  absolute transition-all top-[14px] right-[17px] text-xs outline-[1px] outline-black bg-black text-white dark:outline-white outline dark:bg-white dark:text-black outline-offset-2 rounded-full px-5  leading-[10px]">{stack?.exp ?? '4+'} {t('years')} <span>{!stack && t('coding')} {(locale !== 'pt-BR' || stack) && 'exp.'}</span></span>}       
+{ stack && <span style={{outlineColor: stack && stack?.color}} className="xs:text-[8px] xs:leading-[8px] xs:px-2  md:text-[11px]  absolute transition-all top-[14px] right-[17px] text-xs outline-[1px] outline-black bg-black text-white dark:outline-white outline dark:bg-white dark:text-black outline-offset-2 rounded-full px-5  leading-[10px]">{stack?.exp} {Number(stack?.exp) > 1 ? t('years') : t('year')} <span>{!stack && t('coding')} {(locale !== 'pt-BR' || stack) && t('experience')}</span></span>}       
  <h2 className="mt-3 md:m-0 leading-snug md:text-center xs:text-wrap text-nowrap dark:mix-blend-difference relative">
         { t('solving')}<br/>{!stack && <span className="animate-text-slide">{t('stack')}</span>}
         {stack && <><span style={{color: stack.color}} className="animate-text-slide inline-block font-bold">{stack.name}</span></>}
