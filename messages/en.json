@@ -6,44 +6,45 @@
     "experience": "experience",
     "contact": "contact"
   },
-    "LocaleSwitcher": {
-      "label": "Change language",
-      "locale": "{locale, select, pt_BR {PT} en {ENG} other {Unknown}}"
-    },
-    "Hero": {
-      "iAm": "I’m",
-      "frontend": "Front-end",
-      "developer": "Developer",
-      "hello": "I have {years} years of experience as a Front-end Developer working mostly with Angular, also have experience with React and Next.js in personal projects.",
-      "basedIn": "based in",
-      "front": "Front-end Developer",
-      "idea": "Let's talk",
-      "cv": "Open CV",
-      "theme": "change theme"
-    },
-    "Projects": {
-      "title": "My Projects",
-      "description": "Take a look at what I've been cooking",
-      "os": "Web-based operating system inspired by linux and hyprland.",
-      "disc": "Create servers, join audio and video calls, and send messages in real time.",
-      "jdm": "Figma design of a fake dealership specialized in japanese cars",
-      "status": "Deploy status"
-    },
-    "Stack": {
-      "title": "Stack",
-      "solving": "Solving real problems with",
-      "stack": "an constantly expanding stack",
-      "coding": "coding",
-       "years": "years",
-       "year": "year",
-       "experience": "of experience"
-   },
-   "Experience": {
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, pt_BR {PT} en {ENG} other {Unknown}}"
+  },
+  "Hero": {
+    "iAm": "I’m",
+    "frontend": "Front-end",
+    "developer": "Developer",
+    "hello": "I have {years} years of experience as a Front-end Developer working mostly with Angular, also have experience with React and Next.js in personal projects.",
+    "basedIn": "based in",
+    "front": "Front-end Developer",
+    "idea": "Let's talk",
+    "cv": "Open CV",
+    "theme": "change theme"
+  },
+  "Projects": {
+    "title": "My Projects",
+    "description": "Take a look at what I've been cooking",
+    "os": "Web-based operating system inspired by linux and hyprland.",
+    "disc": "Create servers, join audio and video calls, and send messages in real time.",
+    "jdm": "Figma design of a fake dealership specialized in japanese cars",
+    "status": "Deploy status"
+  },
+  "Stack": {
+    "title": "Stack",
+    "solving": "Solving real problems with",
+    "stack": "an constantly expanding stack",
+    "coding": "coding",
+    "years": "years",
+    "year": "year",
+    "experience": "of experience"
+  },
+  "Experience": {
     "title": "My Experience",
     "description": "professional journey",
     "Front": {
       "title": "Front-end Developer I",
-      "company": "GFT Technologies"
+      "company": "GFT Technologies",
+      "description": "Acted as the primary person responsible for the maintenance and evolution of the Brazilian pages on the portal of a major international bank. Part of an agile squad with daily interaction with global teams."
     },
     "Secondary": {
       "title": "Mid-level Front-end Developer",
@@ -73,7 +74,7 @@
       "current": "Jan 2025 - Present",
       "secondary": "Jun 2022 - Jan 2025"
     }
-  }, 
+  },
   "Cta": {
     "title": "Let's talk",
     "subtitle": "I'm excited to apply my skills to your projects. Contact me to learn more about how I can contribute.",
@@ -92,4 +93,4 @@
     "developed": "Built with Next.js, Tailwind, and Figma;",
     "thanks": "thanks"
   }
-  }
+}

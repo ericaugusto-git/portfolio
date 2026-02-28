@@ -1,7 +1,7 @@
 import { useTranslations } from "next-intl";
 import StackBox from './StackBox';
 
-const ExperienceCard = ({ title, company, date, obligations, achievements, skills }) => {
+const ExperienceCard = ({ title, company, description, date, obligations, achievements, skills }) => {
   const t = useTranslations("Experience");
   return (
     <div className='flex flex-col gap-2 outline outline-1 outline-black dark:outline-white p-[6px] rounded-[30px] bg-black/5 dark:bg-[#ffffff07]'>
@@ -21,6 +21,7 @@ const ExperienceCard = ({ title, company, date, obligations, achievements, skill
             ))}
           </div>
         </span>
+        <p className="font-light my-3">{description}</p>
         {achievements && achievements.length > 0 && <><span className="font-code">{t('Achievements.title')}</span>
         <ul className="list-disc pl-5 space-y-2 my-2 ">
           {achievements.map((achievement, index) => (

@@ -7,6 +7,7 @@ export default function Experience() {
   const current = {
     title: t("Front.title"),
     company: t("Front.company"),
+    description: t("Front.description"),
     date: t('date.current'),
     obligations: [
       t("Responsibilities.point1"),

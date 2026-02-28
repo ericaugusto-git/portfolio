@@ -43,7 +43,8 @@
     "description": "jornada profissional",
     "Front": {
       "title": "Desenvolvedor Front-end I",
-      "company": "GFT Technologies"
+      "company": "GFT Technologies",
+      "description": "Atuei como principal responsável pela manutenção e evolução das iniciativas brasileiras no portal de um grande banco internacional. Parte de uma squad ágil com contato diário com times globais. "
     },
     "Secondary": {
       "title": "Desenvolvedor Front-end Pleno",

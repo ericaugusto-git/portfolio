@@ -3,7 +3,7 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import styles from "./Box.module.scss"
 
-export default function Box({img, gif, name, description, skills, link, subtitle, isOnline}){
+export default function Box({img, gif, name, description, skills, link, subtitle}){
     const t = useTranslations('Projects');
     return <a href={link} target="_blank"  
     style={{'--img-project':  `url('${img}')`, '--gif-project': `url('${gif ?? img}')`}} 

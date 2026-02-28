@@ -73,7 +73,7 @@ const Header = () => {
           </h1>
           <motion.h6  variants={item} className="px-9 text-comment-grey pt-3 pb-8 max-w-[53rem] lg:text-sm sm:text-xs xs:text-[10px] xxs:text-[8px]">{t('hello', { years: new Date().getFullYear() - 2022 })}</motion.h6>
           <motion.div  variants={item} className="flex font-code justify-center w-full items-center gap-4 mt-3 lg:text-sm sm:text-xs xs:text-[10px] xxs:text-[8px] md:flex-col xs:justify-center xs:gap-1">
-            <a href="#contact" className=" dark:bg-black bg-white p-2 xxs:p-1 px-9 outline-1 outline-black/10 dark:outline-white/10 outline outline-offset-2 rounded-full hover:opacity-80 w-fit md:w-full h-full align-middle shadow-inner shadow-black/15 dark:shadow-white/20">
+            <a href="#contact" className=" bg-black p-2 xxs:p-1 px-9 outline-1 text-white outline-black/10 dark:outline-white/10 outline outline-offset-2 rounded-full hover:opacity-80 w-fit md:w-full h-full align-middle shadow-inner shadow-white/20">
               {t('idea')}
             </a>
             <div className="flex items-center gap-4 xs:gap-2">
