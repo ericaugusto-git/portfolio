@@ -56,7 +56,7 @@ const Header = () => {
           <h1 className="text-5xl sm:text-4xl xs:text-2xl xxs:text-xl font-bold flex items-center flex-col justify-center  leading-[84px] text-nowrap text-comment-grey w-fit">
             <motion.div variants={item} className="flex items-center gap-6 lg:gap-4 xs:gap-3 relative">
               {t("iAm")} <span className="gradient_hero">Eric Augusto</span>
-              <Pill src={'/images/profile_pic.png'}/>
+              <Pill src={'/images/profile_pic.jpg'}/>
               <span className="absolute -right-6 xs:-right-3">,</span>
             </motion.div>
 
